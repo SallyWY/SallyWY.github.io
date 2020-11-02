@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+<style>
+#en_covid19term_daily_linechart {
+    width: 95%;
+    height: 700px;
+    padding-bottom: 40px;
+    padding-right: 5%;
+}
+#en_distinct_prominent_topic_weekly_wordcloud{
+    width: 90%;
+    height: 600px;
+    padding-bottom: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#nl_prominent_topic_barchart_race {
+    width: 90%;
+    height: 700px;
+    padding-bottom: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+#up_div{
+    width: 100%;
+    height: 200px;
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
+
+#title {
+    margin-top: 0px;
+    line-height: 65px;
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 50px;
+}
+#sub_title{
+    margin-top: 0px;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 10px;
+}
+
+
+
+
+</style>
+
+<script src="https://cdn.amcharts.com/lib/4/core.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/charts.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/themes/animated.js"></script>
+
+<script src="https://cdn.amcharts.com/lib/4/plugins/wordCloud.js"></script>
+<script src="https://cdn.amcharts.com/lib/4/themes/material.js"></script>
+
+
+<script src="./data.js"></script>
+
+
+<div id="up_div">
+    <p id="title">Covid-19 Attention</p>
+    <p id="sub_title">Analyze people's interest shift under Covid-19</p>
+</div>
+
+
+
+<div id="en_distinct_prominent_topic_weekly_wordcloud">
+
+<script>
+
+am4core.ready(function() {
+
+am4core.useTheme(am4themes_material);
+am4core.useTheme(am4themes_animated);
+
+var chart = am4core.create("en_distinct_prominent_topic_weekly_wordcloud", am4plugins_wordCloud.WordCloud);
+chart.fontFamily = "Courier New";
+var series = chart.series.push(new am4plugins_wordCloud.WordCloudSeries());
+series.randomness = 0.01;
+series.rotationThreshold = 0.3;
+
+series.dataFields.word = "tag";
+series.dataFields.value = "count";
+
+series.minFontSize = 10;
+series.maxFontSize = 45;
+
+
+series.heatRules.push({
+ "target": series.labels.template,
+ "property": "fill",
+ "min": am4core.color("#8291C6"),
+ "max": am4core.color("#010B86"),
+ "dataField": "value",
+});
+
+series.labels.template.url = "https://en.wikipedia.org/wiki/{word}";
+series.labels.template.urlTarget = "_blank";
+series.labels.template.tooltipText = "{word}: {value}";
+
+var hoverState = series.labels.template.states.create("hover");
+hoverState.properties.fill = am4core.color("#FFCC00");
+
+var subtitle = chart.titles.create();
+subtitle.text = "hover to see word count and click to view the Wikipedia page";
+subtitle.fontSize = 20;
+
+var week = 1;
+
+var title = chart.titles.create();
+title.text = "Prominent Topics in English Wikipedia in Week " + week;
+title.fontSize = 35;
+title.fontWeight = "800";
+title.paddingBottom = 10;
+
+
+var button = chart.chartContainer.createChild(am4core.Button);
+button.padding(10, 10, 10, 10);
+button.align = "right";
+button.valign = "bottom";
+button.marginRight = 15;
+button.icon = new am4core.Sprite();
+button.icon.scale = 2.5;
+button.icon.paddingBottom = 10;
+button.icon.paddingRight = 10;
+
+button.events.on("toggled", function(event) {
+  if (event.target.isActive) {
+    button.icon.path = "M0,0 L11,0 a0,0 0 0 1 0,0 L11,11 a0,0 0 0 1 -0,0 L0,11 a0,0 0 0 1 -0,-0 L0,0 a0,0 0 0 1 0,-0 Z";
+    wordcloud_play();
+  }
+  else {
+    button.icon.path = " M0,0  L9,5.5  L0,11  Z";
+    wordcloud_stop();
+  }
+});
+
+
+var interval;
+
+var stepDuration = 8000;
+
+function wordcloud_play() {
+  interval = setInterval(function(){
+    next_week();
+  }, stepDuration);
+  next_week();
+}
+
+function wordcloud_stop() {
+  if (interval) {
+    clearInterval(interval);
+  }
+}
+
+function next_week() {
+    if (week > 38) {
+        week = 1;
+    }
+    title.text = "Prominent Topics in English Wikipedia in Week " + week;
+    series.data = data_wordcloud_weeks[week];
+    series.heatRules.push({
+        "target": series.labels.template,
+        "property": "fill",
+        "dataField": "value",
+    });
+    week++;
+}
+
+series.events.on("inited", function() {
+  setTimeout(function() {
+    button.isActive = true;
+  }, 0)
+})
+
+});
+</script>
+</div>
+
+
+
+
+<div id="en_covid19term_daily_linechart">
+<script>
+am4core.ready(function() {
+
+am4core.useTheme(am4themes_animated);
+
+var chart = am4core.create("en_covid19term_daily_linechart", am4charts.XYChart);
+
+chart.data = data_linechart_multiple;
+
+chart.fontFamily = "Ariel";
+
+var subtitle_line = chart.titles.create();
+subtitle_line.text = "click bottom labels to select/deselect Covid-19 terms and select an area to zoom in";
+subtitle_line.fontSize = 20;
+subtitle_line.paddingBottom = 10;
+
+var title_line = chart.titles.create();
+title_line.text = "Daily access volume of Covid-19 terms in English Wikipedia";
+title_line.fontSize = 30;
+title_line.fontWeight = "800";
+title_line.paddingBottom = 10;
+
+
+var categoryAxis = chart.xAxes.push(new am4charts.CategoryAxis());
+categoryAxis.dataFields.category = "date";
+categoryAxis.title.text = "Date in 2020";
+categoryAxis.title.fontSize = 20;
+
+var valueAxis = chart.yAxes.push(new am4charts.ValueAxis());
+valueAxis.title.text = "Daily Access Volume";
+valueAxis.title.fontSize = 20;
+valueAxis.paddingBottom = 10;
+valueAxis.title.paddingBottom = 10;
+
+
+var series1 = chart.series.push(new am4charts.LineSeries());
+series1.dataFields.valueY = "Pandemic";
+series1.dataFields.categoryX = "date";
+series1.name = "Pandemic";
+series1.tooltipText = "{name}: {valueY}";
+series1.tooltip.label.fontSize = 10;
+series1.legendSettings.valueText = "{valueY}";
+
+var series2 = chart.series.push(new am4charts.LineSeries());
+series2.dataFields.valueY = "Coronavirus";
+series2.dataFields.categoryX = "date";
+series2.name = 'Coronavirus';
+series2.tooltipText = "{name}: {valueY}";
+series2.tooltip.label.fontSize = 10;
+series2.legendSettings.valueText = "{valueY}";
+
+var series3 = chart.series.push(new am4charts.LineSeries());
+series3.dataFields.valueY = "Epidemic";
+series3.dataFields.categoryX = "date";
+series3.name = 'Epidemic';
+series3.tooltipText = "{name}: {valueY}";
+series3.tooltip.label.fontSize = 10;
+series3.legendSettings.valueText = "{valueY}";
+
+var series4 = chart.series.push(new am4charts.LineSeries());
+series4.dataFields.valueY = "Hydroxychloroquine";
+series4.dataFields.categoryX = "date";
+series4.name = 'Hydroxychloroquine';
+series4.tooltipText = "{name}: {valueY}";
+series4.tooltip.label.fontSize = 10;
+series4.legendSettings.valueText = "{valueY}";
+
+var series5 = chart.series.push(new am4charts.LineSeries());
+series5.dataFields.valueY = "Lockdown";
+series5.dataFields.categoryX = "date";
+series5.name = 'Lockdown';
+series5.tooltipText = "{name}: {valueY}";
+series5.tooltip.label.fontSize = 10;
+series5.legendSettings.valueText = "{valueY}";
+
+var series6 = chart.series.push(new am4charts.LineSeries());
+series6.dataFields.valueY = "Super-spreader";
+series6.dataFields.categoryX = "date";
+series6.name = "Super-spreader";
+series6.tooltipText = "{name}: {valueY}";
+series6.tooltip.label.fontSize = 10;
+series6.legendSettings.valueText = "{valueY}";
+
+var series7 = chart.series.push(new am4charts.LineSeries());
+series7.dataFields.valueY = "Vaccine";
+series7.dataFields.categoryX = "date";
+series7.name = 'Vaccine';
+series7.tooltipText = "{name}: {valueY}";
+series7.tooltip.label.fontSize = 10;
+series7.legendSettings.valueText = "{valueY}";
+
+var series8 = chart.series.push(new am4charts.LineSeries());
+series8.dataFields.valueY = "Asymptomatic";
+series8.dataFields.categoryX = "date";
+series8.name = 'Asymptomatic';
+series8.tooltipText = "{name}: {valueY}";
+series8.tooltip.label.fontSize = 10;
+series8.legendSettings.valueText = "{valueY}";
+
+var series9 = chart.series.push(new am4charts.LineSeries());
+series9.dataFields.valueY = "SARS";
+series9.dataFields.categoryX = "date";
+series9.name = 'SARS';
+series9.tooltipText = "{name}: {valueY}";
+series9.tooltip.label.fontSize = 10;
+series9.legendSettings.valueText = "{valueY}";
+
+var series10 = chart.series.push(new am4charts.LineSeries());
+series10.dataFields.valueY = "Respirator";
+series10.dataFields.categoryX = "date";
+series10.name = 'Respirator';
+series10.tooltipText = "{name}: {valueY}";
+series10.tooltip.label.fontSize = 10;
+series10.legendSettings.valueText = "{valueY}";
+
+var series11 = chart.series.push(new am4charts.LineSeries());
+series11.dataFields.valueY = "Remdesivir";
+series11.dataFields.categoryX = "date";
+series11.name = 'Remdesivir';
+series11.tooltipText = "{name}: {valueY}";
+series11.tooltip.label.fontSize = 10;
+series11.legendSettings.valueText = "{valueY}";
+
+
+chart.cursor = new am4charts.XYCursor();
+chart.cursor.behavior = "zoomXY";
+
+
+chart.scrollbarX = new am4core.Scrollbar();
+chart.scrollbarX.marginLeft = 5;
+
+chart.scrollbarY = new am4core.Scrollbar();
+chart.scrollbarY.parent = chart.leftAxesContainer;
+chart.scrollbarY.toFront();
+
+
+let hs1 = series1.segments.template.states.create("hover");
+hs1.properties.strokeWidth = 5;
+series1.segments.template.strokeWidth = 1;
+
+let hs2 = series2.segments.template.states.create("hover");
+hs2.properties.strokeWidth = 5;
+series2.segments.template.strokeWidth = 1;
+
+let hs3 = series3.segments.template.states.create("hover");
+hs3.properties.strokeWidth = 5;
+series3.segments.template.strokeWidth = 1;
+
+let hs4 = series4.segments.template.states.create("hover");
+hs4.properties.strokeWidth = 5;
+series4.segments.template.strokeWidth = 1;
+
+let hs5 = series5.segments.template.states.create("hover");
+hs5.properties.strokeWidth = 5;
+series5.segments.template.strokeWidth = 1;
+
+let hs6 = series6.segments.template.states.create("hover");
+hs6.properties.strokeWidth = 5;
+series6.segments.template.strokeWidth = 1;
+
+let hs7 = series7.segments.template.states.create("hover");
+hs7.properties.strokeWidth = 5;
+series7.segments.template.strokeWidth = 1;
+
+let hs8 = series8.segments.template.states.create("hover");
+hs8.properties.strokeWidth = 5;
+series8.segments.template.strokeWidth = 1;
+
+let hs9 = series9.segments.template.states.create("hover");
+hs9.properties.strokeWidth = 5;
+series9.segments.template.strokeWidth = 1;
+
+let hs10 = series10.segments.template.states.create("hover");
+hs10.properties.strokeWidth = 5;
+series10.segments.template.strokeWidth = 1;
+
+let hs11 = series11.segments.template.states.create("hover");
+hs11.properties.strokeWidth = 5;
+series11.segments.template.strokeWidth = 1;
+
+
+chart.legend = new am4charts.Legend();
+chart.legend.fontSize = 12;
+chart.legend.itemContainers.template.events.on("over", function(event){
+  var segments = event.target.dataItem.dataContext.segments;
+  segments.each(function(segment){
+    segment.isHover = true;
+  })
+});
+
+chart.legend.itemContainers.template.events.on("out", function(event){
+  var segments = event.target.dataItem.dataContext.segments;
+  segments.each(function(segment){
+    segment.isHover = false;
+  })
+})
+
+});
+</script>
+
+</div>
+
+
+
+
+
+<div id="nl_prominent_topic_barchart_race">
+<script>
+am4core.ready(function() {
+
+am4core.useTheme(am4themes_animated);
+
+var chart = am4core.create("nl_prominent_topic_barchart_race", am4charts.XYChart);
+chart.padding(40, 40, 40, 40);
+
+chart.fontFamily = "Ariel";
+
+var title_bar_race = chart.titles.create();
+title_bar_race.text = "Weekly Access Volume of Prominent Topics in Dutch Wikipedia in 2020";
+title_bar_race.fontSize = 30;
+title_bar_race.paddingBottom = 20;
+
+
+chart.numberFormatter.bigNumberPrefixes = [
+  { "number": 1e+3, "suffix": "K" },
+  { "number": 1e+6, "suffix": "M" },
+  { "number": 1e+9, "suffix": "B" }
+];
+
+var label = chart.plotContainer.createChild(am4core.Label);
+label.x = am4core.percent(97);
+label.y = am4core.percent(95);
+label.horizontalCenter = "right";
+label.verticalCenter = "middle";
+label.dx = -15;
+label.fontSize = 50;
+
+var playButton = chart.plotContainer.createChild(am4core.PlayButton);
+playButton.x = am4core.percent(97);
+playButton.y = am4core.percent(95);
+playButton.dy = -2;
+playButton.verticalCenter = "middle";
+playButton.events.on("toggled", function(event) {
+  if (event.target.isActive) {
+    play();
+  }
+  else {
+    stop();
+  }
+});
+
+var stepDuration = 8000;
+
+var categoryAxis = chart.yAxes.push(new am4charts.CategoryAxis());
+categoryAxis.renderer.grid.template.location = 0;
+categoryAxis.dataFields.category = "topic";
+categoryAxis.renderer.minGridDistance = 1;
+categoryAxis.renderer.inversed = true;
+categoryAxis.renderer.grid.template.disabled = true;
+
+var valueAxis = chart.xAxes.push(new am4charts.ValueAxis());
+valueAxis.min = 0;
+valueAxis.rangeChangeEasing = am4core.ease.linear;
+valueAxis.rangeChangeDuration = stepDuration;
+valueAxis.extraMax = 0.1;
+
+var series = chart.series.push(new am4charts.ColumnSeries());
+series.dataFields.categoryY = "topic";
+series.dataFields.valueX = "access_volume";
+series.tooltipText = "{valueX.value}";
+series.columns.template.strokeOpacity = 0;
+series.columns.template.column.cornerRadiusBottomRight = 5;
+series.columns.template.column.cornerRadiusTopRight = 5;
+series.interpolationDuration = stepDuration;
+series.interpolationEasing = am4core.ease.linear;
+
+var labelBullet = series.bullets.push(new am4charts.LabelBullet());
+labelBullet.label.horizontalCenter = "right";
+labelBullet.label.text = "{values.valueX.workingValue.formatNumber('#.0as')}";
+labelBullet.label.textAlign = "end";
+labelBullet.label.dx = -10;
+
+chart.zoomOutButton.disabled = true;
+
+series.columns.template.adapter.add("fill", function(fill, target){
+  return chart.colors.getIndex(target.dataItem.index);
+});
+
+var week = 1;
+label.text = week.toString();
+
+var interval;
+
+function play() {
+  interval = setInterval(function(){
+    nextYear();
+  }, stepDuration);
+  nextYear();
+}
+
+function stop() {
+  if (interval) {
+    clearInterval(interval);
+  }
+}
+
+function nextYear() {
+
+  if (week > 38) {
+    week = 1;
+  }
+
+  var newData = data_bar_race[week];
+  var itemsWithNonZero = 0;
+  for (var i = 0; i < chart.data.length; i++) {
+    chart.data[i].access_volume = newData[i].access_volume;
+    if (chart.data[i].access_volume > 0) {
+      itemsWithNonZero++;
+    }
+  }
+
+  series.interpolationDuration = stepDuration;
+  valueAxis.rangeChangeDuration = stepDuration;
+
+  chart.invalidateRawData();
+  label.text = week.toString();
+
+  categoryAxis.zoom({ start: 0, end: itemsWithNonZero / categoryAxis.dataItems.length });
+
+  week++;
+}
+
+
+categoryAxis.sortBySeries = series;
+
+chart.data = JSON.parse(JSON.stringify(data_bar_race[week]));
+categoryAxis.zoom({ start: 0, end: 1 / chart.data.length });
+
+series.events.on("inited", function() {
+  setTimeout(function() {
+    playButton.isActive = true;
+  }, 0)
+})
+
+});
+</script>
+
+</div>
+
+
+
+</body>
+</html>

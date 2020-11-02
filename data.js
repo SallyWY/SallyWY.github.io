@@ -1,0 +1,4958 @@
+var data_linechart_multiple = [
+{
+	"date": "01-01",
+	"Epidemic":522, "Pandemic":792, "SARS":113, "Remdesivir":17, "Lockdown":148, "Hydroxychloroquine":544, "Coronavirus":538, "Super-spreader":109, "Vaccine":790, "Respirator":201, "Asymptomatic":223
+
+},
+{
+	"date": "01-02",
+	"Asymptomatic":259, "Super-spreader":204, "Vaccine":1156, "Coronavirus":689, "Pandemic":1855, "SARS":367, "Remdesivir":21, "Epidemic":818, "Lockdown":137, "Hydroxychloroquine":788, "Respirator":281
+},{
+	"date": "01-03",
+	"Respirator":310, "Hydroxychloroquine":719, "SARS":310, "Pandemic":1723, "Epidemic":762, "Lockdown":145, "Coronavirus":807, "Remdesivir":19, "Asymptomatic":370, "Super-spreader":190, "Vaccine":1106
+
+},{
+	"date": "01-04",
+	"Coronavirus":893, "Pandemic":1338, "SARS":242, "Asymptomatic":334, "Hydroxychloroquine":603, "Lockdown":130, "Super-spreader":263, "Vaccine":1015, "Remdesivir":17, "Epidemic":694, "Respirator":286
+
+},{
+	"date": "01-05",
+	"Epidemic":694, "Pandemic":1209, "Hydroxychloroquine":576, "Asymptomatic":326, "SARS":223, "Super-spreader":244, "Vaccine":1151, "Respirator":390, "Lockdown":152, "Remdesivir":16, "Coronavirus":772
+
+},
+{
+	"date": "01-06",
+	"SARS":239, "Pandemic":1288, "Asymptomatic":316, "Coronavirus":1142, "Lockdown":151, "Remdesivir":27, "Respirator":491, "Hydroxychloroquine":811, "Epidemic":756, "Super-spreader":266, "Vaccine":1495
+
+},
+
+
+
+{
+	"date": "01-07",
+	"Remdesivir":28, "Coronavirus":817, "Pandemic":1239, "Asymptomatic":342, "Hydroxychloroquine":831, "Vaccine":1333, "Super-spreader":214, "Respirator":374, "SARS":219, "Epidemic":749, "Lockdown":163
+
+},
+{
+	"date": "01-08",
+	"Coronavirus":1101, "Super-spreader":87, "Vaccine":1584, "Pandemic":1007, "Hydroxychloroquine":856, "Asymptomatic":312, "Respirator":374, "Epidemic":752, "Lockdown":150, "Remdesivir":17, "SARS":155
+
+},{
+	"date": "01-09",
+	"Pandemic":1181, "Super-spreader":225, "Vaccine":1528, "Asymptomatic":410, "Lockdown":167, "Epidemic":717, "Respirator":296, "SARS":273, "Hydroxychloroquine":930, "Remdesivir":40, "Coronavirus":8445
+
+},{
+	"date": "01-10",
+	"Lockdown":184, "Respirator":300, "Remdesivir":37, "Asymptomatic":329, "Coronavirus":4519, "Hydroxychloroquine":818, "Vaccine":1357, "Super-spreader":123, "Epidemic":665, "Pandemic":1055, "SARS":191
+
+},{
+	"date": "01-11",
+	"Epidemic":600, "Pandemic":973, "Remdesivir":28, "Respirator":262, "Asymptomatic":298, "Coronavirus":5295, "SARS":165, "Super-spreader":170, "Vaccine":1109, "Lockdown":132, "Hydroxychloroquine":599
+
+},{
+	"date": "01-12",
+	"SARS":152, "Respirator":360, "Asymptomatic":247, "Hydroxychloroquine":652, "Super-spreader":120, "Vaccine":1155, "Remdesivir":24, "Lockdown":234, "Coronavirus":3414, "Pandemic":937, "Epidemic":674
+
+},{
+	"date": "01-13",
+	"Epidemic":695, "Super-spreader":117, "Vaccine":1578, "Hydroxychloroquine":848, "Pandemic":1068, "Lockdown":152, "Asymptomatic":296, "Coronavirus":3265, "SARS":187, "Remdesivir":28, "Respirator":760
+
+},
+
+
+{
+	"date": "01-14",
+	"Super-spreader":141, "Vaccine":1477, "Respirator":608, "Remdesivir":40, "Coronavirus":4909, "Pandemic":1200, "Asymptomatic":293, "Hydroxychloroquine":872, "SARS":195, "Epidemic":773, "Lockdown":164
+
+},{
+	"date": "01-15",
+	"Hydroxychloroquine":893, "Asymptomatic":301, "Pandemic":1127, "Coronavirus":4338, "Epidemic":747, "Vaccine":1385, "Super-spreader":135, "SARS":175, "Lockdown":212, "Remdesivir":80, "Respirator":540
+
+},{
+	"date": "01-16",
+	"Hydroxychloroquine":954, "Respirator":444, "Lockdown":214, "Coronavirus":11378, "Asymptomatic":362, "Pandemic":1238, "Vaccine":1577, "Super-spreader":194, "Remdesivir":38, "Epidemic":661, "SARS":167
+
+},
+{
+	"date": "01-17",
+	"Asymptomatic":323, "Pandemic":1274, "Super-spreader":257, "Vaccine":1615, "Coronavirus":13849, "Hydroxychloroquine":878, "Respirator":371, "Lockdown":226, "Epidemic":721, "Remdesivir":27, "SARS":262
+
+},
+{
+	"date": "01-18",
+	"Remdesivir":34,
+	"Epidemic":655,
+	"Pandemic":1272,
+	"Respirator":284,
+	"Hydroxychloroquine":627,
+	"Asymptomatic":307,
+	"SARS":322,
+	"Super-spreader":516,
+	"Vaccine":1394,
+	"Lockdown":152,
+	"Coronavirus":28640
+},{
+	"date": "01-19",
+	"Epidemic":722, "Remdesivir":43, "Respirator":270, "Hydroxychloroquine":611, "Lockdown":131, "Asymptomatic":218, "Pandemic":1258, "SARS":272, "Coronavirus":22048, "Vaccine":1394, "Super-spreader":316
+
+},{
+	"date": "01-20",
+	"Vaccine":1770, "Super-spreader":1618, "Remdesivir":81, "Hydroxychloroquine":860, "SARS":796, "Epidemic":1049, "Coronavirus":135767, "Asymptomatic":289, "Lockdown":187, "Respirator":520, "Pandemic":2381
+
+},
+{
+	"date": "01-21",
+	"Coronavirus":339270, "Vaccine":1811, "Super-spreader":5137, "Respirator":857, "Asymptomatic":358, "SARS":1905, "Hydroxychloroquine":1033, "Pandemic":5071, "Remdesivir":316, "Lockdown":196, "Epidemic":1711
+
+},
+
+{
+	"date": "01-22",
+	"Asymptomatic":308, "Super-spreader":12826, "Vaccine":1963, "Hydroxychloroquine":930, "Epidemic":2336, "Remdesivir":571, "SARS":2762, "Lockdown":217, "Coronavirus":432484, "Pandemic":8687, "Respirator":1159
+},{
+	"date": "01-23",
+	"Asymptomatic":390, "Coronavirus":613676, "Respirator":1479, "Epidemic":3121, "SARS":3870, "Remdesivir":891, "Pandemic":12627, "Hydroxychloroquine":940, "Vaccine":2043, "Super-spreader":12351, "Lockdown":767
+
+},{
+	"date": "01-24",
+	"Asymptomatic":417, "Epidemic":3702, "Vaccine":2058, "Super-spreader":15215, "Coronavirus":892900, "Lockdown":472, "Hydroxychloroquine":905, "Remdesivir":1361, "Respirator":1611, "SARS":4610, "Pandemic":15774
+
+},{
+	"date": "01-25",
+	"Vaccine":1981, "Super-spreader":14208, "Hydroxychloroquine":683, "Remdesivir":1311, "SARS":6158, "Coronavirus":977321, "Lockdown":390, "Asymptomatic":494, "Pandemic":18329, "Respirator":1860, "Epidemic":4344
+
+},{
+	"date": "01-26",
+	"Lockdown":390, "Asymptomatic":722, "Hydroxychloroquine":677, "Super-spreader":13349, "Vaccine":2221, "SARS":6411, "Pandemic":20684, "Respirator":2416, "Coronavirus":947370, "Epidemic":4297, "Remdesivir":1555
+
+},{
+	"date": "01-27",
+	"Hydroxychloroquine":901, "Pandemic":23252, "Coronavirus":987543, "SARS":4395, "Lockdown":354, "Epidemic":4595, "Respirator":3234, "Asymptomatic":732, "Vaccine":2995, "Super-spreader":9689, "Remdesivir":3659
+
+},
+{
+	"date": "01-28",
+	"Coronavirus":904769, "Hydroxychloroquine":896, "Respirator":3711, "Pandemic":22975, "Lockdown":458, "SARS":5513, "Asymptomatic":863, "Remdesivir":2159, "Super-spreader":9438, "Vaccine":3155, "Epidemic":4735
+
+},{
+	"date": "01-29",
+	"Coronavirus":717017, "Hydroxychloroquine":949, "Vaccine":3341, "Super-spreader":7845, "Asymptomatic":891, "Remdesivir":2965, "SARS":3091, "Pandemic":19854, "Lockdown":528, "Epidemic":4541, "Respirator":3014
+
+},{
+	"date": "01-30",
+	"SARS":3212, "Asymptomatic":1784, "Super-spreader":5610, "Vaccine":3193, "Remdesivir":2347, "Respirator":3346, "Epidemic":4952, "Hydroxychloroquine":1046, "Coronavirus":642848, "Pandemic":23418, "Lockdown":1316
+
+},{
+	"date": "01-31",
+	"Asymptomatic":1374, "Pandemic":23754, "Remdesivir":3302, "Respirator":3463, "Lockdown":731, "Epidemic":4723, "Coronavirus":704008, "Hydroxychloroquine":879, "Super-spreader":4747, "Vaccine":3143, "SARS":2839
+
+},{
+	"date": "02-01",
+	"Asymptomatic":1048, "Vaccine":2270, "Super-spreader":3789, "Pandemic":14467, "Remdesivir":20319, "Hydroxychloroquine":710, "Lockdown":427, "Epidemic":2864, "Coronavirus":351281, "Respirator":2243, "SARS":1872
+
+},{
+	"date": "02-02",
+	"Hydroxychloroquine":638, "Respirator":1949, "Pandemic":19200, "Epidemic":3906, "Vaccine":2272, "Super-spreader":3673, "Remdesivir":19440, "Lockdown":417, "Asymptomatic":885, "Coronavirus":283112, "SARS":1578
+
+},
+{
+	"date": "02-03",
+	"Epidemic":4348, "Asymptomatic":713, "Hydroxychloroquine":850, "Remdesivir":20341, "Pandemic":30495, "Lockdown":476, "Respirator":2112, "Coronavirus":246863, "Super-spreader":3034, "Vaccine":2540, "SARS":1766
+
+},
+{
+	"date": "02-04",
+	"Coronavirus":203167, "Respirator":2287, "SARS":1512, "Hydroxychloroquine":964, "Super-spreader":2468, "Vaccine":2587, "Lockdown":395, "Pandemic":23949, "Epidemic":3838, "Remdesivir":14388, "Asymptomatic":724
+},{
+	"date": "02-05",
+	"Coronavirus":151805, "Respirator":2031, "Hydroxychloroquine":979, "Pandemic":14880, "Remdesivir":20269, "SARS":1243, "Epidemic":3446, "Lockdown":360, "Super-spreader":1989, "Vaccine":2413, "Asymptomatic":657
+
+},{
+	"date": "02-06",
+	"Epidemic":3343, "Respirator":1880, "Pandemic":12308, "Super-spreader":1522, "Vaccine":2466, "Asymptomatic":658, "Coronavirus":152710, "Remdesivir":24301, "Hydroxychloroquine":1016, "Lockdown":381, "SARS":1033
+
+},{
+	"date": "02-07",
+	"SARS":1625, "Asymptomatic":586, "Hydroxychloroquine":970, "Lockdown":372, "Epidemic":3173, "Coronavirus":184751, "Remdesivir":16123, "Respirator":1772, "Super-spreader":1939, "Vaccine":2027, "Pandemic":11551
+
+},{
+	"date": "02-08",
+	"Lockdown":343, "SARS":1242, "Hydroxychloroquine":708, "Respirator":1644, "Coronavirus":190934, "Epidemic":2828, "Remdesivir":9797, "Pandemic":9932, "Super-spreader":1850, "Vaccine":1643, "Asymptomatic":491
+},{
+	"date": "02-09",
+	"Lockdown":317, "SARS":1404, "Remdesivir":7681, "Pandemic":10517, "Super-spreader":1873, "Vaccine":1785, "Epidemic":2881, "Coronavirus":170007, "Hydroxychloroquine":656, "Asymptomatic":540, "Respirator":1507
+
+},{
+	"date": "02-10",
+	"Remdesivir":7056, "Vaccine":2133, "Super-spreader":3616, "SARS":1320, "Asymptomatic":634, "Coronavirus":172252, "Epidemic":2922, "Pandemic":11008, "Respirator":1634, "Hydroxychloroquine":888, "Lockdown":347
+
+},{
+	"date": "02-11",
+	"SARS":1111, "Respirator":1614, "Coronavirus":178326, "Super-spreader":4091, "Vaccine":2221, "Epidemic":2910, "Lockdown":289, "Remdesivir":5551, "Asymptomatic":761, "Hydroxychloroquine":1020, "Pandemic":10247
+
+},
+
+{
+	"date": "02-12",
+	"Vaccine":2166, "Super-spreader":2600, "Coronavirus":169905, "Epidemic":2571, "Hydroxychloroquine":961, "Pandemic":8352, "SARS":929, "Lockdown":304, "Remdesivir":5784, "Asymptomatic":676, "Respirator":1489
+},{
+	"date": "02-13",
+	"Super-spreader":1814, "Vaccine":2308, "Pandemic":9580, "Epidemic":2374, "Remdesivir":4921, "Hydroxychloroquine":1082, "Respirator":1397, "Lockdown":336, "SARS":861, "Coronavirus":178884, "Asymptomatic":622
+
+},{
+	"date": "02-14",
+	"Epidemic":1772, "SARS":676, "Respirator":1204, "Pandemic":7551, "Lockdown":322, "Asymptomatic":580, "Hydroxychloroquine":936, "Remdesivir":5978, "Vaccine":2080, "Super-spreader":1341, "Coronavirus":131803
+
+},{
+	"date": "02-15",
+	"Asymptomatic":460, "Epidemic":1551, "Pandemic":6111, "Remdesivir":5522, "Lockdown":246, "Super-spreader":1002, "Vaccine":1512, "SARS":538, "Hydroxychloroquine":696, "Coronavirus":107764, "Respirator":991
+
+},{
+	"date": "02-16",
+	"SARS":471, "Epidemic":1657, "Coronavirus":112007, "Lockdown":231, "Vaccine":1658, "Super-spreader":910, "Hydroxychloroquine":720, "Remdesivir":3795, "Asymptomatic":432, "Respirator":969, "Pandemic":6104
+
+},{
+	"date": "02-17",
+	"Coronavirus":97745, "Remdesivir":3644, "Hydroxychloroquine":955, "Vaccine":2002, "Super-spreader":936, "Respirator":1072, "Lockdown":242, "Epidemic":1813, "Pandemic":6522, "SARS":611, "Asymptomatic":729
+
+},
+{
+	"date": "02-18",
+	"Asymptomatic":734, "Pandemic":7384, "Respirator":937, "Lockdown":256, "Coronavirus":98892, "Remdesivir":3379, "Epidemic":1823, "Hydroxychloroquine":1206, "SARS":708, "Vaccine":2058, "Super-spreader":1183
+
+},{
+	"date": "02-19",
+	"Respirator":956, "Coronavirus":83781, "Epidemic":1661, "Asymptomatic":690, "Lockdown":224, "Remdesivir":2521, "Hydroxychloroquine":1248, "Vaccine":2100, "Super-spreader":1125, "SARS":654, "Pandemic":6188
+
+},{
+	"date": "02-20",
+	"Epidemic":1507, "SARS":542, "Respirator":912, "Pandemic":4966, "Lockdown":287, "Hydroxychloroquine":1057, "Asymptomatic":621, "Remdesivir":3449, "Super-spreader":1303, "Vaccine":1868, "Coronavirus":65561
+
+},{
+	"date": "02-21",
+	"SARS":583, "Remdesivir":4483, "Asymptomatic":565, "Super-spreader":1592, "Vaccine":1767, "Hydroxychloroquine":1029, "Coronavirus":67380, "Respirator":986, "Pandemic":6514, "Lockdown":252, "Epidemic":1545
+
+},
+{
+	"date": "02-22",
+	"Hydroxychloroquine":853, "Epidemic":1938, "Respirator":1122, "Pandemic":13601, "Vaccine":1464, "Super-spreader":1373, "Coronavirus":98726, "Remdesivir":4252, "SARS":597, "Lockdown":256, "Asymptomatic":890
+
+},{
+	"date": "02-23",
+	"Respirator":2187, "Hydroxychloroquine":948, "Pandemic":21197, "Asymptomatic":723, "Remdesivir":4831, "Coronavirus":129968, "Super-spreader":1851, "Vaccine":1772, "Epidemic":2477, "SARS":715, "Lockdown":328
+
+},
+
+
+
+{
+	"date": "02-24",
+	"SARS":1022, "Epidemic":5188, "Coronavirus":153578, "Super-spreader":2410, "Vaccine":2387, "Respirator":3874, "Asymptomatic":878, "Lockdown":445, "Pandemic":59449, "Hydroxychloroquine":1234, "Remdesivir":13948
+},{
+	"date": "02-25",
+	"Asymptomatic":897, "Respirator":3787, "Lockdown":537, "Remdesivir":37635, "Coronavirus":248379, "Super-spreader":2726, "Vaccine":2715, "Pandemic":71761, "SARS":1428, "Epidemic":6220, "Hydroxychloroquine":1398
+
+},{
+	"date": "02-26",
+	"Asymptomatic":915, "Super-spreader":2705, "Vaccine":2932, "Lockdown":712, "Coronavirus":351934, "Remdesivir":31985, "Respirator":5421, "SARS":1851, "Hydroxychloroquine":1673, "Pandemic":68777, "Epidemic":6493
+
+},
+{
+	"date": "02-27",
+	"Coronavirus":424798, "Epidemic":7182, "Lockdown":694, "SARS":2117, "Hydroxychloroquine":1613, "Super-spreader":2698, "Vaccine":3133, "Remdesivir":32622, "Respirator":5176, "Asymptomatic":1035, "Pandemic":65449
+
+},
+{
+	"date": "02-28",
+	"Epidemic":6114, "Pandemic":58563, "Hydroxychloroquine":1443, "Respirator":4006, "SARS":2266, "Remdesivir":20264, "Asymptomatic":1004, "Vaccine":2993, "Super-spreader":2596, "Lockdown":798, "Coronavirus":363531
+},{
+	"date": "02-29",
+	"Respirator":3422, "Pandemic":39138, "Lockdown":716, "SARS":2014, "Epidemic":4719, "Hydroxychloroquine":1223, "Super-spreader":1962, "Vaccine":2593, "Coronavirus":271673, "Asymptomatic":842, "Remdesivir":16096
+
+},
+{
+	"date": "03-01",
+	"Lockdown":789, "Vaccine":2621, "Super-spreader":1594, "Respirator":2872, "SARS":1894, "Pandemic":30955, "Coronavirus":254940, "Remdesivir":13037, "Hydroxychloroquine":1160, "Epidemic":4088, "Asymptomatic":888
+
+},
+
+{
+	"date": "03-02",
+	"Pandemic":37529, "Coronavirus":302764, "Respirator":3172, "Lockdown":726, "Hydroxychloroquine":1464, "Asymptomatic":1165, "Remdesivir":16800, "Super-spreader":1536, "Vaccine":3390, "Epidemic":4917, "SARS":2388
+
+},
+
+{
+	"date": "03-03",
+	"Asymptomatic":1239, "SARS":2544, "Hydroxychloroquine":1480, "Epidemic":5070, "Pandemic":38025, "Lockdown":720, "Coronavirus":352945, "Respirator":2868, "Vaccine":3649, "Super-spreader":1321, "Remdesivir":16292
+
+},
+{
+	"date": "03-04",
+	"Asymptomatic":1405, "Lockdown":627, "Pandemic":32261, "Respirator":2879, "Remdesivir":13074, "Epidemic":5958, "Coronavirus":293649, "SARS":2546, "Hydroxychloroquine":1424, "Vaccine":3425, "Super-spreader":1399
+},
+{
+	"date": "03-05",
+	"Epidemic":5419, "Hydroxychloroquine":1407, "SARS":2844, "Remdesivir":13208, "Pandemic":31055, "Vaccine":3633, "Super-spreader":1566, "Lockdown":619, "Asymptomatic":1518, "Coronavirus":293779, "Respirator":2693
+},
+{
+	"date": "03-06",
+	"Epidemic":4675, "Vaccine":3389, "Super-spreader":1389, "Lockdown":603, "Remdesivir":11855, "SARS":3193, "Hydroxychloroquine":1405, "Pandemic":30097, "Coronavirus":337770, "Respirator":2635, "Asymptomatic":1475
+
+},
+{
+	"date": "03-07",
+	"Respirator":2233, "Vaccine":2990, "Super-spreader":1307, "Lockdown":613, "Pandemic":28327, "Asymptomatic":1462, "Remdesivir":11261, "Coronavirus":280719, "SARS":2777, "Epidemic":4494, "Hydroxychloroquine":1302
+
+},
+{
+	"date": "03-08",
+	"Hydroxychloroquine":1063, "Coronavirus":190537, "Lockdown":1316, "Super-spreader":1377, "Vaccine":3016, "Pandemic":29006, "Epidemic":4473, "SARS":2779, "Remdesivir":11109, "Respirator":2441, "Asymptomatic":1456
+
+},
+{
+	"date": "03-09",
+	"Pandemic":52484, "SARS":3634, "Coronavirus":233273, "Asymptomatic":2035, "Remdesivir":14035, "Lockdown":2638, "Hydroxychloroquine":1471, "Respirator":2886, "Vaccine":3694, "Super-spreader":1600, "Epidemic":6648
+},
+{
+	"date": "03-10",
+	"Respirator":3543, "Pandemic":58622, "Epidemic":7273, "Lockdown":4528, "SARS":4261, "Remdesivir":19805, "Asymptomatic":2781, "Super-spreader":1878, "Vaccine":3745, "Coronavirus":255121, "Hydroxychloroquine":2119
+
+},
+{
+	"date": "03-11",
+	"Asymptomatic":4865, "SARS":5122, "Lockdown":4408, "Super-spreader":2417, "Vaccine":4547, "Pandemic":484676, "Coronavirus":317307, "Remdesivir":26139, "Respirator":4509, "Epidemic":22619, "Hydroxychloroquine":3552
+
+},
+{
+	"date": "03-12",
+	"Respirator":5773, "Hydroxychloroquine":4432, "SARS":8041, "Coronavirus":706262, "Asymptomatic":5803, "Super-spreader":3439, "Vaccine":6470, "Epidemic":25663, "Lockdown":15431, "Remdesivir":31000, "Pandemic":488600
+},
+{
+	"date": "03-13",
+	"Remdesivir":33423, "Pandemic":245360, "Super-spreader":3204, "Vaccine":7069, "Hydroxychloroquine":6351, "Respirator":6351, "SARS":7109, "Epidemic":16929, "Asymptomatic":4207, "Lockdown":11555, "Coronavirus":631305
+},
+{
+	"date": "03-14",
+	"Coronavirus":537470, "Pandemic":153912, "Epidemic":12528, "Respirator":6179, "SARS":5894, "Remdesivir":30563, "Lockdown":11880, "Super-spreader":3054, "Vaccine":6715, "Asymptomatic":4444, "Hydroxychloroquine":5666
+
+},
+{
+	"date": "03-15",
+	"Asymptomatic":5731, "Lockdown":21794, "Respirator":7838, "Vaccine":6854, "Super-spreader":3730, "Coronavirus":457450, "Epidemic":11467, "Pandemic":135767, "SARS":6058, "Hydroxychloroquine":6294, "Remdesivir":51046
+
+},
+{
+	"date": "03-16",
+	"Asymptomatic":9713, "Coronavirus":434268, "Lockdown":40738, "SARS":6677, "Remdesivir":42152, "Respirator":9273, "Pandemic":139629, "Epidemic":12261, "Super-spreader":3642, "Vaccine":7942, "Hydroxychloroquine":6752
+
+},
+{
+	"date": "03-17",
+	"Remdesivir":41991, "Coronavirus":389592, "Hydroxychloroquine":26555, "Respirator":9867, "Lockdown":26301, "Epidemic":11550, "SARS":6005, "Asymptomatic":10847, "Super-spreader":3172, "Vaccine":8847, "Pandemic":125399
+
+},
+{
+	"date": "03-18",
+	"Asymptomatic":13985, "Vaccine":8425, "Super-spreader":2934, "Hydroxychloroquine":32365, "Lockdown":25674, "Coronavirus":408530, "Respirator":10394, "Remdesivir":48532, "Epidemic":11888, "Pandemic":128773, "SARS":5621
+
+},
+{
+	"date": "03-19",
+	"Hydroxychloroquine":149725, "SARS":5499, "Vaccine":8681, "Super-spreader":2678, "Respirator":10649, "Pandemic":117512, "Epidemic":11445, "Coronavirus":399470, "Asymptomatic":12162, "Remdesivir":81621, "Lockdown":27690
+
+},
+{
+	"date": "03-20",
+	"Vaccine":8210, "Super-spreader":2636, "Respirator":15328, "Lockdown":26447, "Pandemic":109738, "Epidemic":11271, "Coronavirus":360965, "Asymptomatic":12571, "SARS":4946, "Hydroxychloroquine":127405, "Remdesivir":68077
+
+},
+{
+	"date": "03-21",
+	"Epidemic":11537, "Pandemic":101499, "Lockdown":25668, "Respirator":18202, "Hydroxychloroquine":100473, "Asymptomatic":9218, "Vaccine":7807, "Super-spreader":2595, "Remdesivir":40460, "Coronavirus":347371, "SARS":4776
+
+},
+
+{
+	"date": "03-22",
+	"Coronavirus":403659, "Epidemic":12310, "Respirator":11968, "Hydroxychloroquine":94246, "Asymptomatic":11696, "Vaccine":8595, "Super-spreader":2958, "SARS":5084, "Pandemic":101388, "Lockdown":76230, "Remdesivir":36394
+
+},
+{
+	"date": "03-23",
+	"Asymptomatic":12872, "SARS":4603, "Vaccine":9099, "Super-spreader":2578, "Pandemic":96991, "Lockdown":43542, "Remdesivir":40923, "Hydroxychloroquine":111610, "Epidemic":12054, "Coronavirus":377025, "Respirator":13448
+
+},
+{
+	"date": "03-24",
+	"Lockdown":37157, "Epidemic":10757, "Super-spreader":2546, "Vaccine":8834, "Asymptomatic":11143, "SARS":4067, "Respirator":12822, "Remdesivir":36602, "Hydroxychloroquine":97454, "Coronavirus":404043, "Pandemic":88381
+
+},
+{
+	"date": "03-25",
+	"Vaccine":7604, "Super-spreader":2158, "Remdesivir":34272, "Epidemic":9114, "Coronavirus":446383, "Pandemic":77192, "Asymptomatic":14952, "Hydroxychloroquine":59790, "SARS":3788, "Lockdown":22209, "Respirator":12123
+},
+{
+	"date": "03-26",
+	"Coronavirus":387203, "Lockdown":15815, "Vaccine":8275, "Super-spreader":2009, "Respirator":10048, "Remdesivir":28347, "SARS":4407, "Pandemic":71218, "Hydroxychloroquine":47494, "Asymptomatic":9942, "Epidemic":8608
+
+},
+{
+	"date": "03-27",
+	"Asymptomatic":11003, "Respirator":11079, "Pandemic":68920, "Remdesivir":37397, "Epidemic":9549, "Vaccine":7798, "Super-spreader":2373, "Hydroxychloroquine":38100, "Lockdown":13840, "Coronavirus":371104, "SARS":4429
+
+},
+{
+	"date": "03-28",
+	"Vaccine":7514, "Super-spreader":2268, "Respirator":10819, "SARS":3627, "Hydroxychloroquine":37292, "Asymptomatic":9008, "Lockdown":12382, "Epidemic":7852, "Pandemic":62321, "Coronavirus":310904, "Remdesivir":27316
+
+},
+{
+	"date": "03-29",
+	"Lockdown":11352, "Hydroxychloroquine":38444, "Vaccine":7509, "Super-spreader":2047, "Asymptomatic":9105, "Epidemic":7155, "Respirator":9218, "Coronavirus":242276, "SARS":3158, "Remdesivir":26525, "Pandemic":58734
+},{
+	"date": "03-30",
+	"Pandemic":52374, "Hydroxychloroquine":48682, "Asymptomatic":9988, "Respirator":10302, "Remdesivir":22210, "Lockdown":12165, "Coronavirus":219589, "Epidemic":7105, "Vaccine":7239, "Super-spreader":2001, "SARS":3139
+
+},
+{
+	"date": "03-31",
+	"Hydroxychloroquine":42268, "Pandemic":46722, "Asymptomatic":10959, "Coronavirus":185121, "Lockdown":10580, "SARS":2400, "Vaccine":6828, "Super-spreader":1873, "Epidemic":6825, "Respirator":10425, "Remdesivir":18626
+
+},
+
+{
+	"date": "04-01",
+	"Coronavirus":189370, "Pandemic":45534, "Hydroxychloroquine":28633, "Asymptomatic":16859, "Vaccine":6938, "Super-spreader":1703, "Lockdown":9059, "Epidemic":7386, "Remdesivir":27349, "Respirator":9778, "SARS":2352
+},
+{
+	"date": "04-02",
+	"Asymptomatic":17223, "Remdesivir":17222, "Pandemic":46360, "Hydroxychloroquine":29261, "Lockdown":10067, "Epidemic":7035, "Vaccine":7146, "Super-spreader":1662, "Coronavirus":182294, "Respirator":9330, "SARS":2948
+
+},
+{
+	"date": "04-03",
+	"Remdesivir":14753, "Asymptomatic":12261, "Coronavirus":160830, "SARS":2697, "Lockdown":18503, "Respirator":11067, "Hydroxychloroquine":26399, "Pandemic":44124, "Epidemic":6431, "Super-spreader":1541, "Vaccine":6772
+
+},
+{
+	"date": "04-04",
+	"Hydroxychloroquine":29766, "Respirator":11203, "Coronavirus":162046, "SARS":2636, "Super-spreader":1485, "Vaccine":6833, "Pandemic":43660, "Remdesivir":12328, "Lockdown":18414, "Epidemic":5476, "Asymptomatic":9342
+
+},
+{
+	"date": "04-05",
+	"Remdesivir":16980, "Coronavirus":185400, "Vaccine":7174, "Super-spreader":1199, "Epidemic":5328, "Respirator":8670, "Asymptomatic":7880, "Lockdown":14229, "SARS":2737, "Hydroxychloroquine":56793, "Pandemic":42134
+
+},
+{
+	"date": "04-06",
+	"Hydroxychloroquine":93870, "Vaccine":6548, "Super-spreader":1700, "Respirator":8285, "Coronavirus":157715, "Remdesivir":18695, "Lockdown":13204, "Asymptomatic":11442, "Pandemic":38603, "SARS":2518, "Epidemic":5547
+
+},{
+	"date": "04-08",
+	"Hydroxychloroquine":134875, "Lockdown":8742, "Asymptomatic":7378, "Pandemic":33558, "Epidemic":5225, "Coronavirus":123215, "Vaccine":6024, "Super-spreader":1187, "Respirator":6320, "Remdesivir":13263, "SARS":1989
+
+},{
+	"date": "04-07",
+	"Hydroxychloroquine":160164, "Remdesivir":16185, "Vaccine":6057, "Super-spreader":1371, "Lockdown":9107, "Coronavirus":129123, "Epidemic":5092, "Respirator":7586, "SARS":2066, "Asymptomatic":7435, "Pandemic":35092
+
+},
+
+
+{
+	"date": "04-09",
+	"Respirator":5310, "Asymptomatic":10459, "Hydroxychloroquine":108561, "Vaccine":5773, "Super-spreader":1256, "Remdesivir":13762, "Coronavirus":108346, "Epidemic":5052, "SARS":2025, "Pandemic":31342, "Lockdown":8039
+
+},
+{
+	"date": "04-10",
+	"Super-spreader":1149, "Vaccine":6240, "Remdesivir":14654, "Respirator":4490, "Lockdown":6898, "SARS":2048, "Coronavirus":109775, "Hydroxychloroquine":123758, "Pandemic":31037, "Epidemic":4742, "Asymptomatic":10871
+
+},
+
+{
+	"date": "04-11",
+	"Epidemic":4288, "Vaccine":6208, "Super-spreader":1016, "Asymptomatic":9195, "Lockdown":7589, "Respirator":3759, "SARS":1922, "Hydroxychloroquine":92812, "Coronavirus":129698, "Pandemic":30373, "Remdesivir":50355
+
+},{
+	"date": "04-12",
+	"Coronavirus":125661, "Epidemic":4412, "Lockdown":6597, "SARS":1916, "Super-spreader":896, "Vaccine":6337, "Remdesivir":33531, "Respirator":3300, "Hydroxychloroquine":62440, "Asymptomatic":5468, "Pandemic":30613
+
+},{
+	"date": "04-13",
+	"Hydroxychloroquine":47046, "Respirator":3543, "Pandemic":30203, "Epidemic":4347, "Super-spreader":1036, "Vaccine":7106, "Remdesivir":26683, "Coronavirus":141150, "Asymptomatic":6625, "Lockdown":7030, "SARS":2077
+
+},{
+	"date": "04-14",
+	"Coronavirus":126881, "Remdesivir":31174, "Epidemic":4315, "SARS":1867, "Hydroxychloroquine":38615, "Pandemic":29230, "Respirator":3416, "Asymptomatic":5593, "Super-spreader":1036, "Vaccine":7189, "Lockdown":7328
+
+},
+{
+	"date": "04-15",
+	"Epidemic":4192, "Lockdown":6701, "Remdesivir":18351, "Coronavirus":127039, "Super-spreader":904, "Vaccine":7118, "SARS":1800, "Pandemic":28895, "Asymptomatic":5383, "Respirator":3146, "Hydroxychloroquine":33623
+
+},
+{
+	"date": "04-16",
+	"Asymptomatic":6116, "Respirator":3032, "Pandemic":25749, "Coronavirus":128655, "Hydroxychloroquine":28891, "Super-spreader":917, "Vaccine":7233, "Remdesivir":32907, "Epidemic":4039, "SARS":1794, "Lockdown":6115
+
+},
+{
+	"date": "04-17",
+	"Lockdown":6101, "Hydroxychloroquine":26469, "Pandemic":24846, "Epidemic":3810, "Asymptomatic":7235, "Remdesivir":338525, "Super-spreader":1164, "Vaccine":7025, "Respirator":3026, "SARS":1761, "Coronavirus":122262
+},
+{
+	"date": "04-18",
+	"Remdesivir":127231, "Lockdown":5209, "Asymptomatic":5476, "Epidemic":3539, "Coronavirus":111845, "Respirator":2280, "SARS":1553, "Hydroxychloroquine":23012, "Pandemic":22940, "Vaccine":6960, "Super-spreader":1172
+
+},
+{
+	"date": "04-19",
+	"Super-spreader":867, "Vaccine":6616, "Hydroxychloroquine":19329, "Epidemic":3743, "Respirator":2188, "Lockdown":5022, "Coronavirus":113215, "SARS":1511, "Asymptomatic":5447, "Remdesivir":55638, "Pandemic":23643
+
+},
+{
+	"date": "04-20",
+	"Respirator":2541, "Lockdown":5630, "Hydroxychloroquine":18171, "Remdesivir":36259, "Super-spreader":983, "Vaccine":6830, "Coronavirus":125079, "Epidemic":3578, "Asymptomatic":8236, "Pandemic":22144, "SARS":1503
+
+},
+{
+	"date": "04-21",
+	"Asymptomatic":14188, "Hydroxychloroquine":16940, "Coronavirus":119813, "Pandemic":21047, "Respirator":2503, "Epidemic":3305, "Super-spreader":868, "Vaccine":7354, "SARS":1418, "Lockdown":5096, "Remdesivir":24574
+},
+{
+	"date": "04-22",
+	"Remdesivir":28840, "Pandemic":21369, "Lockdown":4994, "Coronavirus":125825, "Hydroxychloroquine":19103, "Super-spreader":786, "Vaccine":7680, "SARS":1517, "Asymptomatic":8053, "Respirator":2548, "Epidemic":3503
+
+},
+
+{
+	"date": "04-23",
+	"Coronavirus":95087, "Asymptomatic":6831, "SARS":1391, "Hydroxychloroquine":19356, "Super-spreader":761, "Vaccine":7560, "Lockdown":5304, "Respirator":2408, "Pandemic":20346, "Remdesivir":24928, "Epidemic":3247
+
+},
+{
+	"date": "04-24",
+	"Asymptomatic":4792, "Coronavirus":82777, "Pandemic":21488, "Remdesivir":22133, "Hydroxychloroquine":19440, "Respirator":2455, "Lockdown":4889, "Epidemic":3076, "Vaccine":7649, "Super-spreader":642, "SARS":1059
+
+},
+{
+	"date": "04-25",
+	"Hydroxychloroquine":14880, "Asymptomatic":4050, "SARS":904, "Coronavirus":63964, "Vaccine":6998, "Super-spreader":605, "Pandemic":18725, "Lockdown":4329, "Respirator":1891, "Epidemic":2775, "Remdesivir":11051
+
+},
+
+{
+	"date": "04-26",
+	"Hydroxychloroquine":10097, "Epidemic":2768, "Lockdown":4474, "Super-spreader":588, "Vaccine":7166, "Asymptomatic":5055, "Coronavirus":64369, "Pandemic":19599, "Remdesivir":10208, "SARS":949, "Respirator":1788
+
+},
+{
+	"date": "04-27",
+	"Hydroxychloroquine":9487, "Vaccine":6641, "Super-spreader":690, "Epidemic":3115, "Remdesivir":11587, "Respirator":1957, "Pandemic":19160, "Coronavirus":76628, "SARS":941, "Asymptomatic":6171, "Lockdown":5060
+
+},{
+	"date": "04-28",
+	"Respirator":2081, "Lockdown":4565, "Hydroxychloroquine":9292, "Vaccine":6790, "Super-spreader":659, "Asymptomatic":6291, "Coronavirus":66319, "SARS":990, "Remdesivir":10194, "Pandemic":18421, "Epidemic":3204
+
+},{
+	"date": "04-29",
+	"Lockdown":4775, "Super-spreader":586, "Vaccine":6653, "SARS":976, "Coronavirus":64963, "Hydroxychloroquine":9550, "Pandemic":17762, "Epidemic":3060, "Asymptomatic":5921, "Respirator":1849, "Remdesivir":265620
+
+},
+{
+	"date": "04-30",
+	"Respirator":1859, "Epidemic":2906, "Asymptomatic":4972, "Super-spreader":557, "Vaccine":6087, "Remdesivir":358348, "SARS":881, "Lockdown":6293, "Pandemic":16601, "Hydroxychloroquine":10048, "Coronavirus":66255
+
+},
+
+
+
+
+
+{
+	"date": "05-01",
+	"Lockdown":7268, "Hydroxychloroquine":8449, "Remdesivir":165136, "SARS":811, "Respirator":1571, "Pandemic":15649, "Coronavirus":58594, "Epidemic":2515, "Super-spreader":527, "Vaccine":5569, "Asymptomatic":4801
+
+},
+{
+	"date": "05-02",
+	"Hydroxychloroquine":7391, "Lockdown":4934, "Respirator":1434, "Epidemic":2324, "Remdesivir":201736, "Vaccine":4820, "Super-spreader":514, "Coronavirus":52590, "SARS":664, "Pandemic":14614, "Asymptomatic":3309
+
+},
+{
+	"date": "05-03",
+	"Pandemic":14766, "Lockdown":4705, "Remdesivir":80271, "Hydroxychloroquine":6026, "Vaccine":4809, "Super-spreader":544, "Respirator":1165, "SARS":773, "Asymptomatic":3658, "Epidemic":2265, "Coronavirus":53278
+
+},
+
+{
+	"date": "05-04",
+	"Coronavirus":56139, "Lockdown":5245, "SARS":807, "Super-spreader":588, "Vaccine":5370, "Epidemic":2496, "Respirator":1477, "Asymptomatic":5614, "Hydroxychloroquine":6587, "Remdesivir":59631, "Pandemic":15882
+
+},{
+	"date": "05-05",
+	"Super-spreader":433, "Vaccine":5456, "Pandemic":14835, "Asymptomatic":5255, "Hydroxychloroquine":7576, "Remdesivir":52847, "Respirator":1549, "Epidemic":2451, "Lockdown":5938, "Coronavirus":51755, "SARS":821
+
+},{
+	"date": "05-06",
+	"Coronavirus":48709, "Hydroxychloroquine":8206, "Respirator":1364, "SARS":773, "Pandemic":14361, "Remdesivir":44034, "Lockdown":9384, "Super-spreader":449, "Vaccine":5930, "Asymptomatic":3779, "Epidemic":2446
+
+},{
+	"date": "05-07",
+	"Super-spreader":233, "Vaccine":5619, "Pandemic":14243, "Remdesivir":33298, "Asymptomatic":3223, "Respirator":1561, "Epidemic":2179, "Lockdown":8066, "SARS":768, "Hydroxychloroquine":8756, "Coronavirus":47809
+
+},{
+	"date": "05-08",
+	"Remdesivir":35659, "Respirator":1337, "Epidemic":2137, "Asymptomatic":3410, "SARS":720, "Hydroxychloroquine":6597, "Super-spreader":160, "Vaccine":4911, "Coronavirus":42278, "Pandemic":13603, "Lockdown":5712
+
+},{
+	"date": "05-09",
+	"SARS":582, "Pandemic":12027, "Asymptomatic":3408, "Hydroxychloroquine":5326, "Respirator":1235, "Lockdown":3456, "Remdesivir":24862, "Coronavirus":40662, "Super-spreader":135, "Vaccine":4172, "Epidemic":2074
+
+},
+{
+	"date": "05-10",
+	"Hydroxychloroquine":5222, "Super-spreader":126, "Vaccine":3952, "Epidemic":1957, "Pandemic":13591, "Coronavirus":37201, "Asymptomatic":3895, "Lockdown":2758, "SARS":604, "Remdesivir":17945, "Respirator":1123
+
+},{
+	"date": "05-11",
+	"Respirator":1399, "Asymptomatic":5356, "Super-spreader":150, "Vaccine":4665, "Lockdown":2810, "Hydroxychloroquine":5278, "Coronavirus":40068, "Remdesivir":19669, "SARS":716, "Pandemic":14084, "Epidemic":2202
+
+},{
+	"date": "05-12",
+	"Pandemic":13241, "Respirator":1480, "Remdesivir":19711, "Hydroxychloroquine":6214, "Asymptomatic":5636, "Coronavirus":45382, "Super-spreader":155, "Vaccine":4735, "SARS":678, "Epidemic":2386, "Lockdown":3145
+
+},{
+	"date": "05-13",
+	"Hydroxychloroquine":6163, "Remdesivir":21870, "Pandemic":12447, "Epidemic":2296, "Respirator":1214, "Coronavirus":45334, "Asymptomatic":3668, "Lockdown":2894, "SARS":720, "Super-spreader":146, "Vaccine":4521
+
+},{
+	"date": "05-14",
+	"Vaccine":5189, "Super-spreader":158, "Respirator":1256, "Epidemic":2503, "Lockdown":2741, "Coronavirus":47803, "Asymptomatic":3819, "Hydroxychloroquine":7415, "Pandemic":13626, "SARS":707, "Remdesivir":19338
+
+},
+{
+	"date": "05-15",
+	"Coronavirus":44557, "Hydroxychloroquine":7500, "Asymptomatic":3326, "Super-spreader":143, "Vaccine":5228, "Respirator":1250, "SARS":659, "Lockdown":2391, "Pandemic":11977, "Epidemic":2148, "Remdesivir":20242
+
+},
+{
+	"date": "05-16",
+	"Lockdown":2402, "SARS":513, "Coronavirus":45575, "Epidemic":1953, "Hydroxychloroquine":6356, "Remdesivir":13531, "Respirator":1029, "Pandemic":10686, "Vaccine":4360, "Super-spreader":125, "Asymptomatic":2700
+},{
+	"date": "05-17",
+	"Hydroxychloroquine":6006, "Remdesivir":11348, "Respirator":968, "Lockdown":2857, "Asymptomatic":2447, "Coronavirus":40950, "SARS":564, "Epidemic":2040, "Pandemic":11595, "Vaccine":4367, "Super-spreader":152
+
+},{
+	"date": "05-18",
+	"Coronavirus":42595, "Super-spreader":107, "Vaccine":5473, "Pandemic":11540, "Respirator":2862, "Lockdown":2511, "Remdesivir":13652, "Epidemic":2147, "SARS":611, "Asymptomatic":3114, "Hydroxychloroquine":29210
+
+},
+{
+	"date": "05-19",
+	"Lockdown":2547, "Hydroxychloroquine":106063, "Vaccine":10724, "Super-spreader":117, "Coronavirus":39106, "Pandemic":10344, "Respirator":1334, "Remdesivir":12023, "SARS":532, "Epidemic":2368, "Asymptomatic":3472
+
+},
+{
+	"date": "05-20",
+	"Lockdown":2627, "Super-spreader":102, "Vaccine":4857, "Pandemic":10131, "Hydroxychloroquine":40320, "Epidemic":1947, "Asymptomatic":2939, "Respirator":1069, "Remdesivir":9371, "Coronavirus":36394, "SARS":550
+},{
+	"date": "05-21",
+	"SARS":547, "Respirator":1032, "Remdesivir":8238, "Hydroxychloroquine":22712, "Pandemic":10870, "Lockdown":2560, "Coronavirus":37715, "Super-spreader":103, "Vaccine":3944, "Asymptomatic":3820, "Epidemic":1955
+
+},
+{
+	"date": "05-22",
+	"Hydroxychloroquine":18364, "SARS":465, "Pandemic":9149, "Asymptomatic":4142, "Epidemic":1798, "Remdesivir":9405, "Respirator":1033, "Coronavirus":34463, "Super-spreader":143, "Vaccine":3478, "Lockdown":2207
+
+},{
+	"date": "05-23",
+	"Coronavirus":31411, "Asymptomatic":3663, "Remdesivir":15260, "Lockdown":2000, "Pandemic":8455, "Hydroxychloroquine":13904, "SARS":431, "Respirator":941, "Epidemic":1563, "Super-spreader":119, "Vaccine":3143
+
+},
+
+{
+	"date": "05-24",
+	"Hydroxychloroquine":9888, "Coronavirus":30904, "Pandemic":8920, "Respirator":787, "Epidemic":1632, "SARS":411, "Asymptomatic":3329, "Lockdown":2060, "Super-spreader":110, "Vaccine":3008, "Remdesivir":12629
+
+},{
+	"date": "05-25",
+	"Epidemic":1960, "Lockdown":2308, "Pandemic":9219, "Hydroxychloroquine":9947, "Coronavirus":32784, "Super-spreader":114, "Vaccine":3196, "Remdesivir":8482, "Asymptomatic":4077, "SARS":474, "Respirator":1053
+
+},{
+	"date": "05-26",
+	"Respirator":989, "Vaccine":3378, "Super-spreader":115, "Lockdown":2367, "Hydroxychloroquine":13410, "Epidemic":1762, "Remdesivir":23202, "Coronavirus":34475, "Pandemic":9248, "SARS":485, "Asymptomatic":3928
+
+},{
+	"date": "05-27",
+	"Coronavirus":33965, "Lockdown":2285, "Asymptomatic":3814, "Super-spreader":112, "Vaccine":2980, "Epidemic":1779, "Respirator":920, "Pandemic":9078, "SARS":372, "Hydroxychloroquine":10144, "Remdesivir":12694
+
+},{
+	"date": "05-28",
+	"Vaccine":3048, "Super-spreader":127, "Respirator":938, "Epidemic":1805, "Hydroxychloroquine":7677, "Coronavirus":31906, "Lockdown":2333, "Remdesivir":7636, "Asymptomatic":6640, "Pandemic":8963, "SARS":407
+
+},{
+	"date": "05-29",
+	"Asymptomatic":4348, "Super-spreader":108, "Vaccine":2574, "Remdesivir":7048, "Coronavirus":30742, "Lockdown":2166, "SARS":373, "Pandemic":7612, "Respirator":1103, "Epidemic":1706, "Hydroxychloroquine":5775
+
+},
+
+{
+	"date": "05-30",
+	"Hydroxychloroquine":4287, "Lockdown":2594, "Respirator":791, "Coronavirus":27822, "Asymptomatic":3223, "Super-spreader":85, "Vaccine":2405, "SARS":337, "Epidemic":1376, "Remdesivir":7229, "Pandemic":7229
+
+},{
+	"date": "05-31",
+	"Super-spreader":95, "Vaccine":2278, "Remdesivir":8209, "Coronavirus":27045, "SARS":283, "Asymptomatic":3190, "Respirator":832, "Lockdown":2271, "Epidemic":1403, "Pandemic":6899, "Hydroxychloroquine":3507
+
+},{
+	"date": "06-01",
+	"Hydroxychloroquine":4386, "Coronavirus":28999, "Epidemic":1533, "Respirator":995, "Asymptomatic":3180, "Super-spreader":74, "Vaccine":2477, "Pandemic":6937, "SARS":312, "Lockdown":2274, "Remdesivir":9921
+
+},{
+	"date": "06-02",
+	"Hydroxychloroquine":4559, "Epidemic":1672, "Vaccine":2388, "Super-spreader":63, "Remdesivir":18202, "Lockdown":2102, "Asymptomatic":3057, "Coronavirus":28177, "Respirator":1121, "SARS":266, "Pandemic":6751
+
+},{
+	"date": "06-03",
+	"Respirator":1032, "Pandemic":6682, "Hydroxychloroquine":5480, "Coronavirus":28200, "SARS":297, "Epidemic":1607, "Asymptomatic":4121, "Lockdown":2234, "Vaccine":2277, "Super-spreader":70, "Remdesivir":14669
+
+},
+{
+	"date": "06-04",
+	"Super-spreader":73, "Vaccine":2311, "Asymptomatic":6094, "Hydroxychloroquine":6185, "Coronavirus":28732, "Remdesivir":8618, "SARS":264, "Pandemic":6482, "Respirator":998, "Lockdown":1965, "Epidemic":1475
+
+},
+{
+	"date": "06-05",
+	"SARS":258, "Super-spreader":60, "Vaccine":2258, "Hydroxychloroquine":5993, "Lockdown":1728, "Remdesivir":6394, "Epidemic":1334, "Pandemic":6772, "Asymptomatic":4420, "Coronavirus":28476, "Respirator":977
+
+},
+{
+	"date": "06-06",
+	"Hydroxychloroquine":4552, "Coronavirus":26945, "Pandemic":6545, "Lockdown":1711, "SARS":224, "Vaccine":2014, "Super-spreader":65, "Epidemic":1377, "Remdesivir":7007, "Respirator":1016, "Asymptomatic":3037
+
+},{
+	"date": "06-07",
+	"Lockdown":1698, "Respirator":789, "Asymptomatic":2900, "Coronavirus":27192, "Hydroxychloroquine":3783, "SARS":259, "Pandemic":7352, "Super-spreader":63, "Vaccine":2030, "Remdesivir":6399, "Epidemic":1411
+
+},{
+	"date": "06-08",
+	"Super-spreader":72, "Vaccine":2178, "Asymptomatic":4484, "Coronavirus":28320, "Epidemic":1563, "SARS":265, "Pandemic":7189, "Respirator":948, "Lockdown":1886, "Remdesivir":10502, "Hydroxychloroquine":3560
+
+},{
+	"date": "06-09",
+	"Asymptomatic":19815, "Pandemic":7138, "Epidemic":1646, "Lockdown":1949, "Coronavirus":28285, "SARS":262, "Vaccine":2168, "Super-spreader":55, "Respirator":889, "Hydroxychloroquine":3160, "Remdesivir":6896
+
+},
+{
+	"date": "06-10",
+	"Pandemic":6904, "Remdesivir":8466, "Hydroxychloroquine":3029, "Respirator":868, "Asymptomatic":13271, "SARS":283, "Coronavirus":26095, "Vaccine":2284, "Super-spreader":65, "Lockdown":1914, "Epidemic":1529
+},{
+	"date": "06-11",
+	"Remdesivir":6588, "Coronavirus":25964, "Super-spreader":64, "Vaccine":2214, "Respirator":693, "Pandemic":6566, "Epidemic":1468, "Lockdown":1918, "SARS":249, "Asymptomatic":5644, "Hydroxychloroquine":3355
+
+},{
+	"date": "06-12",
+	"Hydroxychloroquine":3212, "Epidemic":1359, "Lockdown":1752, "Super-spreader":49, "Vaccine":2167, "Coronavirus":24113, "Remdesivir":5523, "Asymptomatic":4066, "Respirator":776, "Pandemic":6238, "SARS":243
+
+},{
+	"date": "06-13",
+	"Asymptomatic":4475, "Respirator":646, "Coronavirus":22701, "Vaccine":2134, "Super-spreader":55, "Lockdown":1463, "SARS":239, "Epidemic":1144, "Remdesivir":5669, "Hydroxychloroquine":2645, "Pandemic":5794
+
+},{
+	"date": "06-14",
+	"Pandemic":6181, "Super-spreader":54, "Vaccine":2063, "Asymptomatic":4750, "Remdesivir":6805, "Lockdown":1627, "Epidemic":1224, "Hydroxychloroquine":2754, "Respirator":630, "Coronavirus":23642, "SARS":253
+
+},{
+	"date": "06-15",
+	"Pandemic":6414, "Lockdown":1626, "Hydroxychloroquine":4130, "Respirator":789, "Remdesivir":5775, "Epidemic":1318, "Asymptomatic":4154, "Super-spreader":56, "Vaccine":2234, "SARS":267, "Coronavirus":23284
+
+},
+{
+	"date": "06-16",
+	"Hydroxychloroquine":5198, "Respirator":673, "Lockdown":1651, "Remdesivir":7795, "Pandemic":6220, "Epidemic":1292, "Asymptomatic":3592, "Vaccine":2324, "Super-spreader":83, "Coronavirus":24520, "SARS":260
+
+},{
+	"date": "06-17",
+	"Coronavirus":21791, "Pandemic":6056, "Epidemic":1450, "Asymptomatic":3574, "Respirator":750, "Lockdown":1670, "Remdesivir":5464, "Hydroxychloroquine":3700, "Super-spreader":76, "Vaccine":2270, "SARS":275
+
+},{
+	"date": "06-18",
+	"Asymptomatic":3694, "SARS":201, "Epidemic":1467, "Super-spreader":52, "Vaccine":2214, "Pandemic":6445, "Lockdown":1760, "Remdesivir":4877, "Coronavirus":22416, "Respirator":654, "Hydroxychloroquine":3396
+
+},
+{
+	"date": "06-19",
+	"Hydroxychloroquine":2721, "Respirator":715, "Super-spreader":57, "Vaccine":2164, "SARS":251, "Asymptomatic":3933, "Coronavirus":21485, "Epidemic":1384, "Pandemic":6373, "Lockdown":1490, "Remdesivir":4832
+
+},
+{
+	"date": "06-20",
+	"Pandemic":5761, "Hydroxychloroquine":2798, "Asymptomatic":4440, "Respirator":602, "SARS":203, "Remdesivir":8856, "Epidemic":1207, "Lockdown":1422, "Coronavirus":20210, "Super-spreader":58, "Vaccine":2112
+
+},{
+	"date": "06-21",
+	"Vaccine":2074, "Super-spreader":45, "Pandemic":6008, "Remdesivir":14286, "Lockdown":1308, "SARS":233, "Hydroxychloroquine":2640, "Asymptomatic":3637, "Epidemic":1119, "Coronavirus":20363, "Respirator":583
+
+},{
+	"date": "06-22",
+	"Coronavirus":22268, "Hydroxychloroquine":2653, "Remdesivir":13440, "Pandemic":6417, "Respirator":713, "SARS":248, "Super-spreader":48, "Vaccine":2252, "Epidemic":1310, "Lockdown":1618, "Asymptomatic":4288
+
+},{
+	"date": "06-23",
+	"Lockdown":1799, "Asymptomatic":4344, "SARS":247, "Pandemic":5875, "Respirator":706, "Epidemic":1241, "Hydroxychloroquine":2478, "Super-spreader":54, "Vaccine":2431, "Remdesivir":8710, "Coronavirus":20399
+
+},{
+	"date": "06-24",
+	"Respirator":738, "Hydroxychloroquine":2493, "Epidemic":1304, "Pandemic":5990, "Asymptomatic":5093, "Lockdown":1716, "Coronavirus":20357, "SARS":244, "Super-spreader":53, "Vaccine":2446, "Remdesivir":7264
+
+},
+{
+	"date": "06-25",
+	"Coronavirus":20566, "Asymptomatic":4714, "Epidemic":1257, "Pandemic":6163, "Vaccine":2148, "Super-spreader":50, "Lockdown":1617, "Hydroxychloroquine":2764, "Respirator":778, "Remdesivir":14795, "SARS":248
+
+},
+{
+	"date": "06-26",
+	"Remdesivir":11262, "Pandemic":5908, "Lockdown":1536, "Asymptomatic":5235, "Hydroxychloroquine":2507, "Respirator":811, "Coronavirus":20098, "Vaccine":2216, "Super-spreader":49, "Epidemic":1268, "SARS":280
+},{
+	"date": "06-27",
+	"Vaccine":1946, "Super-spreader":61, "SARS":281, "Epidemic":1161, "Lockdown":1452, "Coronavirus":18934, "Hydroxychloroquine":2456, "Asymptomatic":4031, "Remdesivir":7427, "Pandemic":5847, "Respirator":639
+
+},{
+	"date": "06-28",
+	"Vaccine":1981, "Super-spreader":57, "Lockdown":1595, "Respirator":687, "Remdesivir":7143, "Hydroxychloroquine":2538, "SARS":272, "Epidemic":1213, "Pandemic":6797, "Coronavirus":19374, "Asymptomatic":3590
+
+},{
+	"date": "06-29",
+	"Coronavirus":20486, "Super-spreader":53, "Vaccine":2265, "Hydroxychloroquine":2710, "Remdesivir":26746, "SARS":296, "Lockdown":1917, "Pandemic":7269, "Asymptomatic":4190, "Epidemic":1288, "Respirator":828
+
+},
+{
+	"date": "06-30",
+	"Hydroxychloroquine":2814, "Epidemic":1301, "Pandemic":7771, "Remdesivir":37390, "SARS":351, "Respirator":821, "Super-spreader":71, "Vaccine":2485, "Coronavirus":20966, "Asymptomatic":4088, "Lockdown":2936
+},{
+	"date": "07-01",
+	"Asymptomatic":3879, "Epidemic":1210, "Lockdown":1957, "SARS":254, "Pandemic":6581, "Hydroxychloroquine":2897, "Coronavirus":19914, "Vaccine":2351, "Super-spreader":74, "Respirator":744, "Remdesivir":70316
+
+},{
+	"date": "07-02",
+	"Asymptomatic":3913, "Pandemic":6420, "Hydroxychloroquine":2516, "Vaccine":2735, "Super-spreader":72, "Epidemic":1187, "SARS":282, "Coronavirus":22990, "Lockdown":1656, "Remdesivir":41088, "Respirator":726
+
+},{
+	"date": "07-03",
+	"SARS":268, "Coronavirus":20886, "Hydroxychloroquine":5222, "Remdesivir":24834, "Asymptomatic":4260, "Pandemic":5964, "Epidemic":1138, "Lockdown":1514, "Respirator":709, "Vaccine":3137, "Super-spreader":79
+
+},
+{
+	"date": "07-04",
+	"Epidemic":1127, "Asymptomatic":5052, "Respirator":610, "Lockdown":1441, "Coronavirus":18848, "Vaccine":2552, "Super-spreader":58, "Pandemic":5522, "SARS":206, "Remdesivir":16193, "Hydroxychloroquine":5808
+
+},
+{
+	"date": "07-05",
+	"Respirator":548, "Hydroxychloroquine":4399, "Pandemic":5760, "Remdesivir":13404, "Coronavirus":19805, "Lockdown":1850, "SARS":252, "Super-spreader":44, "Vaccine":2358, "Asymptomatic":5207, "Epidemic":1201
+
+},
+{
+	"date": "07-06",
+	"Coronavirus":22406, "Asymptomatic":5440, "Remdesivir":13604, "Pandemic":8502, "Respirator":775, "Hydroxychloroquine":4697, "SARS":317, "Lockdown":1663, "Vaccine":2552, "Super-spreader":77, "Epidemic":1720
+},
+{
+	"date": "07-07",
+	"Remdesivir":11893, "Lockdown":1927, "Pandemic":8034, "Hydroxychloroquine":7031, "SARS":303, "Epidemic":1853, "Super-spreader":73, "Vaccine":2599, "Coronavirus":21619, "Asymptomatic":6013, "Respirator":785
+},
+{
+	"date": "07-08",
+	"Coronavirus":22133, "Pandemic":7490, "Epidemic":2099, "Hydroxychloroquine":6739, "Asymptomatic":5181, "Super-spreader":57, "Vaccine":2848, "Respirator":858, "SARS":301, "Lockdown":1769, "Remdesivir":11481
+
+},
+{
+	"date": "07-09",
+	"Pandemic":7378, "Respirator":771, "Asymptomatic":4620, "Coronavirus":21635, "Lockdown":1818, "SARS":280, "Vaccine":2378, "Super-spreader":73, "Remdesivir":12832, "Hydroxychloroquine":5484, "Epidemic":1993
+
+},
+{
+	"date": "07-10",
+	"Asymptomatic":4482, "Vaccine":2101, "Super-spreader":49, "Hydroxychloroquine":4404, "SARS":244, "Lockdown":1940, "Pandemic":6871, "Coronavirus":23510, "Respirator":710, "Epidemic":1649, "Remdesivir":17766
+
+},
+{
+	"date": "07-11",
+	"Lockdown":2170, "Asymptomatic":3772, "Pandemic":6169, "Coronavirus":20808, "Respirator":630, "SARS":240, "Hydroxychloroquine":4051, "Epidemic":1374, "Vaccine":1992, "Super-spreader":29, "Remdesivir":24847
+
+},
+{
+	"date": "07-12",
+	"Hydroxychloroquine":3392, "Asymptomatic":4253, "Remdesivir":14399, "Super-spreader":47, "Vaccine":2167, "Lockdown":2251, "Pandemic":6467, "Respirator":701, "Coronavirus":20668, "Epidemic":1338, "SARS":268
+
+},
+
+{
+	"date": "07-13",
+	"Coronavirus":21761, "Remdesivir":12515, "Hydroxychloroquine":4091, "Lockdown":2246, "SARS":279, "Asymptomatic":5413, "Vaccine":2969, "Super-spreader":68, "Epidemic":1483, "Pandemic":6970, "Respirator":804
+
+},
+{
+	"date": "07-14",
+	"Hydroxychloroquine":3954, "Remdesivir":10672, "Vaccine":3175, "Super-spreader":58, "Coronavirus":24176, "Epidemic":1605, "Pandemic":7710, "Respirator":904, "Asymptomatic":4717, "Lockdown":2416, "SARS":330
+
+},
+
+{
+	"date": "07-15",
+	"Vaccine":3596, "Super-spreader":74, "Pandemic":7509, "SARS":278, "Lockdown":2096, "Remdesivir":9218, "Respirator":861, "Coronavirus":22416, "Epidemic":1537, "Hydroxychloroquine":3943, "Asymptomatic":4681
+
+},
+{
+	"date": "07-16",
+	"Remdesivir":9641, "Epidemic":1366, "Coronavirus":20941, "Hydroxychloroquine":4771, "Lockdown":2056, "Vaccine":3336, "Super-spreader":64, "Respirator":850, "Asymptomatic":4234, "Pandemic":7155, "SARS":313
+
+},
+{
+	"date": "07-17",
+	"Remdesivir":9757, "Epidemic":1207, "Lockdown":1775, "Coronavirus":20249, "SARS":255, "Pandemic":6962, "Hydroxychloroquine":3848, "Respirator":920, "Asymptomatic":4522, "Super-spreader":58, "Vaccine":3003
+
+},{
+	"date": "07-18",
+	"Remdesivir":10432, "Lockdown":1439, "SARS":269, "Coronavirus":19070, "Respirator":825, "Pandemic":6341, "Hydroxychloroquine":3066, "Super-spreader":58, "Vaccine":2800, "Epidemic":1182, "Asymptomatic":3682
+
+},{
+	"date": "07-19",
+	"Respirator":685, "Epidemic":1208, "Pandemic":7052, "Remdesivir":10625, "Lockdown":1780, "SARS":290, "Super-spreader":52, "Vaccine":2816, "Asymptomatic":3066, "Coronavirus":20004, "Hydroxychloroquine":3348
+
+},
+{
+	"date": "07-20",
+	"Asymptomatic":3637, "Remdesivir":9860, "Hydroxychloroquine":3402, "Pandemic":6683, "Super-spreader":68, "Vaccine":4141, "Respirator":751, "SARS":297, "Epidemic":1307, "Lockdown":2000, "Coronavirus":21341
+
+},
+{
+	"date": "07-21",
+	"Respirator":833, "Epidemic":1230, "Pandemic":6353, "Super-spreader":59, "Vaccine":4135, "Lockdown":1846, "Asymptomatic":3585, "SARS":305, "Remdesivir":8020, "Hydroxychloroquine":3496, "Coronavirus":20102
+
+},{
+	"date": "07-22",
+	"Lockdown":1841, "Epidemic":1293, "Coronavirus":19884, "Pandemic":6424, "Respirator":838, "Remdesivir":7594, "Vaccine":3346, "Super-spreader":47, "Asymptomatic":3432, "Hydroxychloroquine":3310, "SARS":269
+
+},
+{
+	"date": "07-23",
+	"Remdesivir":7035, "Lockdown":1888, "SARS":277, "Respirator":819, "Hydroxychloroquine":3730, "Vaccine":3268, "Super-spreader":55, "Pandemic":6488, "Coronavirus":20187, "Epidemic":1325, "Asymptomatic":3236
+
+},{
+	"date": "07-24",
+	"Asymptomatic":3199, "Remdesivir":8762, "Respirator":721, "Epidemic":1069, "Super-spreader":49, "Vaccine":2775, "SARS":273, "Pandemic":6314, "Lockdown":1288, "Hydroxychloroquine":3207, "Coronavirus":18439
+
+},
+{
+	"date": "07-25",
+	"Asymptomatic":2788, "Remdesivir":7135, "Lockdown":1129, "Vaccine":2326, "Super-spreader":47, "Coronavirus":17388, "Hydroxychloroquine":2969, "SARS":250, "Epidemic":932, "Respirator":595, "Pandemic":5978
+
+},
+{
+	"date": "07-26",
+	"Asymptomatic":2477, "Vaccine":2459, "Super-spreader":42, "Epidemic":913, "Lockdown":1143, "Pandemic":6066, "SARS":252, "Hydroxychloroquine":3107, "Remdesivir":6635, "Coronavirus":17343, "Respirator":595
+
+},
+{
+	"date": "07-27",
+	"SARS":290, "Hydroxychloroquine":6209, "Vaccine":2993, "Super-spreader":48, "Remdesivir":6600, "Lockdown":1274, "Epidemic":1127, "Respirator":729, "Pandemic":6846, "Asymptomatic":2952, "Coronavirus":19085
+},
+{
+	"date": "07-28",
+	"Hydroxychloroquine":40286, "Coronavirus":19456, "Vaccine":2907, "Super-spreader":42, "Remdesivir":12681, "Lockdown":1230, "Epidemic":1141, "Asymptomatic":2951, "Respirator":669, "Pandemic":6408, "SARS":265
+
+},
+{
+	"date": "07-29",
+	"Hydroxychloroquine":44528, "Lockdown":1215, "Epidemic":1134, "Coronavirus":18642, "Respirator":640, "Super-spreader":62, "Vaccine":2807, "Asymptomatic":2903, "SARS":291, "Remdesivir":15964, "Pandemic":6479
+
+},
+{
+	"date": "07-30",
+	"Epidemic":987, "Lockdown":1256, "Coronavirus":17757, "Remdesivir":9429, "Asymptomatic":3273, "Pandemic":6562, "Hydroxychloroquine":30770, "SARS":277, "Respirator":637, "Vaccine":2559, "Super-spreader":55
+
+},
+
+{
+	"date": "07-31",
+	"Pandemic":5979, "Coronavirus":17476, "Epidemic":911, "Hydroxychloroquine":20298, "Lockdown":1110, "Super-spreader":52, "Vaccine":2525, "Asymptomatic":2724, "SARS":238, "Respirator":561, "Remdesivir":8178
+},
+{
+	"date": "08-01",
+	"Hydroxychloroquine":15099, "Respirator":515, "Coronavirus":15044, "Remdesivir":5792, "Vaccine":2076, "Super-spreader":55, "Lockdown":1006, "SARS":223, "Asymptomatic":2124, "Pandemic":5807, "Epidemic":766
+
+},
+{
+	"date": "08-02",
+	"Asymptomatic":2314, "Remdesivir":5094, "SARS":299, "Respirator":505, "Hydroxychloroquine":15057, "Super-spreader":53, "Vaccine":2198, "Epidemic":877, "Pandemic":6124, "Lockdown":1106, "Coronavirus":16269
+},{
+	"date": "08-03",
+	"Lockdown":1125, "Respirator":603, "Remdesivir":5768, "Asymptomatic":3617, "Super-spreader":62, "Vaccine":2250, "Epidemic":989, "Pandemic":6574, "Hydroxychloroquine":15389, "SARS":256, "Coronavirus":16457
+
+},{
+	"date": "08-04",
+	"SARS":268, "Asymptomatic":2895, "Respirator":605, "Coronavirus":18100, "Remdesivir":6343, "Epidemic":918, "Hydroxychloroquine":22823, "Vaccine":2500, "Super-spreader":60, "Lockdown":1211, "Pandemic":6451
+
+},{
+	"date": "08-05",
+	"Respirator":574, "Hydroxychloroquine":19859, "Pandemic":6298, "Vaccine":2161, "Super-spreader":50, "Lockdown":1170, "Coronavirus":18060, "SARS":260, "Remdesivir":5256, "Epidemic":1243, "Asymptomatic":2396
+
+},{
+	"date": "08-06",
+	"Asymptomatic":2777, "SARS":241, "Remdesivir":5935, "Lockdown":1161, "Coronavirus":16445, "Epidemic":1008, "Respirator":570, "Pandemic":5848, "Hydroxychloroquine":17428, "Super-spreader":52, "Vaccine":2315
+
+},
+{
+	"date": "08-07",
+	"Hydroxychloroquine":14860, "Respirator":516, "Asymptomatic":2893, "Remdesivir":5874, "Epidemic":905, "Lockdown":1166, "SARS":222, "Coronavirus":16118, "Pandemic":6119, "Super-spreader":38, "Vaccine":2378
+
+},
+
+{
+	"date": "08-08",
+	"Asymptomatic":2118, "Remdesivir":4406, "SARS":193, "Epidemic":871, "Hydroxychloroquine":13283, "Pandemic":5590, "Coronavirus":15297, "Respirator":471, "Lockdown":967, "Super-spreader":37, "Vaccine":2437
+
+},{
+	"date": "08-09",
+	"Vaccine":2220, "Super-spreader":57, "Coronavirus":15149, "Respirator":464, "Hydroxychloroquine":11981, "Epidemic":933, "Remdesivir":4078, "Lockdown":1312, "Asymptomatic":1933, "Pandemic":6008, "SARS":218
+
+},{
+	"date": "08-10",
+	"Epidemic":943, "Coronavirus":16628, "Remdesivir":4371, "Hydroxychloroquine":11627, "Lockdown":1232, "Respirator":563, "Asymptomatic":2258, "SARS":235, "Super-spreader":47, "Vaccine":2558, "Pandemic":6293
+
+},
+{
+	"date": "08-11",
+	"SARS":258, "Coronavirus":16281, "Pandemic":7670, "Super-spreader":52, "Vaccine":4776, "Remdesivir":4493, "Asymptomatic":2174, "Hydroxychloroquine":11191, "Respirator":674, "Epidemic":1075, "Lockdown":1235
+
+},
+{
+	"date": "08-12",
+	"Epidemic":981, "Remdesivir":3816, "Coronavirus":15082, "Lockdown":1157, "Hydroxychloroquine":9940, "SARS":212, "Vaccine":4694, "Super-spreader":44, "Respirator":579, "Asymptomatic":2036, "Pandemic":5880
+
+},
+
+
+
+{
+	"date": "08-13",
+	"Vaccine":3350, "Super-spreader":38, "Respirator":574, "Coronavirus":14943, "Asymptomatic":2073, "Remdesivir":5298, "Pandemic":6012, "Hydroxychloroquine":9990, "Lockdown":1129, "Epidemic":930, "SARS":258
+
+},
+{
+	"date": "08-14",
+	"Super-spreader":47, "Vaccine":3001, "Hydroxychloroquine":9194, "Remdesivir":4949, "Lockdown":1347, "SARS":218, "Coronavirus":13804, "Respirator":496, "Pandemic":5477, "Asymptomatic":1894, "Epidemic":918
+
+},{
+	"date": "08-15",
+	"Epidemic":807, "Lockdown":1076, "Coronavirus":12761, "Remdesivir":3827, "Super-spreader":33, "Vaccine":2478, "Pandemic":5140, "Asymptomatic":1669, "Hydroxychloroquine":7178, "Respirator":419, "SARS":171
+
+},{
+	"date": "08-16",
+	"Remdesivir":3429, "Hydroxychloroquine":7501, "Lockdown":1219, "Vaccine":2411, "Super-spreader":35, "SARS":197, "Coronavirus":13416, "Pandemic":5462, "Respirator":458, "Asymptomatic":1526, "Epidemic":872
+
+},{
+	"date": "08-17",
+	"Asymptomatic":1765, "Hydroxychloroquine":7240, "Epidemic":999, "SARS":238, "Lockdown":1502, "Respirator":606, "Remdesivir":3514, "Super-spreader":43, "Vaccine":2667, "Coronavirus":14251, "Pandemic":5541
+
+},{
+	"date": "08-18",
+	"SARS":219, "Hydroxychloroquine":6384, "Asymptomatic":1854, "Lockdown":1488, "Coronavirus":13942, "Epidemic":1023, "Pandemic":5671, "Remdesivir":3291, "Respirator":533, "Vaccine":2443, "Super-spreader":51
+},{
+	"date": "08-19",
+	"Coronavirus":13289, "Hydroxychloroquine":6144, "Respirator":558, "Super-spreader":44, "Vaccine":2585, "Remdesivir":3478, "Asymptomatic":1695, "Pandemic":5773, "Epidemic":1010, "SARS":228, "Lockdown":1436
+
+},{
+	"date": "08-20",
+	"Coronavirus":12558, "Asymptomatic":1847, "Epidemic":934, "SARS":197, "Lockdown":1487, "Remdesivir":3339, "Hydroxychloroquine":6229, "Super-spreader":56, "Vaccine":2396, "Pandemic":5471, "Respirator":543
+
+},{
+	"date": "08-21",
+	"Asymptomatic":1725, "Hydroxychloroquine":5836, "Super-spreader":40, "Vaccine":2182, "Respirator":493, "Coronavirus":12157, "SARS":166, "Lockdown":1360, "Epidemic":841, "Remdesivir":3332, "Pandemic":5202
+
+},
+{
+	"date": "08-22",
+	"Epidemic":783, "SARS":185, "Respirator":442, "Asymptomatic":1332, "Lockdown":1302, "Remdesivir":3192, "Coronavirus":11312, "Super-spreader":38, "Vaccine":1992, "Hydroxychloroquine":4866, "Pandemic":5319
+},
+{
+	"date": "08-23",
+	"Hydroxychloroquine":5122, "Asymptomatic":1601, "Epidemic":829, "Lockdown":1695, "Coronavirus":11699, "SARS":229, "Vaccine":2179, "Super-spreader":40, "Remdesivir":3229, "Respirator":453, "Pandemic":5315
+
+},{
+	"date": "08-24",
+	"Remdesivir":3245, "Respirator":550, "Asymptomatic":2037, "Lockdown":1693, "Super-spreader":43, "Vaccine":2348, "Coronavirus":13961, "SARS":204, "Hydroxychloroquine":7083, "Pandemic":5304, "Epidemic":1000
+
+},{
+	"date": "08-25",
+	"Respirator":548, "SARS":203, "Asymptomatic":2026, "Hydroxychloroquine":5661, "Epidemic":1083, "Lockdown":1657, "Super-spreader":35, "Vaccine":2384, "Coronavirus":14010, "Pandemic":5304, "Remdesivir":3177
+
+},{
+	"date": "08-26",
+	"Asymptomatic":2034, "Lockdown":1809, "Hydroxychloroquine":4794, "Respirator":568, "Epidemic":1117, "Pandemic":5270, "Super-spreader":43, "Vaccine":2473, "Coronavirus":13670, "Remdesivir":2612, "SARS":225
+
+},
+
+{
+	"date": "08-27",
+	"SARS":204, "Super-spreader":43, "Vaccine":2247, "Lockdown":2006, "Epidemic":1025, "Asymptomatic":2213, "Coronavirus":12979, "Respirator":513, "Pandemic":5319, "Remdesivir":2909, "Hydroxychloroquine":4279
+
+},
+
+{
+	"date": "08-28",
+	"Pandemic":4914, "Lockdown":1349, "Coronavirus":11907, "Asymptomatic":2012, "Super-spreader":55, "Vaccine":2187, "Remdesivir":3304, "Hydroxychloroquine":4054, "Respirator":509, "SARS":159, "Epidemic":1003
+
+},{
+	"date": "08-29",
+	"Lockdown":1419, "Epidemic":830, "SARS":155, "Super-spreader":37, "Vaccine":1806, "Hydroxychloroquine":3517, "Pandemic":4573, "Coronavirus":10912, "Remdesivir":3991, "Respirator":387, "Asymptomatic":1723
+
+},{
+	"date": "08-30",
+	"Vaccine":1652, "Super-spreader":41, "Respirator":413, "Lockdown":1669, "Pandemic":4994, "SARS":175, "Asymptomatic":1463, "Hydroxychloroquine":3957, "Coronavirus":11091, "Remdesivir":3197, "Epidemic":818
+
+},{
+	"date": "08-31",
+	"Vaccine":2117, "Super-spreader":50, "Pandemic":5364, "Respirator":481, "Remdesivir":3466, "SARS":215, "Epidemic":1009, "Hydroxychloroquine":3972, "Asymptomatic":1764, "Lockdown":1820, "Coronavirus":12720
+
+},
+
+
+
+{
+	"date": "09-01",
+	"Coronavirus":12817, "SARS":193, "Asymptomatic":1678, "Hydroxychloroquine":3938, "Remdesivir":3744, "Super-spreader":37, "Vaccine":2007, "Lockdown":1852, "Pandemic":5639, "Respirator":465, "Epidemic":1042
+
+},
+{
+	"date": "09-02",
+	"Epidemic":1046, "Asymptomatic":1651, "Coronavirus":12146, "Respirator":503, "Pandemic":5399, "SARS":192, "Lockdown":1908, "Super-spreader":47, "Vaccine":2151, "Remdesivir":3888, "Hydroxychloroquine":4708
+
+},
+{
+	"date": "09-03",
+	"Lockdown":1863, "Hydroxychloroquine":3702, "Super-spreader":41, "Vaccine":2335, "Epidemic":1003, "Respirator":490, "SARS":207, "Asymptomatic":1754, "Pandemic":5436, "Remdesivir":4166, "Coronavirus":12582
+},
+{
+	"date": "09-04",
+	"Respirator":488, "Hydroxychloroquine":3269, "Vaccine":2247, "Super-spreader":47, "Coronavirus":12051, "Pandemic":4848, "Lockdown":1294, "SARS":164, "Epidemic":906, "Remdesivir":3646, "Asymptomatic":1827
+
+},
+{
+	"date": "09-05",
+	"Remdesivir":3087, "Hydroxychloroquine":2990, "SARS":183, "Asymptomatic":1363, "Lockdown":1105, "Coronavirus":10237, "Epidemic":740, "Super-spreader":35, "Vaccine":1942, "Pandemic":4277, "Respirator":329
+
+},{
+	"date": "09-06",
+	"Asymptomatic":1334, "Vaccine":1863, "Super-spreader":30, "Hydroxychloroquine":2920, "SARS":197, "Pandemic":4784, "Coronavirus":11712, "Lockdown":1828, "Remdesivir":3189, "Respirator":343, "Epidemic":871
+
+},{
+	"date": "09-07",
+	"Coronavirus":13307, "Super-spreader":32, "Vaccine":2102, "Respirator":565, "Asymptomatic":1611, "Lockdown":1836, "Remdesivir":3214, "Hydroxychloroquine":2892, "Epidemic":1084, "SARS":186, "Pandemic":5086
+
+},
+
+{
+	"date": "09-08",
+	"Coronavirus":13595, "Hydroxychloroquine":3251, "Remdesivir":3462, "Epidemic":1139, "Asymptomatic":1613, "Respirator":467, "Vaccine":2467, "Super-spreader":31, "Lockdown":1798, "Pandemic":5511, "SARS":231
+
+},
+
+{
+	"date": "09-09",
+	"Asymptomatic":1696, "Lockdown":1956, "SARS":229, "Vaccine":2557, "Super-spreader":40, "Hydroxychloroquine":3588, "Respirator":620, "Coronavirus":13258, "Pandemic":5213, "Remdesivir":4044, "Epidemic":1042
+
+},{
+	"date": "09-10",
+	"Lockdown":2019, "Asymptomatic":1893, "Respirator":616, "Remdesivir":3697, "SARS":196, "Epidemic":1028, "Pandemic":5430, "Hydroxychloroquine":3419, "Vaccine":2335, "Super-spreader":42, "Coronavirus":13495
+
+},
+{
+	"date": "09-11",
+	"Respirator":578, "Vaccine":2144, "Super-spreader":31, "Pandemic":5180, "Asymptomatic":1694, "Hydroxychloroquine":2906, "Epidemic":1098, "Lockdown":1450, "Remdesivir":3336, "SARS":244, "Coronavirus":13460
+
+},
+{
+	"date": "09-12",
+	"Pandemic":4430, "SARS":188, "Hydroxychloroquine":2738, "Super-spreader":42, "Vaccine":1906, "Coronavirus":11618, "Respirator":476, "Epidemic":874, "Remdesivir":3083, "Lockdown":1226, "Asymptomatic":1844
+
+},
+{
+	"date": "09-13",
+	"Respirator":532, "Hydroxychloroquine":2763, "SARS":209, "Asymptomatic":1436, "Super-spreader":41, "Vaccine":2011, "Coronavirus":13341, "Remdesivir":3108, "Pandemic":4712, "Lockdown":1605, "Epidemic":914
+
+},
+{
+	"date": "09-14",
+	"Pandemic":5422, "SARS":248, "Hydroxychloroquine":2913, "Super-spreader":43, "Vaccine":2380, "Asymptomatic":1389, "Epidemic":1072, "Lockdown":2017, "Coronavirus":13755, "Respirator":616, "Remdesivir":3510
+
+},
+{
+	"date": "09-15",
+	"Respirator":688, "Remdesivir":3525, "Asymptomatic":1330, "Coronavirus":14751, "Vaccine":2408, "Super-spreader":40, "Pandemic":5109, "Hydroxychloroquine":2908, "SARS":217, "Lockdown":2031, "Epidemic":1028
+},
+{
+	"date": "09-16",
+	"Respirator":625, "SARS":267, "Pandemic":5169, "Coronavirus":15304, "Asymptomatic":1333, "Epidemic":1082, "Remdesivir":3584, "Hydroxychloroquine":3074, "Super-spreader":33, "Vaccine":2528, "Lockdown":1858
+
+},
+{
+	"date": "09-17",
+	"Lockdown":1758, "Pandemic":5348, "Epidemic":1139, "Asymptomatic":1596, "Super-spreader":55, "Vaccine":2724, "Respirator":522, "Hydroxychloroquine":3236, "SARS":217, "Coronavirus":15644, "Remdesivir":3729
+
+},
+{
+	"date": "09-18",
+	"Respirator":509, "Lockdown":1592, "Pandemic":5297, "Remdesivir":3540, "Asymptomatic":1931, "Super-spreader":43, "Vaccine":2522, "Hydroxychloroquine":2887, "Coronavirus":14056, "Epidemic":1053, "SARS":229
+
+},
+{
+	"date": "09-19",
+	"SARS":177, "Remdesivir":3210, "Hydroxychloroquine":2768, "Coronavirus":11779, "Vaccine":2165, "Super-spreader":36, "Respirator":355, "Asymptomatic":1540, "Pandemic":4469, "Lockdown":1365, "Epidemic":901
+},{
+	"date": "09-20",
+	"Asymptomatic":1236, "Coronavirus":12193, "Super-spreader":38, "Vaccine":2180, "Respirator":340, "Hydroxychloroquine":2633, "Remdesivir":3192, "Pandemic":4667, "Epidemic":918, "Lockdown":1887, "SARS":148
+
+}
+];
+
+
+
+
+
+
+
+var data_wordcloud_weeks = {
+  1 : [
+{"tag":"Qasem_Soleimani","count":2115604},
+{"tag":"The_Witcher_(TV_series)","count":1865585},
+{"tag":"Star_Wars:_The_Rise_of_Skywalker","count":1297640},
+{"tag":"NSA_ANT_catalog","count":1124325},
+{"tag":"You_(season_2)","count":1096682},
+{"tag":"The_Mandalorian","count":1065063},
+{"tag":"Luka_Magnotta","count":896120},
+{"tag":"Christine_Keeler","count":800049},
+{"tag":"The_Witcher","count":740629},
+{"tag":"Natašha_Stanković","count":727581},
+{"tag":"Anya_Chalotra","count":708454},
+{"tag":"World_War_III","count":663235},
+{"tag":"Cats_(2019_film)","count":617327},
+{"tag":"Linda_Ronstadt","count":611504},
+{"tag":"Dracula_(2020_TV_series)","count":582469},
+{"tag":"Messiah_(American_TV_series)","count":532329},
+{"tag":"Good_Newwz","count":529990},
+{"tag":"Victoria_Pedretti","count":526838},
+{"tag":"Knives_Out_(film)","count":500001},
+{"tag":"The_Irishman","count":487894},
+{"tag":"David_Stern","count":448320},
+{"tag":"List_of_Star_Wars_films","count":448153},
+{"tag":"Carlos_Ghosn","count":442555},
+{"tag":"Ken_Miles","count":438669},
+{"tag":"Uncut_Gems","count":434877},
+{"tag":"Dabangg_3","count":421423},
+{"tag":"Quds_Force","count":402723},
+{"tag":"Pope_Benedict_XVI","count":389063},
+{"tag":"Deaths_in_2020","count":385900},
+{"tag":"Kepler\s_Supernova","count":384915},
+{"tag":"Brooklyn","count":384021},
+{"tag":"Jumanji:_The_Next_Level","count":350711},
+{"tag":"1917_(2019_film)","count":335215},
+{"tag":"Parasite_(2019_film)","count":331527},
+{"tag":"Mandalorian","count":322880},
+{"tag":"File:Logo_of_YouTube_(2015-2017).svg","count":314916},
+{"tag":"Lost_in_Space_(2018_TV_series)","count":314150},
+{"tag":"BBC_World_Service","count":300015},
+{"tag":"Apple_Network_Server","count":299295},
+{"tag":"Marriage_Story_(2019_film)","count":294438},
+{"tag":"Stephen_Ward","count":293381},
+{"tag":"Freya_Allan","count":291212},
+{"tag":"Frozen_II","count":290092},
+{"tag":"2020_Baghdad_International_Airport_airstrike","count":285430},
+{"tag":"John_Profumo","count":279240},
+{"tag":"Selective_Service_System","count":272729},
+{"tag":"Richard_Jewell","count":270938},
+{"tag":"The_Two_Popes","count":270544},
+{"tag":"6_Underground_(film)","count":270043},
+{"tag":"Harpejji","count":268803},
+{"tag":"Paula_Abdul","count":268606},
+{"tag":"Profumo_affair","count":268169},
+{"tag":"2019–20_Australian_bushfire_season","count":267955},
+{"tag":"2020_PDC_World_Darts_Championship","count":266872},
+{"tag":"Bushfires_in_Australia","count":265570},
+{"tag":"Kushal_Punjabi","count":262877},
+{"tag":"Crisis_on_Infinite_Earths_(Arrowverse)","count":262447},
+{"tag":"Bombshell_(2019_film)","count":259035},
+{"tag":"Sark","count":254954},
+{"tag":"The_Witcher_(video_game)","count":252854}
+],
+  2 : [
+{"tag":"Media","count":7158967},
+{"tag":"Qasem_Soleimani","count":2814138},
+{"tag":"World_War_III","count":1113335},
+{"tag":"The_Witcher_(TV_series)","count":1086149},
+{"tag":"Dracula_(2020_TV_series)","count":975394},
+{"tag":"1917_(2019_film)","count":847249},
+{"tag":"Laxmi_Agarwal","count":814077},
+{"tag":"77th_Golden_Globe_Awards","count":779599},
+{"tag":"Bushfires_in_Australia","count":768684},
+{"tag":"Star_Wars:_The_Rise_of_Skywalker","count":758376},
+{"tag":"White_elephant_gift_exchange","count":723953},
+{"tag":"Luka_Magnotta","count":709756},
+{"tag":"Deaths_in_2020","count":672862},
+{"tag":"2020_Baghdad_International_Airport_airstrike","count":615543},
+{"tag":"2019–20_Australian_bushfire_season","count":604013},
+{"tag":"Iran_Air_Flight_655","count":588093},
+{"tag":"You_(season_2)","count":586603},
+{"tag":"Parasite_(2019_film)","count":577315},
+{"tag":"Jeffrey_Epstein","count":562313},
+{"tag":"Messiah_(American_TV_series)","count":553977},
+{"tag":"The_Mandalorian","count":548517},
+{"tag":"BBC_World_Service","count":492655},
+{"tag":"Iran–United_States_relations","count":481945},
+{"tag":"The_Witcher","count":477302},
+{"tag":"Josh_McCown","count":463025},
+{"tag":"Ukraine_International_Airlines_Flight_752","count":456709},
+{"tag":"Anya_Chalotra","count":442274},
+{"tag":"White_House_Farm_murders","count":435144},
+{"tag":"List_of_states_with_nuclear_weapons","count":427890},
+{"tag":"Knives_Out_(film)","count":427561},
+{"tag":"Capitol_Hill\s_mystery_soda_machine","count":414171},
+{"tag":"Subaru_Impreza","count":413935},
+{"tag":"Selective_Service_System","count":404620},
+{"tag":"The_Irishman","count":397092},
+{"tag":"Quds_Force","count":394407},
+{"tag":"Ronan_Farrow","count":391637},
+{"tag":"Chhapaak","count":390861},
+{"tag":"Brooklyn","count":382251},
+{"tag":"Felicity_Huffman","count":381618},
+{"tag":"Mike_Vrabel","count":380481},
+{"tag":"Derrick_Henry","count":378700},
+{"tag":"Kepler\s_Supernova","count":368473},
+{"tag":"Ken_Miles","count":353433},
+{"tag":"Cats_(2019_film)","count":352505},
+{"tag":"Sam_Mendes","count":341377},
+{"tag":"2020_ATP_Cup","count":338355},
+{"tag":"Good_Newwz","count":336291},
+{"tag":"Ruhollah_Khomeini","count":333241},
+{"tag":"Golden_Globe_Awards","count":332007},
+{"tag":"Crisis_on_Infinite_Earths_(Arrowverse)","count":331255},
+{"tag":"Marriage_Story_(2019_film)","count":322359},
+{"tag":"Claes_Bang","count":318239},
+{"tag":"Christine_Keeler","count":315356},
+{"tag":"Iran–Iraq_War","count":310824},
+{"tag":"File:Logo_of_YouTube_(2015-2017).svg","count":307220},
+{"tag":"Victoria_Pedretti","count":298451},
+{"tag":"Uncut_Gems","count":295058},
+{"tag":"Armed_Forces_of_the_Islamic_Republic_of_Iran","count":294474},
+{"tag":"Joe_Judge_(American_football)","count":292492},
+{"tag":"Apple_Network_Server","count":290928}
+],
+  3 : [
+{"tag":"Under_arms","count":3194269},
+{"tag":"1917_(2019_film)","count":1223557},
+{"tag":"Taal_Volcano","count":1133236},
+{"tag":"Tanhaji","count":1041681},
+{"tag":"Neil_Peart","count":1029363},
+{"tag":"Crisis_on_Infinite_Earths_(Arrowverse)","count":997119},
+{"tag":"Morbius,_the_Living_Vampire","count":916254},
+{"tag":"Donald_trump","count":786374},
+{"tag":"Morbius_(film)","count":753387},
+{"tag":"Parasite_(2019_film)","count":738950},
+{"tag":"Quique_Setién","count":722641},
+{"tag":"Joe_Burrow","count":699065},
+{"tag":"Deaths_in_2020","count":684349},
+{"tag":"The_Witcher_(TV_series)","count":659507},
+{"tag":"92nd_Academy_Awards","count":655225},
+{"tag":"Chhapaak","count":624281},
+{"tag":"Luka_Magnotta","count":555807},
+{"tag":"Tanaji_Malusare","count":544690},
+{"tag":"Star_Wars:_The_Rise_of_Skywalker","count":535747},
+{"tag":"NikkieTutorials","count":529070},
+{"tag":"Derrick_Henry","count":499000},
+{"tag":"Murder_of_Odin_Lloyd","count":496225},
+{"tag":"Ed_Orgeron","count":487430},
+{"tag":"Ala_Vaikunthapurramuloo","count":476039},
+{"tag":"Rocky_Johnson","count":453940},
+{"tag":"Haitham_bin_Tariq_Al_Said","count":442601},
+{"tag":"Bad_Boys_for_Life","count":406858},
+{"tag":"White_House_Farm_murders","count":406605},
+{"tag":"Iran_Air_Flight_655","count":398815},
+{"tag":"Laxmi_Agarwal","count":398133},
+{"tag":"Rush_(band)","count":396924},
+{"tag":"Brooklyn","count":386724},
+{"tag":"The_Outsider_(miniseries)","count":380571},
+{"tag":"The_Irishman","count":376857},
+{"tag":"File:Logo_of_YouTube_(2015-2017).svg","count":375207},
+{"tag":"Qaboos_bin_Said_al_Said","count":372081},
+{"tag":"BBC_World_Service","count":368847},
+{"tag":"Ukraine_International_Airlines_Flight_752","count":363545},
+{"tag":"Kepler\s_Supernova","count":353447},
+{"tag":"Jojo_Rabbit","count":350822},
+{"tag":"Jimmy_Hoffa","count":345419},
+{"tag":"You_(season_2)","count":344041},
+{"tag":"Mike_Vrabel","count":341729},
+{"tag":"Dolittle_(film)","count":334564},
+{"tag":"Darbar_(film)","count":333741},
+{"tag":"Bill_Cowher","count":332694},
+{"tag":"Florence_Pugh","count":331073},
+{"tag":"Messiah_(American_TV_series)","count":320263},
+{"tag":"The_Mandalorian","count":317677},
+{"tag":"Bombshell_(2019_film)","count":313307},
+{"tag":"The_Outsider_(King_novel)","count":312985},
+{"tag":"Marriage_Story_(2019_film)","count":310962},
+{"tag":"Ken_Miles","count":308967},
+{"tag":"Media","count":307465},
+{"tag":"Luke_Kuechly","count":303290},
+{"tag":"Sarileru_Neekevvaru","count":300733},
+{"tag":"Dracula_(2020_TV_series)","count":299321},
+{"tag":"The_Witcher","count":295845},
+{"tag":"Royal_Rumble_(2020)","count":292752},
+{"tag":"Battle_of_Sinhagad","count":286555}
+],
+  4 : [
+{"tag":"Coronavirus","count":2464670},
+{"tag":"1917_(2019_film)","count":996266},
+{"tag":"Delonte_West","count":818720},
+{"tag":"Murder_of_Odin_Lloyd","count":741415},
+{"tag":"Anna_May_Wong","count":726240},
+{"tag":"Bad_Boys_for_Life","count":720938},
+{"tag":"Feminism","count":719858},
+{"tag":"Parasite_(2019_film)","count":717481},
+{"tag":"UFC_246","count":709039},
+{"tag":"Deaths_in_2020","count":684348},
+{"tag":"Tanhaji","count":643124},
+{"tag":"Terry_Jones","count":624679},
+{"tag":"Media","count":529251},
+{"tag":"Crisis_on_Infinite_Earths_(Arrowverse)","count":529209},
+{"tag":"Jimmy_Garoppolo","count":520980},
+{"tag":"MBC_2_(Middle_East_and_North_Africa)","count":512563},
+{"tag":"2019–20_outbreak_of_novel_coronavirus_(2019-nCoV)","count":485940},
+{"tag":"Royal_Rumble_(2020)","count":472855},
+{"tag":"Luka_Magnotta","count":472428},
+{"tag":"The_Witcher_(TV_series)","count":462895},
+{"tag":"Music_to_Be_Murdered_By","count":443288},
+{"tag":"Raheem_Mostert","count":424593},
+{"tag":"Dolittle_(film)","count":396044},
+{"tag":"Severe_acute_respiratory_syndrome","count":385991},
+{"tag":"Star_Trek:_Picard","count":381384},
+{"tag":"Brooklyn","count":374013},
+{"tag":"The_Outsider_(miniseries)","count":343846},
+{"tag":"Kepler\s_Supernova","count":340045},
+{"tag":"Novel_coronavirus_(2019-nCoV)","count":329450},
+{"tag":"BBC_World_Service","count":327196},
+{"tag":"San_Francisco_49ers","count":326393},
+{"tag":"Terminator:_Dark_Fate","count":325059},
+{"tag":"Star_Wars:_The_Rise_of_Skywalker","count":324959},
+{"tag":"Adam_Schiff","count":321782},
+{"tag":"Ala_Vaikunthapurramuloo","count":311677},
+{"tag":"Wuhan","count":308983},
+{"tag":"The_Irishman","count":308146},
+{"tag":"2020_Australian_Open","count":307191},
+{"tag":"Annabella_Sciorra","count":301644},
+{"tag":"File:Logo_of_YouTube_(2015-2017).svg","count":298944},
+{"tag":"92nd_Academy_Awards","count":282747},
+{"tag":"Little_Women_(2019_film)","count":282704},
+{"tag":"Apple_Network_Server","count":278489},
+{"tag":"Stephen_Ward","count":276340},
+{"tag":"Jojo_Rabbit","count":269315},
+{"tag":"White_House_Farm_murders","count":268334},
+{"tag":"Chronic_traumatic_encephalopathy","count":267006},
+{"tag":"Tanaji_Malusare","count":266816},
+{"tag":"Kyle_Shanahan","count":265613},
+{"tag":"A_Fall_from_Grace","count":257971},
+{"tag":"Ken_Miles","count":256985},
+{"tag":"123Movies","count":256441},
+{"tag":"The_Outsider_(King_novel)","count":249066},
+{"tag":"2019–20_Wuhan_coronavirus_outbreak","count":245682},
+{"tag":"2020_Australian_Open_–_Men\s_Singles","count":244297},
+{"tag":"Jorge_Masvidal","count":241067},
+{"tag":"Erling_Braut_Håland","count":237478},
+{"tag":"The_Mandalorian","count":236862},
+{"tag":"Category:German_prefixes","count":234234},
+{"tag":"Isabel_dos_Santos","count":231089}
+],
+  5 : [
+{"tag":"Coronavirus","count":5880619},
+{"tag":"Kobe_Bryant_sexual_assault_case","count":3782529},
+{"tag":"2019–20_Wuhan_coronavirus_outbreak","count":2956179},
+{"tag":"Royal_Rumble_(2020)","count":2043670},
+{"tag":"Sikorsky_S-76","count":1477557},
+{"tag":"Joe_Bryant","count":1397958},
+{"tag":"Death_of_Kobe_Bryant","count":1355942},
+{"tag":"Novel_coronavirus_(2019-nCoV)","count":1019524},
+{"tag":"John_Altobelli","count":858420},
+{"tag":"Severe_acute_respiratory_syndrome","count":849950},
+{"tag":"Deaths_in_2020","count":802164},
+{"tag":"62nd_Annual_Grammy_Awards","count":713436},
+{"tag":"Wuhan","count":679475},
+{"tag":"1917_(2019_film)","count":637666},
+{"tag":"Doordarshan","count":635812},
+{"tag":"Ammunition_technician","count":635564},
+{"tag":"Nipsey_Hussle","count":551923},
+{"tag":"Parasite_(2019_film)","count":482124},
+{"tag":"Spanish_flu","count":471953},
+{"tag":"Jerry_West","count":467129},
+{"tag":"Brooklyn","count":434279},
+{"tag":"BBC_World_Service","count":425290},
+{"tag":"Tanhaji","count":423629},
+{"tag":"Sofia_Kenin","count":421144},
+{"tag":"Calabasas,_California","count":420487},
+{"tag":"Star_Trek:_Picard","count":416382},
+{"tag":"Maggie_Baird","count":403283},
+{"tag":"Timeline_of_the_2019–20_Wuhan_coronavirus_outbreak","count":400917},
+{"tag":"2020_Australian_Open","count":394065},
+{"tag":"Dominic_Thiem","count":392655},
+{"tag":"Shaun_Weiss","count":388237},
+{"tag":"Tyler,_the_Creator","count":387794},
+{"tag":"Nick_Kyrgios","count":373395},
+{"tag":"Street_Dancer_3D","count":368480},
+{"tag":"Media","count":364750},
+{"tag":"The_Witcher_(TV_series)","count":344525},
+{"tag":"Kepler\s_Supernova","count":343070},
+{"tag":"Luka_Magnotta","count":333775},
+{"tag":"Lil_Nas_X","count":327504},
+{"tag":"List_of_epidemics","count":323368},
+{"tag":"Ken_Miles","count":320116},
+{"tag":"Edge_(wrestler)","count":319079},
+{"tag":"Bruno_Fernandes_(footballer,_born_1994)","count":315895},
+{"tag":"Tanya_Tucker","count":311015},
+{"tag":"Christine_Keeler","count":306492},
+{"tag":"2020_Australian_Open_–_Men\s_Singles","count":305264},
+{"tag":"Apple_Network_Server","count":301615},
+{"tag":"Tennys_Sandgren","count":296428},
+{"tag":"Mehmed_the_Conqueror","count":295835},
+{"tag":"Ashleigh_Barty","count":294511},
+{"tag":"Timeline_of_the_SARS_outbreak","count":293290},
+{"tag":"2019–20_Wuhan_coronavirus_outbreak_by_country_and_territory","count":292425},
+{"tag":"Nicholas_Parsons","count":286561},
+{"tag":"October_Faction_(TV_series)","count":286384},
+{"tag":"Patrick_F._Philbin","count":285637},
+{"tag":"Severe_acute_respiratory_syndrome-related_coronavirus","count":285002},
+{"tag":"Alan_Dershowitz","count":278353},
+{"tag":"Terminator:_Dark_Fate","count":276501},
+{"tag":"Contagion_(2011_film)","count":269375},
+{"tag":"Pablo_Marí","count":268724}
+],
+  6 : [
+{"tag":"2019–20_Wuhan_coronavirus_outbreak","count":2302528},
+{"tag":"Coronavirus","count":1573442},
+{"tag":"Andy_Reid","count":1506317},
+{"tag":"Iowa_caucuses","count":1257923},
+{"tag":"Kansas_City_Chiefs","count":1249633},
+{"tag":"Rush_Limbaugh","count":1094406},
+{"tag":"Jimmy_Garoppolo","count":1080625},
+{"tag":"2020_Iowa_Democratic_caucuses","count":1012742},
+{"tag":"Media","count":976118},
+{"tag":"Pat_Mahomes","count":860901},
+{"tag":"List_of_Presidential_Medal_of_Freedom_recipients","count":790967},
+{"tag":"Deaths_in_2020","count":712694},
+{"tag":"Parasite_(2019_film)","count":617374},
+{"tag":"Uncut_Gems","count":587565},
+{"tag":"Sofia_Kenin","count":555881},
+{"tag":"Super_Bowl_LIV_halftime_show","count":541386},
+{"tag":"The_Stranger_(miniseries)","count":537166},
+{"tag":"1917_(2019_film)","count":534940},
+{"tag":"Odion_Ighalo","count":525459},
+{"tag":"2019–20_Wuhan_coronavirus_outbreak_by_country_and_territory","count":496315},
+{"tag":"Vodacom","count":491729},
+{"tag":"Michael_Bloomberg","count":486596},
+{"tag":"Kobe_Bryant_sexual_assault_case","count":469886},
+{"tag":"Fast_&_Furious_9","count":455139},
+{"tag":"Anne_Buydens","count":452387},
+{"tag":"Ken_Miles","count":451052},
+{"tag":"Novel_coronavirus_(2019-nCoV)","count":430593},
+{"tag":"Kansas_City,_Missouri","count":422319},
+{"tag":"Brooklyn","count":404640},
+{"tag":"Clark_Hunt","count":399953},
+{"tag":"Presidential_Medal_of_Freedom","count":397705},
+{"tag":"Kyle_Shanahan","count":391549},
+{"tag":"Eric_Douglas","count":391084},
+{"tag":"Donald_trump","count":376052},
+{"tag":"Lamar_Hunt","count":356184},
+{"tag":"92nd_Academy_Awards","count":341422},
+{"tag":"Kepler\s_Supernova","count":340711},
+{"tag":"BBC_World_Service","count":335085},
+{"tag":"Bigg_Boss_(Hindi_season_13)","count":327749},
+{"tag":"Jojo_Rabbit","count":327569},
+{"tag":"Category:German_prefixes","count":323127},
+{"tag":"Diana_Douglas","count":317018},
+{"tag":"The_Masked_Singer_(American_TV_series)","count":313824},
+{"tag":"Timeline_of_the_2019–20_Wuhan_coronavirus_outbreak","count":311107},
+{"tag":"Antonio_de_la_Rúa","count":305731},
+{"tag":"Apple_Network_Server","count":301513},
+{"tag":"Severe_acute_respiratory_syndrome","count":298413},
+{"tag":"Dominic_Thiem","count":296056},
+{"tag":"Spanish_flu","count":291571},
+{"tag":"Katie_Sowers","count":287983},
+{"tag":"Shannen_Doherty","count":284053},
+{"tag":"Under-19_Cricket_World_Cup","count":281291},
+{"tag":"Travis_Kelce","count":280772},
+{"tag":"Wuhan","count":279692},
+{"tag":"The_Masked_Singer_(American_season_2)","count":279643},
+{"tag":"Tyrann_Mathieu","count":278453},
+{"tag":"File:Logo_of_YouTube_(2015-2017).svg","count":277043},
+{"tag":"Scouting","count":273934},
+{"tag":"Tanhaji","count":273865},
+{"tag":"Star_Trek:_Picard","count":273124}
+],
+  7 : [
+{"tag":"Parasite_(2019_film)","count":4967045},
+{"tag":"92nd_Academy_Awards","count":2235147},
+{"tag":"2019–20_Wuhan_coronavirus_outbreak","count":1861476},
+{"tag":"Birds_of_Prey_(2020_film)","count":1210388},
+{"tag":"Coronavirus","count":1191753},
+{"tag":"Bong_Joon-ho","count":948241},
+{"tag":"Locke_&_Key_(TV_series)","count":848707},
+{"tag":"Media","count":776263},
+{"tag":"Deaths_in_2020","count":724951},
+{"tag":"Orson_Bean","count":703491},
+{"tag":"Jojo_Rabbit","count":702232},
+{"tag":"Taika_Waititi","count":658459},
+{"tag":"Gulab_jamun","count":637690},
+{"tag":"Diane_Ladd","count":619626},
+{"tag":"1917_(2019_film)","count":605895},
+{"tag":"Locke_&_Key","count":522787},
+{"tag":"2020_Delhi_Legislative_Assembly_election","count":519077},
+{"tag":"Ken_Miles","count":513820},
+{"tag":"UFC_247","count":488125},
+{"tag":"2020_Irish_general_election","count":485429},
+{"tag":"Sonic_the_Hedgehog_(film)","count":485076},
+{"tag":"Arvind_Kejriwal","count":461329},
+{"tag":"Bigg_Boss_(Hindi_season_13)","count":454424},
+{"tag":"Rishi_Sunak","count":446385},
+{"tag":"2020_New_Hampshire_Democratic_primary","count":428317},
+{"tag":"Bruce_Dern","count":404981},
+{"tag":"Kepler\s_Supernova","count":378368},
+{"tag":"Donald_trump","count":374507},
+{"tag":"Uncut_Gems","count":372868},
+{"tag":"BBC_World_Service","count":371040},
+{"tag":"Snowpiercer","count":365450},
+{"tag":"2019–20_Wuhan_coronavirus_outbreak_by_country_and_territory","count":364101},
+{"tag":"Malang_(film)","count":345515},
+{"tag":"To_All_the_Boys:_P.S._I_Still_Love_You","count":345380},
+{"tag":"Knives_Out_(film)","count":337188},
+{"tag":"Under-19_Cricket_World_Cup","count":316971},
+{"tag":"Doyle_Bramhall_II","count":314169},
+{"tag":"The_Stranger_(British_TV_series)","count":314060},
+{"tag":"Little_Women_(2019_film)","count":305880},
+{"tag":"Horse_Girl","count":304575},
+{"tag":"File:Logo_of_YouTube_(2015-2017).svg","count":303184},
+{"tag":"Marriage_Story","count":300842},
+{"tag":"Sinn_Féin","count":298551},
+{"tag":"Ford_v_Ferrari","count":297993},
+{"tag":"The_Irishman","count":297593},
+{"tag":"2015_Delhi_Legislative_Assembly_election","count":296934},
+{"tag":"Andrew_Yang","count":291206},
+{"tag":"Billy_Porter_(entertainer)","count":281269},
+{"tag":"Cynthia_Erivo","count":280445},
+{"tag":"Crash_Landing_on_You","count":279733},
+{"tag":"Dominick_Reyes","count":277711},
+{"tag":"Category:German_prefixes","count":270185},
+{"tag":"Phillip_Schofield","count":266999},
+{"tag":"List_of_Presidential_Medal_of_Freedom_recipients","count":265527},
+{"tag":"Super_Tuesday","count":264111},
+{"tag":"Bombshell_(2019_film)","count":261267},
+{"tag":"Judy_(film)","count":255285},
+{"tag":"Bob_Knight","count":252237},
+{"tag":"Fantasy_Island_(film)","count":249610},
+{"tag":"Super_ShowDown_(2020)","count":249098}
+],
+  8 : [
+{"tag":"Caroline_Flack","count":2873757},
+{"tag":"Michael_Bloomberg","count":1853700},
+{"tag":"Parasite_(2019_film)","count":1734993},
+{"tag":"Ninety-ninety_rule","count":1469211},
+{"tag":"Don\t_repeat_yourself","count":1464041},
+{"tag":"Pop_Smoke","count":1092415},
+{"tag":"2019–20_Wuhan_coronavirus_outbreak","count":971488},
+{"tag":"Sonic_the_Hedgehog_(film)","count":886858},
+{"tag":"Ken_Miles","count":825972},
+{"tag":"Deaths_in_2020","count":771991},
+{"tag":"Bigg_Boss_(Hindi_season_13)","count":658788},
+{"tag":"Coronavirus","count":632839},
+{"tag":"Ryan_Newman_(racing_driver)","count":600195},
+{"tag":"Amado_Carrillo_Fuentes","count":585171},
+{"tag":"Media","count":582694},
+{"tag":"Rod_Blagojevich","count":572970},
+{"tag":"Pablo_Acosta_Villarreal","count":570337},
+{"tag":"Erling_Braut_Håland","count":560151},
+{"tag":"Crash_Landing_on_You","count":551592},
+{"tag":"2020_Democratic_Party_presidential_debates","count":478899},
+{"tag":"Locke_&_Key_(TV_series)","count":447216},
+{"tag":"Index_of_Windows_games_(S)","count":442127},
+{"tag":"Fantasy_Island_(film)","count":439269},
+{"tag":"Donald_trump","count":380894},
+{"tag":"2019–20_coronavirus_outbreak","count":373081},
+{"tag":"1917_(2019_film)","count":371388},
+{"tag":"Kepler\s_Supernova","count":370017},
+{"tag":"Maha_Shivaratri","count":359860},
+{"tag":"Third_Battle_of_Panipat","count":352920},
+{"tag":"Houston_Astros_sign_stealing_scandal","count":351431},
+{"tag":"Ja\Net_DuBois","count":342024},
+{"tag":"Jojo_Rabbit","count":338540},
+{"tag":"Bible","count":338043},
+{"tag":"Martin_Braithwaite","count":336592},
+{"tag":"Love_Aaj_Kal_(2020_film)","count":312319},
+{"tag":"To_All_the_Boys:_P.S._I_Still_Love_You","count":306545},
+{"tag":"Héctor_Luis_Palma_Salazar","count":303507},
+{"tag":"Carroll_Shelby","count":297023},
+{"tag":"Lewis_Burton","count":291834},
+{"tag":"BBC_World_Service","count":281851},
+{"tag":"Deontay_Wilder_vs._Tyson_Fury_II","count":274527},
+{"tag":"Ford_v_Ferrari","count":273952},
+{"tag":"Bong_Joon-ho","count":266896},
+{"tag":"Diana_Taylor_(superintendent)","count":265334},
+{"tag":"The_Stranger_(British_TV_series)","count":264170},
+{"tag":"The_Eyes_of_Darkness","count":260652},
+{"tag":"Locke_&_Key","count":249400},
+{"tag":"Drew_Carey","count":248981},
+{"tag":"Sidharth_Shukla","count":247922},
+{"tag":"Rafael_Aguilar_Guajardo","count":245409},
+{"tag":"List_of_Bollywood_films_of_2020","count":240958},
+{"tag":"The_Outsider_(miniseries)","count":239505},
+{"tag":"NXT_TakeOver:_Portland","count":239224},
+{"tag":"Apple_Network_Server","count":237906},
+{"tag":"Crab_mentality","count":231840},
+{"tag":"Chespirito","count":230344},
+{"tag":"Bloomberg_L.P.","count":227955},
+{"tag":"2020_NBA_All-Star_Game","count":222310},
+{"tag":"Kaitlin_Bennett","count":220667},
+{"tag":"Brooklyn","count":219451}
+],
+  9 : [
+{"tag":"2019–20_coronavirus_outbreak","count":2253984},
+{"tag":"Coronavirus","count":1770424},
+{"tag":"2019–20_coronavirus_outbreak_by_country_and_territory","count":997834},
+{"tag":"Parasite_(2019_film)","count":873671},
+{"tag":"Super_ShowDown_(2020)","count":824609},
+{"tag":"The_Invisible_Man_(2020_film)","count":739871},
+{"tag":"Deaths_in_2020","count":732952},
+{"tag":"Media","count":709872},
+{"tag":"Mouth_assessment","count":685823},
+{"tag":"Hunters_(2020_TV_series)","count":662352},
+{"tag":"2019–20_Wuhan_coronavirus_outbreak","count":568190},
+{"tag":"2020_coronavirus_outbreak_in_Italy","count":552291},
+{"tag":"Deontay_Wilder_vs._Tyson_Fury_II","count":551223},
+{"tag":"2020_Nevada_Democratic_caucuses","count":542701},
+{"tag":"Spanish_flu","count":500906},
+{"tag":"The_Eyes_of_Darkness","count":491090},
+{"tag":"Doordarshan","count":482863},
+{"tag":"Ken_Miles","count":467986},
+{"tag":"Coronavirus_disease_2019","count":467944},
+{"tag":"Bible","count":461342},
+{"tag":"2020_Democratic_Party_presidential_debates","count":437828},
+{"tag":"Super_Tuesday","count":426265},
+{"tag":"John_Tenniel","count":414160},
+{"tag":"Deontay_Wilder_vs._Tyson_Fury","count":401437},
+{"tag":"Sonic_the_Hedgehog_(film)","count":398811},
+{"tag":"Crash_Landing_on_You","count":398626},
+{"tag":"Kepler\s_Supernova","count":391761},
+{"tag":"Love_Is_Blind_(TV_series)","count":385495},
+{"tag":"Amado_Carrillo_Fuentes","count":375866},
+{"tag":"Donald_trump","count":375503},
+{"tag":"Jake_Lloyd","count":360344},
+{"tag":"Pandemic","count":358797},
+{"tag":"Mike_Hughes_(daredevil)","count":336141},
+{"tag":"Index_of_Windows_games_(S)","count":325012},
+{"tag":"Pablo_Acosta_Villarreal","count":323507},
+{"tag":"File:UFC_Fight_Night_Felder_vs._Hooker_Official_Poster.jpg","count":322484},
+{"tag":"2009_flu_pandemic","count":284060},
+{"tag":"Duffy_(singer)","count":282556},
+{"tag":"Microsoft_Office","count":280935},
+{"tag":"Indian_Idol","count":278836},
+{"tag":"Maria_Sharapova","count":275141},
+{"tag":"The_Last_Thing_He_Wanted_(film)","count":271815},
+{"tag":"Locke_&_Key_(TV_series)","count":268790},
+{"tag":"Jojo_Rabbit","count":263269},
+{"tag":"Candyman_(1992_film)","count":258324},
+{"tag":"The_Rape_of_Proserpina","count":255394},
+{"tag":"North_East_Delhi_riots","count":252652},
+{"tag":"Dynamic_perfect_hashing","count":252054},
+{"tag":"Wladimir_Klitschko","count":251936},
+{"tag":"List_of_Bollywood_films_of_2020","count":250160},
+{"tag":"Pop_Smoke","count":248662},
+{"tag":"2020_South_Carolina_Democratic_primary","count":247492},
+{"tag":"Shubh_Mangal_Zyada_Saavdhan","count":245791},
+{"tag":"Citizenship_(Amendment)_Act,_2019","count":243072},
+{"tag":"Apple_Network_Server","count":240689},
+{"tag":"2020_coronavirus_outbreak_in_Europe","count":239448},
+{"tag":"Altered_Carbon_(TV_series)","count":231513},
+{"tag":"Bhoot_–_Part_One:_The_Haunted_Ship","count":229738},
+{"tag":"UFC_Fight_Night:_Felder_vs._Hooker","count":228227},
+{"tag":"Brooklyn","count":225600}
+],
+  10 : [
+{"tag":"United_States_Senate","count":36611280},
+{"tag":"2019–20_coronavirus_outbreak","count":3395369},
+{"tag":"Coronavirus","count":2106940},
+{"tag":"Super_Tuesday","count":1420177},
+{"tag":"The_Invisible_Man_(2020_film)","count":1132940},
+{"tag":"Wikipedia:Picture_of_the_day","count":1123474},
+{"tag":"2019–20_coronavirus_outbreak_by_country_and_territory","count":1095203},
+{"tag":"2020_coronavirus_outbreak_in_Italy","count":747178},
+{"tag":"Deaths_in_2020","count":736525},
+{"tag":"Coronavirus_disease_2019","count":698173},
+{"tag":"The_Trials_of_Gabriel_Fernandez","count":605688},
+{"tag":"February_29","count":561335},
+{"tag":"Zhong_Nanshan","count":520045},
+{"tag":"Parasite_(2019_film)","count":473951},
+{"tag":"Altered_Carbon_(TV_series)","count":467156},
+{"tag":"2009_flu_pandemic","count":428668},
+{"tag":"2020_coronavirus_outbreak_in_the_United_States","count":424673},
+{"tag":"David_Byrne","count":404642},
+{"tag":"Boris_Johnson","count":399841},
+{"tag":"The_Eyes_of_Darkness","count":399005},
+{"tag":"2019–20_Wuhan_coronavirus_outbreak","count":380266},
+{"tag":"Colin_McRae","count":379913},
+{"tag":"Hunters_(2020_TV_series)","count":379504},
+{"tag":"Severe_acute_respiratory_syndrome_coronavirus_2","count":373584},
+{"tag":"Love_Is_Blind_(TV_series)","count":370814},
+{"tag":"2020_coronavirus_outbreak_in_Germany","count":369111},
+{"tag":"Onward_(film)","count":368484},
+{"tag":"Donald_trump","count":366943},
+{"tag":"BBC_World_Service","count":366370},
+{"tag":"Ken_Miles","count":365915},
+{"tag":"2020_Democratic_Party_presidential_debates","count":360596},
+{"tag":"Kepler\s_Supernova","count":357773},
+{"tag":"2020_coronavirus_outbreak_in_Europe","count":352720},
+{"tag":"Results_of_the_2020_Democratic_Party_presidential_primaries","count":349725},
+{"tag":"Crash_Landing_on_You","count":322445},
+{"tag":"Elimination_Chamber_(2020)","count":322120},
+{"tag":"2020_Republican_Party_presidential_primaries","count":316909},
+{"tag":"2020_coronavirus_outbreak_in_Spain","count":314884},
+{"tag":"2020_California_Democratic_primary","count":310990},
+{"tag":"Jack_Welch","count":310462},
+{"tag":"I_Am_Not_Okay_with_This","count":302745},
+{"tag":"Muhyiddin_Yassin","count":294195},
+{"tag":"James_Lipton","count":294097},
+{"tag":"Marvi_Sirmed","count":286733},
+{"tag":"Severe_acute_respiratory_syndrome","count":286599},
+{"tag":"Knives_Out","count":283950},
+{"tag":"2020_South_Carolina_Democratic_primary","count":277652},
+{"tag":"List_of_Bollywood_films_of_2020","count":270499},
+{"tag":"Priti_Patel","count":269904},
+{"tag":"Microsoft_Office","count":265564},
+{"tag":"Eurovision_Song_Contest_2020","count":261427},
+{"tag":"Carlton_Tavern,_Kilburn","count":248636},
+{"tag":"All_the_Bright_Places_(film)","count":243611},
+{"tag":"American_Samoa","count":243072},
+{"tag":"Jill_Biden","count":240473},
+{"tag":"Pandemic","count":239060},
+{"tag":"Green\s_function","count":238805},
+{"tag":"North_East_Delhi_riots","count":236813},
+{"tag":"Apple_Network_Server","count":233453},
+{"tag":"2020_coronavirus_outbreak_in_South_Korea","count":225037}
+],
+  11 : [
+{"tag":"Laptop","count":4555043},
+{"tag":"2019–20_coronavirus_outbreak","count":3411208},
+{"tag":"Coronavirus","count":2612837},
+{"tag":"2019–20_coronavirus_pandemic","count":2373742},
+{"tag":"Coronavirus_disease_2019","count":1571319},
+{"tag":"Pandemic","count":1387075},
+{"tag":"Spanish_flu","count":1377731},
+{"tag":"2009_flu_pandemic","count":1114419},
+{"tag":"2019–20_coronavirus_outbreak_by_country_and_territory","count":1011885},
+{"tag":"Vaginal_evisceration","count":999650},
+{"tag":"Fisting","count":909211},
+{"tag":"2020_coronavirus_outbreak_in_Italy","count":778264},
+{"tag":"Deaths_in_2020","count":775425},
+{"tag":"The_Eyes_of_Darkness","count":738981},
+{"tag":"Milicia_excelsa","count":707259},
+{"tag":"Jyotiraditya_Scindia","count":703355},
+{"tag":"Elimination_Chamber_(2020)","count":701951},
+{"tag":"2020_coronavirus_outbreak_in_the_United_States","count":665579},
+{"tag":"UFC_248","count":646462},
+{"tag":"Severe_acute_respiratory_syndrome_coronavirus_2","count":601056},
+{"tag":"Spenser_Confidential","count":582923},
+{"tag":"The_Invisible_Man_(2020_film)","count":566328},
+{"tag":"2020_coronavirus_outbreak_in_Germany","count":541653},
+{"tag":"List_of_epidemics","count":498258},
+{"tag":"Baaghi_3","count":481612},
+{"tag":"2019–20_Wuhan_coronavirus_outbreak","count":474924},
+{"tag":"Contagion_(2011_film)","count":463558},
+{"tag":"2020_coronavirus_outbreak_in_Spain","count":461221},
+{"tag":"2020_coronavirus_outbreak_in_India","count":454048},
+{"tag":"Severe_acute_respiratory_syndrome","count":436627},
+{"tag":"Onward_(film)","count":436319},
+{"tag":"Kepler\s_Supernova","count":425958},
+{"tag":"2020_coronavirus_pandemic_in_the_United_States","count":399333},
+{"tag":"2020_coronavirus_pandemic_in_Italy","count":375980},
+{"tag":"Akon","count":372134},
+{"tag":"Rudy_Gobert","count":366617},
+{"tag":"Zhong_Nanshan","count":363284},
+{"tag":"2019–20_coronavirus_pandemic_by_country_and_territory","count":355759},
+{"tag":"Donald_trump","count":349770},
+{"tag":"2020_coronavirus_outbreak_in_Europe","count":342957},
+{"tag":"Parasite_(2019_film)","count":337945},
+{"tag":"Influenza_A_virus_subtype_H1N1","count":337170},
+{"tag":"BBC_World_Service","count":336559},
+{"tag":"List_of_largest_daily_changes_in_the_Dow_Jones_Industrial_Average","count":317507},
+{"tag":"Ken_Miles","count":317101},
+{"tag":"The_Trials_of_Gabriel_Fernandez","count":312983},
+{"tag":"2020_coronavirus_outbreak_in_France","count":305577},
+{"tag":"Swine_influenza","count":296561},
+{"tag":"Madhavrao_Scindia","count":281361},
+{"tag":"Love_Is_Blind_(TV_series)","count":279702},
+{"tag":"2009_flu_pandemic_in_the_United_States","count":277795},
+{"tag":"State_of_emergency","count":274615},
+{"tag":"The_Hunt_(2020_film)","count":273710},
+{"tag":"Apple_Network_Server","count":272702},
+{"tag":"Yoel_Romero","count":271218},
+{"tag":"Israel_Adesanya","count":269845},
+{"tag":"Michael_Osterholm","count":268509},
+{"tag":"2020_coronavirus_pandemic_in_Germany","count":264203},
+{"tag":"Sylvia_Browne","count":264121},
+{"tag":"List_of_Bollywood_films_of_2020","count":264006}
+],
+  12 : [
+{"tag":"United_States_Senate","count":25786702},
+{"tag":"2019–20_coronavirus_pandemic","count":7313154},
+{"tag":"Coronavirus","count":2985798},
+{"tag":"Coronavirus_disease_2019","count":2383014},
+{"tag":"2020_coronavirus_pandemic_in_Italy","count":1878997},
+{"tag":"2020_coronavirus_pandemic_in_India","count":1647686},
+{"tag":"2020_coronavirus_pandemic_in_the_United_States","count":1617837},
+{"tag":"2019–20_coronavirus_pandemic_by_country_and_territory","count":1326136},
+{"tag":"2009_flu_pandemic","count":1314228},
+{"tag":"Park_Chanyeol","count":1268555},
+{"tag":"2019–20_coronavirus_outbreak","count":1231779},
+{"tag":"Contagion_(2011_film)","count":1110078},
+{"tag":"Martial_law","count":1042653},
+{"tag":"Zhong_Nanshan","count":1005567},
+{"tag":"Pandemic","count":910598},
+{"tag":"The_Eyes_of_Darkness","count":884612},
+{"tag":"Deaths_in_2020","count":837374},
+{"tag":"Stafford_Disaster_Relief_and_Emergency_Assistance_Act","count":783290},
+{"tag":"2020_coronavirus_pandemic_in_Germany","count":762456},
+{"tag":"2020_coronavirus_pandemic_in_Spain","count":722471},
+{"tag":"List_of_epidemics","count":684026},
+{"tag":"Andrew_Cuomo","count":668627},
+{"tag":"2020_coronavirus_pandemic_in_the_United_Kingdom","count":634243},
+{"tag":"2020_coronavirus_pandemic_in_Canada","count":623292},
+{"tag":"Defense_Production_Act","count":616957},
+{"tag":"Severe_acute_respiratory_syndrome_coronavirus_2","count":616079},
+{"tag":"2020_coronavirus_pandemic_in_Europe","count":555724},
+{"tag":"2009_flu_pandemic_in_the_United_States","count":541394},
+{"tag":"2020_coronavirus_pandemic_in_Australia","count":527749},
+{"tag":"Severe_acute_respiratory_syndrome","count":517197},
+{"tag":"Chloroquine","count":516172},
+{"tag":"2019–20_Wuhan_coronavirus_outbreak","count":497987},
+{"tag":"Favipiravir","count":454379},
+{"tag":"Influenza_A_virus_subtype_H1N1","count":453217},
+{"tag":"The_Invisible_Man_(2020_film)","count":443602},
+{"tag":"Chris_Cuomo","count":413946},
+{"tag":"2020_coronavirus_pandemic_in_France","count":408279},
+{"tag":"2020_coronavirus_pandemic_in_the_Philippines","count":408236},
+{"tag":"Mari_Gilbert","count":396391},
+{"tag":"Long_Island_serial_killer","count":395194},
+{"tag":"Kepler\s_Supernova","count":391945},
+{"tag":"Peter_Whittingham","count":391040},
+{"tag":"Martial_law_in_the_United_States","count":386753},
+{"tag":"2020_coronavirus_pandemic_in_South_Africa","count":384835},
+{"tag":"Deborah_L._Birx","count":383454},
+{"tag":"Ken_Miles","count":377762},
+{"tag":"Virus","count":377141},
+{"tag":"Remdesivir","count":363982},
+{"tag":"Donald_trump","count":362405},
+{"tag":"2020_coronavirus_pandemic_in_Sweden","count":360642},
+{"tag":"BBC_World_Service","count":360162},
+{"tag":"Ignaz_Semmelweis","count":359668},
+{"tag":"Jerome_Adams","count":356155},
+{"tag":"Wuhan","count":354316},
+{"tag":"Hydroxychloroquine","count":348532},
+{"tag":"Tangled","count":348181},
+{"tag":"Swine_influenza","count":345843},
+{"tag":"Anthony_Fauci","count":341200},
+{"tag":"Ebola_virus_disease","count":338024},
+{"tag":"2020_coronavirus_pandemic_in_Romania","count":336167}
+],
+  13 : [
+{"tag":"2019–20_coronavirus_pandemic","count":8135658},
+{"tag":"2020_coronavirus_pandemic_in_India","count":3307956},
+{"tag":"Coronavirus","count":2734771},
+{"tag":"Spanish_flu","count":2519501},
+{"tag":"Madam_C._J._Walker","count":2420302},
+{"tag":"Kenny_Rogers","count":2418418},
+{"tag":"2020_coronavirus_pandemic_in_Italy","count":2311994},
+{"tag":"Coronavirus_disease_2019","count":2274772},
+{"tag":"2020_coronavirus_pandemic_in_the_United_States","count":2145345},
+{"tag":"2019–20_coronavirus_pandemic_by_country_and_territory","count":2076014},
+{"tag":"Orthohantavirus","count":1713977},
+{"tag":"2020_coronavirus_pandemic_in_Turkey","count":1516809},
+{"tag":"Andrew_Cuomo","count":1377341},
+{"tag":"A\Lelia_Walker","count":1128855},
+{"tag":"Joseph_Maldonado-Passage","count":1070785},
+{"tag":"2009_flu_pandemic","count":979677},
+{"tag":"Deaths_in_2020","count":978951},
+{"tag":"Tiger_King:_Murder,_Mayhem_and_Madness","count":955904},
+{"tag":"Contagion_(2011_film)","count":929430},
+{"tag":"The_Invisible_Man_(2020_film)","count":818497},
+{"tag":"2020_coronavirus_pandemic_in_the_United_Kingdom","count":753591},
+{"tag":"2020_coronavirus_pandemic_in_Spain","count":735095},
+{"tag":"The_Platform_(film)","count":689477},
+{"tag":"Mark_Blum","count":685018},
+{"tag":"Anthony_Fauci","count":682180},
+{"tag":"2020_coronavirus_pandemic_in_Pakistan","count":646177},
+{"tag":"Favipiravir","count":634360},
+{"tag":"2020_coronavirus_pandemic_in_Germany","count":612090},
+{"tag":"Pandemic","count":605330},
+{"tag":"Severe_acute_respiratory_syndrome_coronavirus_2","count":584106},
+{"tag":"2020_coronavirus_pandemic_in_Australia","count":572441},
+{"tag":"List_of_epidemics","count":550513},
+{"tag":"Hydroxychloroquine","count":549167},
+{"tag":"2020_coronavirus_pandemic_in_Canada","count":530033},
+{"tag":"Chloroquine","count":505540},
+{"tag":"Mario_Cuomo","count":504309},
+{"tag":"Kanika_Kapoor","count":500370},
+{"tag":"2020_coronavirus_pandemic_in_the_Philippines","count":498976},
+{"tag":"Zhong_Nanshan","count":495225},
+{"tag":"2020_coronavirus_pandemic_in_South_Africa","count":477237},
+{"tag":"Martial_law","count":459243},
+{"tag":"Virus","count":456611},
+{"tag":"Fergus_Suter","count":454479},
+{"tag":"Carole_Baskin","count":443359},
+{"tag":"2019–20_coronavirus_outbreak","count":436883},
+{"tag":"Greater_Wynnewood_Exotic_Animal_Park","count":435406},
+{"tag":"Kepler\s_Supernova","count":403797},
+{"tag":"Annie_Malone","count":397231},
+{"tag":"Madam_C._J._Walker_Manufacturing_Company","count":396314},
+{"tag":"Waffle_House_Index","count":391134},
+{"tag":"2020_coronavirus_pandemic_in_France","count":380785},
+{"tag":"COVID-19_testing","count":368858},
+{"tag":"Donald_trump","count":365837},
+{"tag":"Doom_Eternal","count":363815},
+{"tag":"Animal_Crossing","count":356893},
+{"tag":"Deborah_L._Birx","count":347157},
+{"tag":"BBC_World_Service","count":344907},
+{"tag":"2019–20_Wuhan_coronavirus_outbreak","count":344662},
+{"tag":"Parasite_(2019_film)","count":343818},
+{"tag":"Itaewon_Class","count":343424}
+],
+  14 : [
+{"tag":"United_States_Senate","count":28491739},
+{"tag":"2019–20_coronavirus_pandemic","count":5858724},
+{"tag":"Tiger_King:_Murder,_Mayhem_and_Madness","count":2781270},
+{"tag":"Carole_Baskin","count":2373719},
+{"tag":"2020_coronavirus_pandemic_in_India","count":2310482},
+{"tag":"Joe_Exotic","count":2281703},
+{"tag":"2019–20_coronavirus_pandemic_by_country_and_territory","count":2239367},
+{"tag":"2020_coronavirus_pandemic_in_the_United_States","count":1936599},
+{"tag":"Spanish_flu","count":1934399},
+{"tag":"Joseph_Maldonado-Passage","count":1886547},
+{"tag":"Coronavirus_disease_2019","count":1528926},
+{"tag":"Coronavirus","count":1489177},
+{"tag":"2020_coronavirus_pandemic_in_Italy","count":1382265},
+{"tag":"Andrew_Cuomo","count":1337390},
+{"tag":"Joe_Diffie","count":1182279},
+{"tag":"Deaths_in_2020","count":1157802},
+{"tag":"Chris_Cuomo","count":935109},
+{"tag":"Adam_Schlesinger","count":751090},
+{"tag":"The_Platform_(film)","count":688110},
+{"tag":"Anthony_Fauci","count":683425},
+{"tag":"Madam_C._J._Walker","count":671768},
+{"tag":"2020_coronavirus_pandemic_in_Spain","count":653228},
+{"tag":"Ramayan_(1987_TV_series)","count":640323},
+{"tag":"Unorthodox_(miniseries)","count":625789},
+{"tag":"John_Prine","count":623627},
+{"tag":"2020_coronavirus_pandemic_in_the_United_Kingdom","count":619136},
+{"tag":"Tiger","count":609138},
+{"tag":"Greater_Wynnewood_Exotic_Animal_Park","count":576421},
+{"tag":"Mario_Cuomo","count":555909},
+{"tag":"Bill_Withers","count":551294},
+{"tag":"Contagion_(2011_film)","count":540810},
+{"tag":"Jean_Macnamara","count":532770},
+{"tag":"Deborah_Feldman","count":528978},
+{"tag":"The_Invisible_Man_(2020_film)","count":507582},
+{"tag":"2020_coronavirus_pandemic_in_Germany","count":486974},
+{"tag":"2020_coronavirus_pandemic_in_Australia","count":466922},
+{"tag":"2009_flu_pandemic","count":464683},
+{"tag":"USNS_Comfort_(T-AH-20)","count":462815},
+{"tag":"Parasite_(2019_film)","count":458719},
+{"tag":"COVID-19_testing","count":452901},
+{"tag":"2020_coronavirus_pandemic_in_Pakistan","count":442070},
+{"tag":"2020_coronavirus_pandemic_in_Canada","count":441626},
+{"tag":"Shira_Haas","count":433828},
+{"tag":"Julia_Garner","count":421431},
+{"tag":"Tablighi_Jamaat","count":420977},
+{"tag":"User_talk:TreasuryTag","count":417887},
+{"tag":"Kepler\s_Supernova","count":408267},
+{"tag":"Bhagavan_Antle","count":405819},
+{"tag":"Severe_acute_respiratory_syndrome_coronavirus_2","count":370880},
+{"tag":"Deborah_Birx","count":366883},
+{"tag":"Fountains_of_Wayne","count":363301},
+{"tag":"Virus","count":360606},
+{"tag":"Pandemic","count":356007},
+{"tag":"2020_coronavirus_pandemic_in_South_Africa","count":354098},
+{"tag":"Zoom_Video_Communications","count":348620},
+{"tag":"56_Dean_Street","count":347152},
+{"tag":"2020_coronavirus_pandemic_in_France","count":345407},
+{"tag":"2020_coronavirus_pandemic_in_the_Philippines","count":345139},
+{"tag":"2020_coronavirus_pandemic_in_New_York_(state)","count":343275},
+{"tag":"List_of_epidemics","count":327817}
+],
+  15 : [
+{"tag":"United_States_Senate","count":28212392},
+{"tag":"2019–20_coronavirus_pandemic","count":4294296},
+{"tag":"Joe_Exotic","count":2428036},
+{"tag":"2019–20_coronavirus_pandemic_by_country_and_territory","count":2368799},
+{"tag":"Boris_Johnson","count":1991827},
+{"tag":"Carole_Baskin","count":1880434},
+{"tag":"2020_coronavirus_pandemic_in_the_United_States","count":1540424},
+{"tag":"2020_coronavirus_pandemic_in_India","count":1503914},
+{"tag":"Spanish_flu","count":1374689},
+{"tag":"Tiger_King:_Murder,_Mayhem_and_Madness","count":1347137},
+{"tag":"John_Prine","count":1294332},
+{"tag":"Deaths_in_2020","count":1198966},
+{"tag":"Coronavirus_disease_2019","count":1059998},
+{"tag":"Keir_Starmer","count":1043708},
+{"tag":"Coronavirus","count":974833},
+{"tag":"List_of_Money_Heist_episodes","count":833195},
+{"tag":"2020_coronavirus_pandemic_in_Italy","count":826545},
+{"tag":"Dominic_Raab","count":791939},
+{"tag":"Thomas_Modly","count":790869},
+{"tag":"Hydroxychloroquine","count":707787},
+{"tag":"Andrew_Cuomo","count":659949},
+{"tag":"Carrie_Symonds","count":648267},
+{"tag":"Bill_Withers","count":636784},
+{"tag":"Disappearance_of_Don_Lewis","count":607491},
+{"tag":"Unorthodox_(miniseries)","count":606330},
+{"tag":"2020_coronavirus_pandemic_in_the_United_Kingdom","count":553403},
+{"tag":"Jerome_Adams","count":508784},
+{"tag":"Deborah_Feldman","count":506456},
+{"tag":"Honor_Blackman","count":486995},
+{"tag":"2020_coronavirus_pandemic_in_Spain","count":486688},
+{"tag":"Deborah_Birx","count":483358},
+{"tag":"Anthony_Fauci","count":469503},
+{"tag":"Onward_(film)","count":461251},
+{"tag":"Contagion_(2011_film)","count":448901},
+{"tag":"Parasite_(2019_film)","count":442882},
+{"tag":"Chris_Cuomo","count":437481},
+{"tag":"Kepler\s_Supernova","count":403795},
+{"tag":"Tedros_Adhanom","count":395311},
+{"tag":"The_Platform_(film)","count":379415},
+{"tag":"COVID-19_testing","count":375986},
+{"tag":"Shira_Haas","count":375798},
+{"tag":"Hart_Island_(Bronx)","count":374007},
+{"tag":"Ramayan_(1987_TV_series)","count":367144},
+{"tag":"2020_coronavirus_pandemic_in_Germany","count":360942},
+{"tag":"World_Health_Organization","count":357205},
+{"tag":"Julia_Garner","count":354611},
+{"tag":"2020_coronavirus_pandemic_in_France","count":349931},
+{"tag":"Final_Fantasy_VII_Remake","count":344749},
+{"tag":"2020_coronavirus_pandemic_in_Australia","count":344507},
+{"tag":"Dalgona_coffee","count":344047},
+{"tag":"Zoom_Video_Communications","count":340533},
+{"tag":"Marina_Wheeler","count":339895},
+{"tag":"Yanny_or_Laurel","count":337014},
+{"tag":"Bhagavan_Antle","count":329178},
+{"tag":"Adrenochrome","count":316684},
+{"tag":"Timeline_of_the_21st_century","count":315023},
+{"tag":"Template:2019–20_coronavirus_pandemic_data","count":313973},
+{"tag":"2020_coronavirus_pandemic_in_Canada","count":313463},
+{"tag":"2020_coronavirus_pandemic_in_New_York_(state)","count":309562},
+{"tag":"Peter_Navarro","count":303354}
+],
+  16 : [
+{"tag":"United_States_Senate","count":14242621},
+{"tag":"2019–20_coronavirus_pandemic","count":3367890},
+{"tag":"Joe_Exotic","count":1450753},
+{"tag":"Template:2019–20_coronavirus_pandemic_data","count":1337842},
+{"tag":"2020_coronavirus_pandemic_in_the_United_States","count":1230599},
+{"tag":"Charles_Ingram","count":1170025},
+{"tag":"2020_coronavirus_pandemic_in_India","count":1139985},
+{"tag":"2019–20_coronavirus_pandemic_by_country_and_territory","count":1135144},
+{"tag":"Deaths_in_2020","count":1115922},
+{"tag":"Carole_Baskin","count":1102667},
+{"tag":"Mark_Anthony_Stroman","count":1080389},
+{"tag":"Brian_Dennehy","count":944955},
+{"tag":"Spanish_flu","count":944542},
+{"tag":"Coronavirus","count":900677},
+{"tag":"The_Clark_Sisters","count":789500},
+{"tag":"Coronavirus_disease_2019","count":788727},
+{"tag":"List_of_Money_Heist_episodes","count":603335},
+{"tag":"Anthony_Fauci","count":570646},
+{"tag":"2020_coronavirus_pandemic_in_Italy","count":569346},
+{"tag":"Tiger_King:_Murder,_Mayhem_and_Madness","count":542337},
+{"tag":"Shiva_Ayyadurai","count":532505},
+{"tag":"Remdesivir","count":531526},
+{"tag":"Unorthodox_(miniseries)","count":492397},
+{"tag":"Parasite_(2019_film)","count":468922},
+{"tag":"World_Health_Organization","count":466777},
+{"tag":"Final_Fantasy_VII_Remake","count":452245},
+{"tag":"Tiger_King","count":450230},
+{"tag":"Tedros_Adhanom","count":446142},
+{"tag":"Twinkie_Clark","count":440903},
+{"tag":"2020_coronavirus_pandemic_in_the_United_Kingdom","count":432941},
+{"tag":"Tarvaris_Jackson","count":431949},
+{"tag":"Mattie_Moss_Clark","count":417192},
+{"tag":"None","count":400827},
+{"tag":"Tim_Brooke-Taylor","count":391630},
+{"tag":"Deborah_Feldman","count":390514},
+{"tag":"Kepler\s_Supernova","count":368002},
+{"tag":"Boris_Johnson","count":361434},
+{"tag":"Trolls_World_Tour","count":359803},
+{"tag":"Stirling_Moss","count":357950},
+{"tag":"Shira_Haas","count":353607},
+{"tag":"Disappearance_of_Don_Lewis","count":349118},
+{"tag":"John_Horton_Conway","count":348814},
+{"tag":"2020_coronavirus_pandemic_in_Spain","count":347778},
+{"tag":"The_Epoch_Times","count":340844},
+{"tag":"Joel_McHale","count":335308},
+{"tag":"Community_(TV_series)","count":331247},
+{"tag":"Ramayan_(1987_TV_series)","count":330402},
+{"tag":"Hydroxychloroquine","count":329533},
+{"tag":"The_World_of_the_Married","count":328088},
+{"tag":"2020_coronavirus_pandemic_in_Karnataka","count":314123},
+{"tag":"Colby_Cave","count":305689},
+{"tag":"QAnon","count":302230},
+{"tag":"Julia_Garner","count":301071},
+{"tag":"John_Prine","count":286213},
+{"tag":"Gretchen_Whitmer","count":282017},
+{"tag":"2020_coronavirus_pandemic_in_Germany","count":276291},
+{"tag":"2020_coronavirus_pandemic_in_Australia","count":266885},
+{"tag":"Love_Wedding_Repeat","count":260234},
+{"tag":"Kyle_Larson","count":260063},
+{"tag":"Karen_Clark_Sheard","count":259217}
+],
+  17 : [
+{"tag":"Category:Unified_Modeling_Language_stubs","count":3464902},
+{"tag":"2019–20_coronavirus_pandemic","count":2671874},
+{"tag":"Too_Hot_to_Handle_(TV_series)","count":1620551},
+{"tag":"Scottie_Pippen","count":1517621},
+{"tag":"Template:2019–20_coronavirus_pandemic_data","count":1396580},
+{"tag":"David_Koresh","count":1078251},
+{"tag":"Deaths_in_2020","count":1023783},
+{"tag":"Jerry_Krause","count":998422},
+{"tag":"2020_coronavirus_pandemic_in_India","count":947217},
+{"tag":"2019–20_coronavirus_pandemic_by_country_and_territory","count":928848},
+{"tag":"2020_coronavirus_pandemic_in_the_United_States","count":919436},
+{"tag":"Spanish_flu","count":874502},
+{"tag":"Coronavirus","count":773081},
+{"tag":"Kenya_Barris","count":685858},
+{"tag":"Joe_Exotic","count":657913},
+{"tag":"Coronavirus_disease_2019","count":600994},
+{"tag":"Extraction_(2020_film)","count":546924},
+{"tag":"Starlink","count":533855},
+{"tag":"Carole_Baskin","count":533474},
+{"tag":"The_Phantom_of_the_Opera_(1986_musical)","count":525651},
+{"tag":"Andrew_Cuomo","count":512793},
+{"tag":"The_Last_Dance_(2020_TV_series)","count":500428},
+{"tag":"The_World_of_the_Married","count":494712},
+{"tag":"Kepler\s_Supernova","count":486898},
+{"tag":"Amateur_radio_frequency_allocations","count":472939},
+{"tag":"Carolyn_Goodman_(politician)","count":464720},
+{"tag":"The_King:_Eternal_Monarch","count":462375},
+{"tag":"Rashid_Buttar","count":454671},
+{"tag":"Nova_Scotia_killings","count":425894},
+{"tag":"Phil_Jackson","count":424404},
+{"tag":"List_of_Money_Heist_episodes","count":419426},
+{"tag":"Gene_Deitch","count":412386},
+{"tag":"Sérgio_Vieira_de_Mello","count":400106},
+{"tag":"Siegfried_&_Roy","count":399662},
+{"tag":"Ruby_Ridge","count":392007},
+{"tag":"2020_coronavirus_pandemic_in_Italy","count":379098},
+{"tag":"BlackAF","count":368227},
+{"tag":"Fiona_Apple","count":354530},
+{"tag":"Nick_Cordero","count":347579},
+{"tag":"Tiger_King","count":345801},
+{"tag":"Waco_(miniseries)","count":340975},
+{"tag":"2020_coronavirus_pandemic_in_the_United_Kingdom","count":339399},
+{"tag":"Outer_Banks_(TV_series)","count":339205},
+{"tag":"Branch_Davidians","count":336941},
+{"tag":"Anthony_Fauci","count":334494},
+{"tag":"Unorthodox_(miniseries)","count":327728},
+{"tag":"Remdesivir","count":319603},
+{"tag":"Microsoft_Office","count":305824},
+{"tag":"Apple_Network_Server","count":300104},
+{"tag":"Parasite_(2019_film)","count":299977},
+{"tag":"Charles_Ingram","count":295737},
+{"tag":"Julia_Garner","count":289121},
+{"tag":"Kim_Jong-il","count":288898},
+{"tag":"Chicago_Bulls","count":288357},
+{"tag":"Bret_Michaels","count":288331},
+{"tag":"Arnab_Goswami","count":286572},
+{"tag":"Brooklyn","count":285755},
+{"tag":"Little_Fires_Everywhere_(miniseries)","count":285050},
+{"tag":"2020_coronavirus_pandemic_in_Karnataka","count":284286},
+{"tag":"Deborah_Birx","count":276176}
+],
+  18 : [
+{"tag":"Tasuku_Honjo","count":9105419},
+{"tag":"Irrfan_Khan","count":6138332},
+{"tag":"2019–20_coronavirus_pandemic","count":2173629},
+{"tag":"Extraction_(2020_film)","count":1873715},
+{"tag":"Template:2019–20_coronavirus_pandemic_data","count":1489201},
+{"tag":"Kim_Yo-jong","count":1230146},
+{"tag":"2020_NFL_Draft","count":1079777},
+{"tag":"Kim_Jong-il","count":1028662},
+{"tag":"Kapoor_family","count":1010531},
+{"tag":"Deaths_in_2020","count":987148},
+{"tag":"Remdesivir","count":824980},
+{"tag":"Irrfan_Khan_filmography","count":818601},
+{"tag":"2020_coronavirus_pandemic_in_India","count":803220},
+{"tag":"Scottie_Pippen","count":755168},
+{"tag":"Too_Hot_to_Handle_(TV_series)","count":737435},
+{"tag":"Ri_Sol-ju","count":723681},
+{"tag":"2020_coronavirus_pandemic_in_the_United_States","count":711387},
+{"tag":"Boris_Johnson","count":703697},
+{"tag":"Spanish_flu","count":693979},
+{"tag":"2019–20_coronavirus_pandemic_by_country_and_territory","count":685654},
+{"tag":"Phil_Jackson","count":666288},
+{"tag":"Never_Have_I_Ever_(TV_series)","count":661858},
+{"tag":"Money_Heist","count":643922},
+{"tag":"Kim_Il-sung","count":608688},
+{"tag":"Kim_Jong-nam","count":578069},
+{"tag":"Neetu_Singh","count":543345},
+{"tag":"Raj_Kapoor","count":493400},
+{"tag":"Coronavirus_disease_2019","count":491385},
+{"tag":"Golshifteh_Farahani","count":487573},
+{"tag":"Coronavirus","count":460629},
+{"tag":"Jerry_Krause","count":451988},
+{"tag":"Aitana_(singer)","count":451912},
+{"tag":"Normal_People","count":418896},
+{"tag":"Joe_Exotic","count":403094},
+{"tag":"Kepler\s_Supernova","count":401785},
+{"tag":"Three_Percenters","count":400820},
+{"tag":"Carole_Baskin","count":389053},
+{"tag":"The_World_of_the_Married","count":387607},
+{"tag":"Ruby_Ridge","count":385552},
+{"tag":"Kim_Jong-chul","count":381944},
+{"tag":"Maitreyi_Ramakrishnan","count":371582},
+{"tag":"Randhir_Kapoor","count":369555},
+{"tag":"Waco_(miniseries)","count":364715},
+{"tag":"Tom_Moore_(fundraiser)","count":362825},
+{"tag":"2020_coronavirus_pandemic_in_Punjab,_India","count":358408},
+{"tag":"Bad_Education_(2019_film)","count":341255},
+{"tag":"Darren_Barnet","count":336314},
+{"tag":"List_of_Money_Heist_episodes","count":326707},
+{"tag":"Anthony_Fauci","count":323380},
+{"tag":"2020_coronavirus_pandemic_in_the_United_Kingdom","count":322406},
+{"tag":"Paintings_by_Adolf_Hitler","count":322159},
+{"tag":"Branch_Davidians","count":321297},
+{"tag":"Neuroendocrine_tumor","count":318691},
+{"tag":"After_Life_(TV_series)","count":317058},
+{"tag":"Chicago_Bulls","count":298413},
+{"tag":"Carrie_Symonds","count":297446},
+{"tag":"Outer_Banks_(TV_series)","count":296888},
+{"tag":"Angrezi_Medium","count":296436},
+{"tag":"Kayleigh_McEnany","count":295941},
+{"tag":"2020_coronavirus_pandemic_in_Italy","count":295055}
+],
+  19 : [
+{"tag":"Judy_Mikovits","count":2106077},
+{"tag":"Tasuku_Honjo","count":2073954},
+{"tag":"Template:2019–20_coronavirus_pandemic_data","count":1017850},
+{"tag":"2019–20_coronavirus_pandemic","count":1017118},
+{"tag":"Asian_giant_hornet","count":996566},
+{"tag":"Deaths_in_2020","count":919734},
+{"tag":"COVID-19_pandemic","count":862188},
+{"tag":"Hollywood_(miniseries)","count":802531},
+{"tag":"Extraction_(2020_film)","count":707640},
+{"tag":"Never_Have_I_Ever_(TV_series)","count":609964},
+{"tag":"Rishi_Kapoor","count":577407},
+{"tag":"Sam_Lloyd","count":555362},
+{"tag":"Kayleigh_McEnany","count":551768},
+{"tag":"Justine_Musk","count":548464},
+{"tag":"Spanish_flu","count":509641},
+{"tag":"Don_Shula","count":507924},
+{"tag":"Remdesivir","count":507476},
+{"tag":"Money_Heist","count":507077},
+{"tag":"Irrfan_Khan","count":505180},
+{"tag":"The_Half_of_It","count":477828},
+{"tag":"2020_coronavirus_pandemic_in_India","count":466996},
+{"tag":"Cyntoia_Brown","count":447399},
+{"tag":"Normal_People_(TV_series)","count":412579},
+{"tag":"Coronavirus_disease_2019","count":395718},
+{"tag":"Boris_Johnson","count":395311},
+{"tag":"Joe_Exotic","count":374862},
+{"tag":"Upload_(TV_series)","count":363616},
+{"tag":"Dangerous_Lies_(2020_film)","count":353464},
+{"tag":"Normal_People","count":352964},
+{"tag":"Coronavirus","count":352295},
+{"tag":"Kapoor_family","count":350988},
+{"tag":"Maitreyi_Ramakrishnan","count":349993},
+{"tag":"Into_the_Night_(TV_series)","count":348212},
+{"tag":"Darren_Barnet","count":340760},
+{"tag":"COVID-19_pandemic_by_country_and_territory","count":336001},
+{"tag":"Anthony_Fauci","count":328264},
+{"tag":"Justice_League_Dark:_Apokolips_War","count":325901},
+{"tag":"Henry_Willson","count":325261},
+{"tag":"UFC_249","count":320904},
+{"tag":"The_World_of_the_Married","count":312967},
+{"tag":"COVID-19_pandemic_in_the_United_States","count":310993},
+{"tag":"Cady_Groves","count":302166},
+{"tag":"David_Corenswet","count":300638},
+{"tag":"2020_coronavirus_pandemic_in_the_United_States","count":298059},
+{"tag":"Raj_Kapoor","count":297949},
+{"tag":"Andrew_Cuomo","count":295727},
+{"tag":"Ertuğrul","count":293040},
+{"tag":"The_Last_Dance_(TV_series)","count":291850},
+{"tag":"Outer_Banks_(TV_series)","count":290040},
+{"tag":"1992_United_States_men\s_Olympic_basketball_team","count":286755},
+{"tag":"2019–20_coronavirus_pandemic_by_country_and_territory","count":285875},
+{"tag":"Jerry_Krause","count":281970},
+{"tag":"Lorenzo_de\_Medici","count":281320},
+{"tag":"Toni_Kukoč","count":280658},
+{"tag":"Daisy_Edgar-Jones","count":278858},
+{"tag":"COVID-19_pandemic_in_India","count":275341},
+{"tag":"List_of_Star_Wars_films","count":274554},
+{"tag":"Carole_Baskin","count":270588},
+{"tag":"List_of_Money_Heist_episodes","count":266316},
+{"tag":"Too_Hot_to_Handle_(TV_series)","count":265129}
+],
+  20 : [
+{"tag":"Jerry_Stiller","count":1502604},
+{"tag":"COVID-19_pandemic","count":1373451},
+{"tag":"UFC_249","count":1125327},
+{"tag":"Siegfried_&_Roy","count":980527},
+{"tag":"Deaths_in_2020","count":954717},
+{"tag":"Anthony_Fauci","count":890000},
+{"tag":"Template:2019–20_coronavirus_pandemic_data","count":695046},
+{"tag":"Money_in_the_Bank_(2020)","count":678549},
+{"tag":"Anne_Meara","count":669333},
+{"tag":"Justin_Gaethje","count":663044},
+{"tag":"Tasuku_Honjo","count":639437},
+{"tag":"Grimes_(musician)","count":587652},
+{"tag":"Judy_Mikovits","count":541310},
+{"tag":"Garry_Marshall","count":491223},
+{"tag":"Waco_siege","count":475508},
+{"tag":"COVID-19_pandemic_by_country_and_territory","count":466909},
+{"tag":"COVID-19_pandemic_in_India","count":450566},
+{"tag":"Hollywood_(miniseries)","count":440121},
+{"tag":"Andre_Harrell","count":419126},
+{"tag":"COVID-19_pandemic_in_the_United_States","count":418541},
+{"tag":"Ertuğrul","count":396463},
+{"tag":"Vera_Wang","count":379495},
+{"tag":"Ajey_Nagar","count":372910},
+{"tag":"Extraction_(2020_film)","count":369209},
+{"tag":"Normal_People_(TV_series)","count":365665},
+{"tag":"Babylonian_cuneiform_numerals","count":359786},
+{"tag":"Coronavirus_disease_2019","count":357067},
+{"tag":"James_R._Jordan_Sr.","count":350963},
+{"tag":"Survivor:_Winners_at_War","count":347185},
+{"tag":"Betty_Wright","count":344602},
+{"tag":"Henry_Cejudo","count":332057},
+{"tag":"Francis_Ngannou","count":330166},
+{"tag":"Katie_Waldman","count":305761},
+{"tag":"Coronavirus","count":300762},
+{"tag":"The_World_of_the_Married","count":294953},
+{"tag":"David_Koresh","count":289680},
+{"tag":"Barry_Zito","count":288157},
+{"tag":"2019–20_coronavirus_pandemic","count":287875},
+{"tag":"Candy_Ken","count":284805},
+{"tag":"Shooting_of_Ahmaud_Arbery","count":284664},
+{"tag":"Doja_Cat","count":279385},
+{"tag":"The_Last_Dance_(TV_series)","count":276215},
+{"tag":"Template:COVID-19_pandemic_data","count":271868},
+{"tag":"Justice_League_Dark:_Apokolips_War","count":267764},
+{"tag":"Melissa_Etheridge","count":265931},
+{"tag":"Kayleigh_McEnany","count":260171},
+{"tag":"Chicago_Bulls","count":257975},
+{"tag":"German_Instrument_of_Surrender","count":254907},
+{"tag":"Microsoft_Office","count":251631},
+{"tag":"Kawasaki_disease","count":246568},
+{"tag":"Never_Have_I_Ever_(TV_series)","count":246437},
+{"tag":"Mahabharat_(2013_TV_series)","count":246360},
+{"tag":"Christine_Taylor","count":244197},
+{"tag":"Outer_Banks_(TV_series)","count":244107},
+{"tag":"Normal_People","count":243384},
+{"tag":"Mahabharat_(1988_TV_series)","count":241315},
+{"tag":"Rick_Bright","count":240690},
+{"tag":"Penny_Marshall","count":235648},
+{"tag":"RuPaul\s_Drag_Race_(season_12)","count":234373},
+{"tag":"Upload_(TV_series)","count":232988}
+],
+  21 : [
+{"tag":"Catherine_the_Great","count":1367805},
+{"tag":"COVID-19_pandemic","count":1181366},
+{"tag":"Shad_Gaspard","count":969406},
+{"tag":"Deaths_in_2020","count":922342},
+{"tag":"Template:2019–20_coronavirus_pandemic_data","count":606871},
+{"tag":"Karl_Malone","count":571236},
+{"tag":"Battle_of_Hayes_Pond","count":568367},
+{"tag":"Lynn_Shelton","count":560253},
+{"tag":"Phyllis_George","count":545048},
+{"tag":"Paatal_Lok","count":542290},
+{"tag":"Ravi_Zacharias","count":507843},
+{"tag":"Peter_III_of_Russia","count":490013},
+{"tag":"Ken_Osmond","count":471618},
+{"tag":"COVID-19_pandemic_in_India","count":451836},
+{"tag":"Candy_Ken","count":448589},
+{"tag":"White_Lines_(TV_series)","count":428137},
+{"tag":"Spanish_flu","count":427239},
+{"tag":"Scoob!","count":414950},
+{"tag":"The_Great_(miniseries)","count":406845},
+{"tag":"Lauren_Lapkus","count":398884},
+{"tag":"Jesse_McCartney","count":391201},
+{"tag":"Jerry_Krause","count":389910},
+{"tag":"COVID-19_pandemic_by_country_and_territory","count":385153},
+{"tag":"John_Dillinger","count":370866},
+{"tag":"Tasuku_Honjo","count":352129},
+{"tag":"Lele_Pons","count":347549},
+{"tag":"Microsoft_Office","count":340213},
+{"tag":"COVID-19_pandemic_in_the_United_States","count":339513},
+{"tag":"The_World_of_the_Married","count":323155},
+{"tag":"Ertuğrul","count":321264},
+{"tag":"Jerry_Sloan","count":320391},
+{"tag":"Waco_siege","count":316891},
+{"tag":"Normal_People_(TV_series)","count":311608},
+{"tag":"Justice_League_Dark:_Apokolips_War","count":310765},
+{"tag":"Coronavirus_disease_2019","count":305406},
+{"tag":"The_Wrong_Missy","count":303214},
+{"tag":"RuPaul\s_Drag_Race_(season_12)","count":300991},
+{"tag":"The_Masked_Singer_(American_season_3)","count":283561},
+{"tag":"COVID-19_pandemic_in_Punjab,_India","count":283098},
+{"tag":"Malang_(film)","count":280179},
+{"tag":"Coronavirus","count":276573},
+{"tag":"Machine_Gun_Kelly_(musician)","count":273265},
+{"tag":"The_Last_Dance_(TV_series)","count":270381},
+{"tag":"Yvette_Prieto","count":269882},
+{"tag":"Kayleigh_McEnany","count":268893},
+{"tag":"QAnon","count":265761},
+{"tag":"Cyclone_Amphan","count":258378},
+{"tag":"UFC_on_ESPN:_Overeem_vs._Harris","count":247501},
+{"tag":"World_Health_Organization","count":246895},
+{"tag":"Carmen_Electra","count":243326},
+{"tag":"Ajey_Nagar","count":242038},
+{"tag":"Template:COVID-19_pandemic_data","count":233554},
+{"tag":"Hollywood_(miniseries)","count":230516},
+{"tag":"Alistair_Overeem","count":228559},
+{"tag":"Laura_Haddock","count":226598},
+{"tag":"Hydroxychloroquine","count":225164},
+{"tag":"Sweet_Magnolias","count":219063},
+{"tag":"Jaideep_Ahlawat","count":218181},
+{"tag":"John_Stockton","count":217622},
+{"tag":"2019–20_coronavirus_pandemic","count":216951}
+],
+  22 : [
+{"tag":"Death_of_George_Floyd","count":1887766},
+{"tag":"Dominic_Cummings","count":1496618},
+{"tag":"Third-degree_murder","count":1147473},
+{"tag":"COVID-19_pandemic","count":1043064},
+{"tag":"Deaths_in_2020","count":824363},
+{"tag":"Hana_Kimura","count":754364},
+{"tag":"Doja_Cat","count":685845},
+{"tag":"Jacob_Frey","count":682396},
+{"tag":"Catherine_the_Great","count":660380},
+{"tag":"Template:2019–20_coronavirus_pandemic_data","count":498533},
+{"tag":"Uncut_Gems","count":468643},
+{"tag":"George_Floyd","count":467685},
+{"tag":"Grimes_(musician)","count":436997},
+{"tag":"Kayleigh_McEnany","count":429926},
+{"tag":"Sarah_Rector","count":405447},
+{"tag":"Mary_Wakefield_(journalist)","count":400395},
+{"tag":"Ghislaine_Maxwell","count":395201},
+{"tag":"Chromatica","count":393279},
+{"tag":"COVID-19_pandemic_in_India","count":376509},
+{"tag":"Murder_(United_States_law)","count":363483},
+{"tag":"Death_of_Eric_Garner","count":357717},
+{"tag":"Sweet_Magnolias","count":356119},
+{"tag":"Paatal_Lok","count":340418},
+{"tag":"COVID-19_pandemic_by_country_and_territory","count":336711},
+{"tag":"Spanish_flu","count":318657},
+{"tag":"Coronavirus_disease_2019","count":309480},
+{"tag":"Snowpiercer_(TV_series)","count":304065},
+{"tag":"COVID-19_pandemic_in_the_United_States","count":303971},
+{"tag":"Minneapolis","count":299244},
+{"tag":"Kirby_Jenner","count":294885},
+{"tag":"Death_of_Breonna_Taylor","count":288612},
+{"tag":"Microsoft_Office","count":285410},
+{"tag":"Locust","count":277206},
+{"tag":"SpaceX","count":277087},
+{"tag":"Candy_Ken","count":275670},
+{"tag":"The_King:_Eternal_Monarch","count":272194},
+{"tag":"Pakistan_International_Airlines_Flight_8303","count":271039},
+{"tag":"Lauren_Lapkus","count":270233},
+{"tag":"List_of_presidents_of_the_United_States","count":264057},
+{"tag":"Chrishell_Stause","count":260438},
+{"tag":"Karen_(slang)","count":258825},
+{"tag":"Joe_Scarborough","count":257590},
+{"tag":"Sonu_Sood","count":254894},
+{"tag":"Waco_siege","count":253108},
+{"tag":"Double_or_Nothing_(2020)","count":252871},
+{"tag":"Little_Fires_Everywhere_(miniseries)","count":250455},
+{"tag":"Jerry_Sloan","count":246855},
+{"tag":"Betaal","count":246200},
+{"tag":"Ertuğrul","count":245648},
+{"tag":"Crisis_on_Infinite_Earths_(Arrowverse)","count":244755},
+{"tag":"Tasuku_Honjo","count":240305},
+{"tag":"John_and_Lorena_Bobbitt","count":234881},
+{"tag":"1992_Los_Angeles_riots","count":233535},
+{"tag":"Peter_III_of_Russia","count":232064},
+{"tag":"Stanley_Ho","count":231858},
+{"tag":"Defending_Jacob_(miniseries)","count":227541},
+{"tag":"Larry_Kramer","count":227066},
+{"tag":"Coronavirus","count":225985},
+{"tag":"Normal_People_(TV_series)","count":223909},
+{"tag":"George_Floyd_(American_football)","count":220459}
+],
+  23 : [
+{"tag":"Antifa_(United_States)","count":5851241},
+{"tag":"Death_of_George_Floyd","count":5416206},
+{"tag":"Killing_of_George_Floyd","count":2259958},
+{"tag":"Anonymous_(group)","count":1594446},
+{"tag":"Third-degree_murder","count":1447643},
+{"tag":"Shooting_of_Breonna_Taylor","count":1219815},
+{"tag":"Ghislaine_Maxwell","count":1150347},
+{"tag":"Antifa","count":1059034},
+{"tag":"George_Floyd_protests","count":1041936},
+{"tag":"1992_Los_Angeles_riots","count":1036198},
+{"tag":"Black_Lives_Matter","count":1009444},
+{"tag":"Rodney_King","count":1002660},
+{"tag":"Insurrection_Act","count":997284},
+{"tag":"Murder_(United_States_law)","count":885322},
+{"tag":"COVID-19_pandemic","count":865585},
+{"tag":"Space_Force_(TV_series)","count":860607},
+{"tag":"Sajid–Wajid","count":849582},
+{"tag":"Death_of_Eric_Garner","count":799030},
+{"tag":"George_Floyd","count":786986},
+{"tag":"George_Soros","count":784128},
+{"tag":"Deaths_in_2020","count":782794},
+{"tag":"Candace_Owens","count":776385},
+{"tag":"SpaceX","count":708036},
+{"tag":"Death_of_Sandra_Bland","count":592002},
+{"tag":"Jim_Mattis","count":588877},
+{"tag":"Boogaloo_movement","count":576128},
+{"tag":"Posse_Comitatus_Act","count":535312},
+{"tag":"Death_of_Breonna_Taylor","count":529919},
+{"tag":"Tulsa_race_massacre","count":518226},
+{"tag":"Attack_on_Reginald_Denny","count":507233},
+{"tag":"Shooting_of_Michael_Brown","count":483082},
+{"tag":"Race_and_crime_in_the_United_States","count":477695},
+{"tag":"Shooting_of_Philando_Castile","count":460173},
+{"tag":"Betty_Broderick","count":436238},
+{"tag":"Template:2019–20_coronavirus_pandemic_data","count":431841},
+{"tag":"Blackout_Tuesday","count":423573},
+{"tag":"George_Floyd_(American_football)","count":421169},
+{"tag":"Crew_Dragon_Demo-2","count":417055},
+{"tag":"List_of_incidents_of_civil_unrest_in_the_United_States","count":402890},
+{"tag":"United_States_Space_Force","count":391742},
+{"tag":"Grimes_(musician)","count":380980},
+{"tag":"Dragon_2","count":370166},
+{"tag":"Timeline_of_events_associated_with_Anonymous","count":362364},
+{"tag":"Keisha_Lance_Bottoms","count":360789},
+{"tag":"United_States_National_Guard","count":360703},
+{"tag":"COVID-19_pandemic_in_India","count":355357},
+{"tag":"Shooting_of_Tamir_Rice","count":349909},
+{"tag":"Anti-fascism","count":344984},
+{"tag":"Uncut_Gems","count":337984},
+{"tag":"All_Lives_Matter","count":334871},
+{"tag":"Jacob_Frey","count":323431},
+{"tag":"Catherine_the_Great","count":322837},
+{"tag":"Abrus_precatorius","count":322680},
+{"tag":"Frank_Rizzo","count":321611},
+{"tag":"List_of_mobile_phone_brands_by_country","count":319464},
+{"tag":"Minneapolis","count":318384},
+{"tag":"Colin_Kaepernick","count":316141},
+{"tag":"Nataša_Stanković","count":315088},
+{"tag":"Diriliş:_Ertuğrul","count":312713},
+{"tag":"Kayleigh_McEnany","count":311161}
+],
+  24 : [
+{"tag":"Edward_Colston","count":2130636},
+{"tag":"George_Floyd","count":1799083},
+{"tag":"Chiranjeevi_Sarja","count":1710918},
+{"tag":"Shooting_of_Breonna_Taylor","count":1456342},
+{"tag":"Killing_of_George_Floyd","count":1324609},
+{"tag":"Jeffrey_Epstein","count":1103974},
+{"tag":"Meghana_Raj","count":969567},
+{"tag":"Tulsa_race_massacre","count":925708},
+{"tag":"COVID-19_pandemic","count":831239},
+{"tag":"Black_Lives_Matter","count":809379},
+{"tag":"Antifa_(United_States)","count":771505},
+{"tag":"Deaths_in_2020","count":750514},
+{"tag":"Ghislaine_Maxwell","count":602453},
+{"tag":"Pizzagate_conspiracy_theory","count":572946},
+{"tag":"Arjun_Sarja","count":545442},
+{"tag":"Capitol_Hill_Autonomous_Zone","count":521778},
+{"tag":"George_Floyd_protests","count":484115},
+{"tag":"365_Dni","count":483560},
+{"tag":"Template:2019–20_coronavirus_pandemic_data","count":475739},
+{"tag":"UFC_250","count":468033},
+{"tag":"Renee_Gracie","count":430584},
+{"tag":"Just_Mercy","count":422331},
+{"tag":"Jacob_Frey","count":422211},
+{"tag":"Colin_Powell","count":416357},
+{"tag":"PlayStation_5","count":407175},
+{"tag":"Shooting_of_Daniel_Shaver","count":376230},
+{"tag":"Flags_of_the_Confederate_States_of_America","count":370389},
+{"tag":"Dhruva_Sarja","count":358507},
+{"tag":"Rodney_King","count":352629},
+{"tag":"COVID-19_pandemic_in_India","count":350653},
+{"tag":"Space_Force_(TV_series)","count":322613},
+{"tag":"Colin_Kaepernick","count":315628},
+{"tag":"Windshield_phenomenon","count":310780},
+{"tag":"Bubba_Wallace","count":298509},
+{"tag":"Robert_E._Lee","count":295859},
+{"tag":"Death_of_Kendrick_Johnson","count":291058},
+{"tag":"Betty_Broderick","count":284175},
+{"tag":"Diriliş:_Ertuğrul","count":284172},
+{"tag":"Cecil_Rhodes","count":278872},
+{"tag":"COVID-19_pandemic_by_country_and_territory","count":273379},
+{"tag":"List_of_13_Reasons_Why_episodes","count":273328},
+{"tag":"Robert_Baden-Powell,_1st_Baron_Baden-Powell","count":264880},
+{"tag":"Race_and_crime_in_the_United_States","count":264666},
+{"tag":"List_of_mobile_phone_brands_by_country","count":260017},
+{"tag":"The_King:_Eternal_Monarch","count":259751},
+{"tag":"Sean_O\Malley_(fighter)","count":254752},
+{"tag":"Catherine_the_Great","count":253686},
+{"tag":"QAnon","count":248961},
+{"tag":"Kayleigh_McEnany","count":248679},
+{"tag":"COVID-19_pandemic_in_the_United_States","count":247450},
+{"tag":"Template:COVID-19_pandemic_data","count":247197},
+{"tag":"Tasuku_Honjo","count":245097},
+{"tag":"Shooting_of_Philando_Castile","count":242297},
+{"tag":"Ga-ga","count":241513},
+{"tag":"Shakti_Prasad","count":241434},
+{"tag":"Murder_of_Peter_Falconio","count":240024},
+{"tag":"Walter_McMillian","count":238353},
+{"tag":"Racial_views_of_Winston_Churchill","count":236964},
+{"tag":"Joanne_Lees","count":234891},
+{"tag":"NXT_TakeOver:_In_Your_House","count":231290}
+],
+  25 : [
+{"tag":"Sushant_Singh_Rajput","count":11226168},
+{"tag":"Ankita_Lokhande","count":1704393},
+{"tag":"Aunt_Jemima","count":1244121},
+{"tag":"365_Days_(2020_film)","count":1044634},
+{"tag":"Nancy_Green","count":957132},
+{"tag":"Dil_Bechara","count":852685},
+{"tag":"Capitol_Hill_Autonomous_Zone","count":850837},
+{"tag":"Deaths_in_2020","count":807078},
+{"tag":"COVID-19_pandemic","count":790402},
+{"tag":"The_Last_of_Us_Part_II","count":738939},
+{"tag":"Chhichhore","count":718199},
+{"tag":"Tulsa_race_massacre","count":708858},
+{"tag":"List_of_mobile_phone_brands_by_country","count":682359},
+{"tag":"Vera_Lynn","count":642191},
+{"tag":"Dexamethasone","count":592554},
+{"tag":"Backlash_(2020)","count":558685},
+{"tag":"Da_5_Bloods","count":540825},
+{"tag":"Ian_Holm","count":529857},
+{"tag":"Shooting_of_Breonna_Taylor","count":527700},
+{"tag":"Jeffrey_Epstein","count":507714},
+{"tag":"George_Floyd","count":492190},
+{"tag":"Poisoning_of_Sergei_and_Yulia_Skripal","count":483143},
+{"tag":"Black_Lives_Matter","count":460496},
+{"tag":"Killing_of_Rayshard_Brooks","count":443620},
+{"tag":"Template:2019–20_coronavirus_pandemic_data","count":423289},
+{"tag":"Drive_(2019_film)","count":423046},
+{"tag":"Christopher_Dorner_shootings_and_manhunt","count":419462},
+{"tag":"Antifa_(United_States)","count":413487},
+{"tag":"Killing_of_George_Floyd","count":401765},
+{"tag":"Flags_of_the_Confederate_States_of_America","count":392467},
+{"tag":"Artemis_Fowl_(film)","count":379877},
+{"tag":"One_America_News_Network","count":378823},
+{"tag":"Karan_Johar","count":364570},
+{"tag":"Michele_Morrone","count":356968},
+{"tag":"Pavitra_Rishta","count":356151},
+{"tag":"Knives_Out","count":354043},
+{"tag":"Sino-Indian_War","count":351340},
+{"tag":"Kai_Po_Che!","count":340508},
+{"tag":"Kedarnath_(film)","count":329970},
+{"tag":"Matt_Gaetz","count":326465},
+{"tag":"Boogaloo_movement","count":307470},
+{"tag":"The_Last_of_Us","count":298543},
+{"tag":"Sonchiriya","count":297429},
+{"tag":"Gulabo_Sitabo","count":293762},
+{"tag":"The_King_of_Staten_Island","count":292684},
+{"tag":"COVID-19_pandemic_in_India","count":291626},
+{"tag":"Flag_of_Mississippi","count":286564},
+{"tag":"Anna-Maria_Sieklucka","count":278017},
+{"tag":"Deferred_Action_for_Childhood_Arrivals","count":275097},
+{"tag":"Ghislaine_Maxwell","count":270971},
+{"tag":"2020_China–India_skirmishes","count":269233},
+{"tag":"365_Dni","count":265874},
+{"tag":"Sachy_(writer)","count":262656},
+{"tag":"Keisha_Lance_Bottoms","count":261986},
+{"tag":"Artemis_Fowl","count":257564},
+{"tag":"Raabta_(film)","count":254571},
+{"tag":"Uncle_Ben\s","count":251764},
+{"tag":"Chris_D\Elia","count":251674},
+{"tag":"Suicide_by_hanging","count":246363},
+{"tag":"Jiah_Khan","count":245124}
+],
+  26 : [
+{"tag":"The_Last_of_Us_Part_II","count":1166443},
+{"tag":"Sushant_Singh_Rajput","count":1138187},
+{"tag":"Bubba_Wallace","count":1119295},
+{"tag":"Death_of_Elijah_McClain","count":810336},
+{"tag":"COVID-19_pandemic","count":782528},
+{"tag":"365_Days_(2020_film)","count":761294},
+{"tag":"Deaths_in_2020","count":738249},
+{"tag":"List_of_mobile_phone_brands_by_country","count":648044},
+{"tag":"Aunt_Jemima","count":548771},
+{"tag":"Steve_Bing","count":503308},
+{"tag":"Ken_Miles","count":484647},
+{"tag":"Rhea_Chakraborty","count":462845},
+{"tag":"Tulsa_race_massacre","count":459701},
+{"tag":"The_Last_of_Us","count":450993},
+{"tag":"Shooting_of_Breonna_Taylor","count":428271},
+{"tag":"Black_Lives_Matter","count":422067},
+{"tag":"Capitol_Hill_Autonomous_Zone","count":413660},
+{"tag":"Father\s_Day","count":408895},
+{"tag":"Ian_Holm","count":401312},
+{"tag":"Template:2019–20_coronavirus_pandemic_data","count":395717},
+{"tag":"The_Sinner_(TV_series)","count":393812},
+{"tag":"Shaun_King","count":380814},
+{"tag":"Joel_Schumacher","count":377438},
+{"tag":"Mahesh_Bhatt","count":374605},
+{"tag":"Michele_Morrone","count":333375},
+{"tag":"Tasuku_Honjo","count":329695},
+{"tag":"Solar_eclipse_of_June_21,_2020","count":324754},
+{"tag":"Ankita_Lokhande","count":322208},
+{"tag":"It\s_Okay_to_Not_Be_Okay","count":319162},
+{"tag":"John_Bolton","count":318788},
+{"tag":"Jeffrey_Epstein","count":310898},
+{"tag":"Flags_of_the_Confederate_States_of_America","count":307910},
+{"tag":"Olive_Morris","count":296925},
+{"tag":"Nancy_Green","count":279527},
+{"tag":"Aarya_(Indian_TV_series)","count":275850},
+{"tag":"Kayleigh_McEnany","count":272854},
+{"tag":"Karan_Johar","count":266493},
+{"tag":"COVID-19_pandemic_in_the_United_States","count":264715},
+{"tag":"QAnon","count":262105},
+{"tag":"Penguin_(film)","count":259946},
+{"tag":"Killing_of_George_Floyd","count":253364},
+{"tag":"Song_of_the_South","count":246140},
+{"tag":"COVID-19_pandemic_in_India","count":244495},
+{"tag":"The_Order_(TV_series)","count":244053},
+{"tag":"Knives_Out","count":240199},
+{"tag":"Xin_Zhui","count":239804},
+{"tag":"Ulysses_S._Grant","count":233314},
+{"tag":"The_Politician_(TV_series)","count":232482},
+{"tag":"Candy_Ken","count":231366},
+{"tag":"Albert_Pike","count":231096},
+{"tag":"Watchmen_(TV_series)","count":229648},
+{"tag":"Bulbbul","count":224935},
+{"tag":"COVID-19_pandemic_by_country_and_territory","count":224290},
+{"tag":"Template:COVID-19_pandemic_data","count":221127},
+{"tag":"Confederate_States_of_America","count":220181},
+{"tag":"Tencent","count":218635},
+{"tag":"Diriliş:_Ertuğrul","count":217118},
+{"tag":"Candace_Owens","count":216765},
+{"tag":"Carroll_Shelby","count":215429},
+{"tag":"Bhushan_Kumar","count":215400}
+],
+  27 : [
+{"tag":"Eurovision_Song_Contest:_The_Story_of_Fire_Saga","count":1132059},
+{"tag":"Marsha_P._Johnson","count":1011552},
+{"tag":"Sushant_Singh_Rajput","count":1002819},
+{"tag":"Carl_Reiner","count":982522},
+{"tag":"COVID-19_pandemic","count":814141},
+{"tag":"Deaths_in_2020","count":756138},
+{"tag":"Saroj_Khan","count":752398},
+{"tag":"Reckful","count":683866},
+{"tag":"List_of_mobile_phone_brands_by_country","count":634186},
+{"tag":"365_Days_(2020_film)","count":597330},
+{"tag":"Larry_Nassar","count":503964},
+{"tag":"The_Last_of_Us_Part_II","count":448839},
+{"tag":"Tasuku_Honjo","count":404888},
+{"tag":"Shane_Dawson","count":389779},
+{"tag":"Dr_DisRespect","count":358159},
+{"tag":"It\s_Okay_to_Not_Be_Okay","count":356936},
+{"tag":"Death_of_Elijah_McClain","count":347783},
+{"tag":"Black_Lives_Matter","count":343072},
+{"tag":"Flag_of_Mississippi","count":339681},
+{"tag":"Tammy_Duckworth","count":335506},
+{"tag":"Kayleigh_McEnany","count":333058},
+{"tag":"Capitol_Hill_Autonomous_Zone","count":329769},
+{"tag":"Cam_Newton","count":328934},
+{"tag":"Disappearance_of_Vanessa_Guillen","count":328696},
+{"tag":"Template:COVID-19_pandemic_data","count":321437},
+{"tag":"Woodrow_Wilson","count":319270},
+{"tag":"Bulbbul","count":310215},
+{"tag":"Michelle_McNamara","count":306510},
+{"tag":"Pop_Smoke","count":303991},
+{"tag":"COVID-19_pandemic_in_the_United_States","count":300929},
+{"tag":"Mayfeld","count":298627},
+{"tag":"Ken_Miles","count":276690},
+{"tag":"Eurovision_Song_Contest","count":273923},
+{"tag":"Dan_Stevens","count":273344},
+{"tag":"Shooting_of_Breonna_Taylor","count":270523},
+{"tag":"Paytm","count":264999},
+{"tag":"The_Sinner_(TV_series)","count":252128},
+{"tag":"Joe_Arridy","count":246656},
+{"tag":"UFC_on_ESPN:_Poirier_vs._Hooker","count":240443},
+{"tag":"Hamilton_(2020_film)","count":235552},
+{"tag":"Template:2019–20_coronavirus_pandemic_data","count":230299},
+{"tag":"Spanish_flu","count":229795},
+{"tag":"Hugh_Downs","count":225081},
+{"tag":"Karen_(slang)","count":221878},
+{"tag":"Remdesivir","count":211952},
+{"tag":"COVID-19_pandemic_by_country_and_territory","count":210621},
+{"tag":"Michele_Morrone","count":210497},
+{"tag":"COVID-19_pandemic_in_India","count":210276},
+{"tag":"Tencent","count":207962},
+{"tag":"Coronavirus_disease_2019","count":206409},
+{"tag":"Diriliş:_Ertuğrul","count":203368},
+{"tag":"Giant_golden-crowned_flying_fox","count":199030},
+{"tag":"Zoom_Video_Communications","count":197423},
+{"tag":"The_Last_of_Us","count":196751},
+{"tag":"The_Secret_Life_of_Lele_Pons","count":195084},
+{"tag":"Siya_Kakkar","count":193382},
+{"tag":"List_of_presidents_of_the_United_States","count":190503},
+{"tag":"Doctor_Sleep_(2019_film)","count":178297},
+{"tag":"Knives_Out","count":177384},
+{"tag":"Aarya_(Indian_TV_series)","count":175713}
+],
+  28 : [
+{"tag":"Nick_Cordero","count":1522569},
+{"tag":"Elizabeth_Schuyler_Hamilton","count":1270787},
+{"tag":"Mary_Kay_Letourneau","count":945520},
+{"tag":"Vikas_Dubey","count":897262},
+{"tag":"Charlie_Daniels","count":854178},
+{"tag":"Hamilton_(2020_film)","count":828329},
+{"tag":"Deaths_in_2020","count":812241},
+{"tag":"Phillipa_Soo","count":798670},
+{"tag":"COVID-19_pandemic","count":765227},
+{"tag":"Daveed_Diggs","count":739141},
+{"tag":"Ennio_Morricone","count":685529},
+{"tag":"Bubonic_plague","count":672692},
+{"tag":"Philip_Hamilton","count":638099},
+{"tag":"Leslie_Odom_Jr.","count":607947},
+{"tag":"Warrior_Nun_(TV_series)","count":545511},
+{"tag":"Blue_Whale_Challenge","count":539357},
+{"tag":"Sushant_Singh_Rajput","count":530385},
+{"tag":"Tammy_Duckworth","count":526079},
+{"tag":"Template:COVID-19_pandemic_data","count":511039},
+{"tag":"SNG","count":485570},
+{"tag":"Angelica_Schuyler_Church","count":485552},
+{"tag":"Christopher_Jackson_(actor)","count":481999},
+{"tag":"Pop_Smoke","count":474370},
+{"tag":"Anthony_Ramos_(actor)","count":460774},
+{"tag":"List_of_presidents_of_the_United_States","count":455457},
+{"tag":"Lake_Piru","count":449007},
+{"tag":"Tasuku_Honjo","count":440397},
+{"tag":"Eurovision_Song_Contest:_The_Story_of_Fire_Saga","count":426264},
+{"tag":"John_Laurens","count":422597},
+{"tag":"Renée_Elise_Goldsberry","count":412513},
+{"tag":"Jagdeep","count":409678},
+{"tag":"Test","count":407726},
+{"tag":"365_Days_(2020_film)","count":376456},
+{"tag":"Killing_of_Vanessa_Guillen","count":374563},
+{"tag":"Founding_Fathers_of_the_United_States","count":366050},
+{"tag":"Gilbert_du_Motier,_Marquis_de_Lafayette","count":364964},
+{"tag":"Black_Lives_Matter","count":363498},
+{"tag":"Mychal_Rivera","count":355255},
+{"tag":"Alba_Baptista","count":353367},
+{"tag":"Saroj_Khan","count":331098},
+{"tag":"Frederick_Douglass","count":329727},
+{"tag":"Kayleigh_McEnany","count":326253},
+{"tag":"Jasmine_Cephas_Jones","count":325802},
+{"tag":"COVID-19_pandemic_in_the_United_States","count":320225},
+{"tag":"Hercules_Mulligan","count":315379},
+{"tag":"UFC_251","count":315128},
+{"tag":"List_of_mobile_phone_brands_by_country","count":311266},
+{"tag":"Dil_Bechara","count":303115},
+{"tag":"It\s_Okay_to_Not_Be_Okay","count":299611},
+{"tag":"Boston_Marathon_bombing","count":292701},
+{"tag":"Ken_Miles","count":287242},
+{"tag":"2020_Singaporean_general_election","count":278197},
+{"tag":"The_Last_of_Us_Part_II","count":275134},
+{"tag":"Sally_Hemings","count":268245},
+{"tag":"Hamilton_(album)","count":268030},
+{"tag":"Mason_Greenwood","count":263413},
+{"tag":"Angelica_Hamilton","count":262742},
+{"tag":"Juice_Wrld","count":258586},
+{"tag":"James_Madison","count":258501},
+{"tag":"Hamilton–Reynolds_affair","count":253296}
+],
+  29 : [
+{"tag":"Grant_Imahara","count":1760704},
+{"tag":"The_Old_Guard_(2020_film)","count":1546054},
+{"tag":"Deaths_in_2020","count":852478},
+{"tag":"August_Alsina","count":785587},
+{"tag":"Jack_Charlton","count":729484},
+{"tag":"COVID-19_pandemic","count":728844},
+{"tag":"Tasuku_Honjo","count":726570},
+{"tag":"UFC_251","count":717228},
+{"tag":"Sachin_Pilot","count":693761},
+{"tag":"Hagia_Sophia","count":669606},
+{"tag":"USS_Bonhomme_Richard_(LHD-6)","count":636668},
+{"tag":"Aaron_Burr","count":549861},
+{"tag":"Greyhound_(film)","count":527257},
+{"tag":"C","count":510624},
+{"tag":"Chevie_Kehoe","count":486067},
+{"tag":"Lake_Piru","count":479765},
+{"tag":"Daniel_Lewis_Lee","count":459504},
+{"tag":"Template:COVID-19_pandemic_data","count":452484},
+{"tag":"Adebayo_Akinfenwa","count":448878},
+{"tag":"Mychal_Rivera","count":394097},
+{"tag":"Ghost_of_Tsushima","count":391540},
+{"tag":"Elizabeth_Schuyler_Hamilton","count":391269},
+{"tag":"Walter_Mercado","count":390861},
+{"tag":"Brooklyn_Beckham","count":369978},
+{"tag":"Goya_Foods","count":367559},
+{"tag":"Bobby_Charlton","count":365626},
+{"tag":"Nelson_Peltz","count":346090},
+{"tag":"Palm_Springs_(2020_film)","count":335286},
+{"tag":"Mary_L._Trump","count":330646},
+{"tag":"Juice_Wrld","count":318846},
+{"tag":"Kevin_Gage_(actor)","count":316439},
+{"tag":"COVID-19_pandemic_in_the_United_States","count":314527},
+{"tag":"Shakuntala_Devi","count":305801},
+{"tag":"Anthony_Fauci","count":302654},
+{"tag":"Betsy_DeVos","count":300284},
+{"tag":"Rajasthan_Legislative_Assembly","count":284648},
+{"tag":"Sushant_Singh_Rajput","count":283525},
+{"tag":"Adrenochrome","count":283256},
+{"tag":"It\s_Okay_to_Not_Be_Okay","count":277446},
+{"tag":"Shooting_of_Breonna_Taylor","count":276322},
+{"tag":"365_Days_(2020_film)","count":275346},
+{"tag":"Hamilton_(2020_film)","count":271450},
+{"tag":"Chuck_Woolery","count":271016},
+{"tag":"Bari_Weiss","count":267769},
+{"tag":"Brain_aneurysm","count":266374},
+{"tag":"Daveed_Diggs","count":258751},
+{"tag":"Warrior_Nun_(TV_series)","count":254413},
+{"tag":"Valentina_Sampaio","count":254068},
+{"tag":"Tommy_Tuberville","count":252575},
+{"tag":"Phillipa_Soo","count":250384},
+{"tag":"Black_Lives_Matter","count":249601},
+{"tag":"Eurovision_Song_Contest:_The_Story_of_Fire_Saga","count":246192},
+{"tag":"Washington_Redskins","count":245767},
+{"tag":"Spanish_flu","count":238943},
+{"tag":"UFC_on_ESPN:_Kattar_vs._Ige","count":236374},
+{"tag":"Ken_Miles","count":233899},
+{"tag":"List_of_presidents_of_the_United_States","count":231844},
+{"tag":"Crinoid","count":230502},
+{"tag":"Bubonic_plague","count":230178},
+{"tag":"Vikas_Dubey","count":229922}
+],
+  30 : [
+{"tag":"Haruma_Miura","count":1141628},
+{"tag":"Deaths_in_2020","count":825642},
+{"tag":"Cursed_(2020_TV_series)","count":731044},
+{"tag":"The_Old_Guard_(2020_film)","count":647602},
+{"tag":"COVID-19_pandemic","count":635214},
+{"tag":"Ghost_of_Tsushima","count":625793},
+{"tag":"The_Horror_Show_at_Extreme_Rules","count":596166},
+{"tag":"Tasuku_Honjo","count":574841},
+{"tag":"Dil_Bechara","count":507632},
+{"tag":"Folklore_(Taylor_Swift_album)","count":501824},
+{"tag":"C","count":486018},
+{"tag":"Ted_Yoho","count":466211},
+{"tag":"Template:COVID-19_pandemic_data","count":443977},
+{"tag":"Esther_Salas","count":376683},
+{"tag":"Roy_Jones_Jr.","count":374773},
+{"tag":"Mary_L._Trump","count":343566},
+{"tag":"Edoardo_Mapelli_Mozzi","count":336199},
+{"tag":"Greyhound_(film)","count":330958},
+{"tag":"Dilhan_Eryurt","count":325027},
+{"tag":"Founding_Fathers_of_the_United_States","count":324540},
+{"tag":"Lady_of_the_Lake","count":317363},
+{"tag":"Aaron_Burr","count":316891},
+{"tag":"Leeds_United_F.C.","count":309849},
+{"tag":"Kayleigh_McEnany","count":309135},
+{"tag":"Grant_Imahara","count":305970},
+{"tag":"Marcelo_Bielsa","count":285710},
+{"tag":"Max_Ehrich","count":285151},
+{"tag":"Hagia_Sophia","count":276632},
+{"tag":"COVID-19_pandemic_by_country_and_territory","count":273469},
+{"tag":"Kraken","count":272092},
+{"tag":"It\s_Okay_to_Not_Be_Okay","count":258105},
+{"tag":"Michelle_McNamara","count":245429},
+{"tag":"COVID-19_pandemic_in_the_United_States","count":245215},
+{"tag":"Frankie_MacDonald","count":244778},
+{"tag":"Shooting_of_Breonna_Taylor","count":242875},
+{"tag":"Anthony_Fauci","count":238860},
+{"tag":"UFC_Fight_Night:_Figueiredo_vs._Benavidez_2","count":235543},
+{"tag":"Princess_Beatrice","count":230585},
+{"tag":"Elizabeth_Schuyler_Hamilton","count":230434},
+{"tag":"Pop_Smoke","count":230132},
+{"tag":"Ekaterina_Alexandrovskaya","count":229561},
+{"tag":"Black_Lives_Matter","count":226719},
+{"tag":"Shakuntala_Devi","count":224954},
+{"tag":"365_Days_(2020_film)","count":218080},
+{"tag":"Spanish_flu","count":214387},
+{"tag":"List_of_presidents_of_the_United_States","count":214203},
+{"tag":"Adrenochrome","count":206846},
+{"tag":"Pocahontas_(1995_film)","count":193148},
+{"tag":"2020_Formula_One_World_Championship","count":185284},
+{"tag":"Coronavirus_disease_2019","count":185165},
+{"tag":"Microsoft_Office","count":183086},
+{"tag":"Edmund_Pettus","count":177091},
+{"tag":"Ken_Miles","count":173561},
+{"tag":"Michael_Brooks_(political_commentator)","count":172795},
+{"tag":"Eurovision_Song_Contest:_The_Story_of_Fire_Saga","count":172488},
+{"tag":"Uyghurs","count":171968},
+{"tag":"C._T._Vivian","count":171549},
+{"tag":"COVID-19_pandemic_in_India","count":168816},
+{"tag":"RuPaul\s_Drag_Race_All_Stars_(season_5)","count":167269},
+{"tag":"Joseph_James_DeAngelo","count":165219}
+],
+  31 : [
+{"tag":"Regis_Philbin","count":2442910},
+{"tag":"Herman_Cain","count":1224482},
+{"tag":"Dil_Bechara","count":1118255},
+{"tag":"Deaths_in_2020","count":874589},
+{"tag":"The_Kissing_Booth_2","count":675129},
+{"tag":"Shakuntala_Devi","count":659089},
+{"tag":"Folklore_(Taylor_Swift_album)","count":594300},
+{"tag":"Peter_Green_(musician)","count":514407},
+{"tag":"Dassault_Rafale","count":508879},
+{"tag":"Stella_Immanuel","count":505991},
+{"tag":"COVID-19_pandemic","count":490247},
+{"tag":"COVID-19_pandemic_by_country_and_territory","count":460902},
+{"tag":"Murders_of_Channon_Christian_and_Christopher_Newsom","count":447696},
+{"tag":"Joan_Fontaine","count":445929},
+{"tag":"Template:COVID-19_pandemic_data","count":429961},
+{"tag":"The_Old_Guard_(2020_film)","count":393941},
+{"tag":"Susan_Rice","count":393572},
+{"tag":"Sanjana_Sanghi","count":349971},
+{"tag":"Shooting_of_Breonna_Taylor","count":339465},
+{"tag":"UFC_on_ESPN:_Whittaker_vs._Till","count":338091},
+{"tag":"Karen_Bass","count":327679},
+{"tag":"Tasuku_Honjo","count":310697},
+{"tag":"Ghost_of_Tsushima","count":294184},
+{"tag":"J._J._Philbin","count":272406},
+{"tag":"Cursed_(2020_TV_series)","count":270286},
+{"tag":"Hagia_Sophia","count":263014},
+{"tag":"Jeanne_Baret","count":258487},
+{"tag":"Joy_Philbin","count":254200},
+{"tag":"It\s_Okay_to_Not_Be_Okay","count":253502},
+{"tag":"Black_Lives_Matter","count":244389},
+{"tag":"Roy_Jones_Jr.","count":242532},
+{"tag":"Edmund_Pettus","count":234159},
+{"tag":"Anthony_Fauci","count":225887},
+{"tag":"Ted_Yoho","count":223737},
+{"tag":"Joy_Senese","count":221230},
+{"tag":"Malik_B.","count":220660},
+{"tag":"The_1619_Project","count":219873},
+{"tag":"Aaron_Burr","count":217958},
+{"tag":"Grimes_(musician)","count":216859},
+{"tag":"Paul_Castellano","count":215750},
+{"tag":"COVID-19_pandemic_in_the_United_States","count":206824},
+{"tag":"Pacita_Abad","count":199157},
+{"tag":"William_Barr","count":194546},
+{"tag":"Microsoft_Office","count":190281},
+{"tag":"Hameau_de_la_Reine","count":189040},
+{"tag":"Coronavirus_disease_2019","count":186718},
+{"tag":"Joe_Kelly_(pitcher)","count":184497},
+{"tag":"List_of_presidents_of_the_United_States","count":183291},
+{"tag":"Ken_Miles","count":180291},
+{"tag":"365_Days_(2020_film)","count":178494},
+{"tag":"Spanish_flu","count":174081},
+{"tag":"Rebekah_Harkness","count":173520},
+{"tag":"Greyhound_(film)","count":173387},
+{"tag":"Anthony_Salerno","count":172285},
+{"tag":"List_of_active_Indian_military_aircraft","count":169983},
+{"tag":"Edmund_Pettus_Bridge","count":167933},
+{"tag":"Maisie_Richardson-Sellers","count":164645},
+{"tag":"Elizabeth_Schuyler_Hamilton","count":163963},
+{"tag":"2020_Atlantic_hurricane_season","count":163744},
+{"tag":"Vanessa_Morgan","count":161090}
+],
+  32 : [
+{"tag":"Shakuntala_Devi","count":1491660},
+{"tag":"Ammonium_nitrate","count":1030182},
+{"tag":"2020_Beirut_explosions","count":933832},
+{"tag":"Beirut","count":904719},
+{"tag":"Deaths_in_2020","count":829633},
+{"tag":"Wilford_Brimley","count":604629},
+{"tag":"The_Umbrella_Academy","count":601075},
+{"tag":"Texas_City_disaster","count":500938},
+{"tag":"Sushant_Singh_Rajput","count":497005},
+{"tag":"Aidan_Gallagher","count":450519},
+{"tag":"COVID-19_pandemic","count":426316},
+{"tag":"Samir_Sharma","count":402222},
+{"tag":"Karen_Bass","count":386426},
+{"tag":"Jonathan_Swan","count":376793},
+{"tag":"Template:COVID-19_pandemic_data","count":375459},
+{"tag":"Ammonium_nitrate_disasters","count":375432},
+{"tag":"Largest_artificial_non-nuclear_explosions","count":365622},
+{"tag":"Robert_Sheehan","count":361399},
+{"tag":"COVID-19_pandemic_by_country_and_territory","count":356858},
+{"tag":"2020_World_Snooker_Championship","count":355975},
+{"tag":"2015_Tianjin_explosions","count":355373},
+{"tag":"Halifax_Explosion","count":348756},
+{"tag":"Vicki_Draves","count":334919},
+{"tag":"Black_Is_King","count":308581},
+{"tag":"Shakuntala_Devi_(film)","count":302377},
+{"tag":"List_of_The_Umbrella_Academy_characters","count":299105},
+{"tag":"Raat_Akeli_Hai","count":297970},
+{"tag":"David_Choe","count":275729},
+{"tag":"2020_Stanley_Cup_playoffs","count":269371},
+{"tag":"Amar_Singh_(politician)","count":267469},
+{"tag":"It\s_Okay_to_Not_Be_Okay","count":256885},
+{"tag":"Emmy_Raver-Lampman","count":253734},
+{"tag":"Ram_Mandir,_Ayodhya","count":252618},
+{"tag":"John_Hume","count":247439},
+{"tag":"Babri_Masjid","count":240564},
+{"tag":"Herman_Cain","count":237654},
+{"tag":"The_Old_Guard_(2020_film)","count":231717},
+{"tag":"Sameer_Sharma","count":226822},
+{"tag":"Raphael_Rowe","count":222897},
+{"tag":"Audrie_&_Daisy","count":216249},
+{"tag":"John_Lewis_(civil_rights_leader)","count":211194},
+{"tag":"Tom_Hopper","count":206719},
+{"tag":"Anthony_Fauci","count":199783},
+{"tag":"Juan_Carlos_I_of_Spain","count":199031},
+{"tag":"Folklore_(Taylor_Swift_album)","count":196277},
+{"tag":"FA_Cup","count":192947},
+{"tag":"Tasuku_Honjo","count":192663},
+{"tag":"Ram_Janmabhoomi","count":190349},
+{"tag":"David_Castañeda","count":189895},
+{"tag":"2020_Sri_Lankan_parliamentary_election","count":189635},
+{"tag":"Dil_Bechara","count":186982},
+{"tag":"Tammy_Duckworth","count":183768},
+{"tag":"COVID-19_pandemic_in_the_United_States","count":183031},
+{"tag":"UFC_Fight_Night:_Brunson_vs._Shahbazyan","count":182546},
+{"tag":"Adrenochrome","count":180993},
+{"tag":"Ayodhya","count":180334},
+{"tag":"Charli_D\Amelio","count":177595},
+{"tag":"Spanish_flu","count":176631},
+{"tag":"Emiliano_Martínez","count":175222},
+{"tag":"The_Kissing_Booth_2","count":173401}
+],
+  33 : [
+{"tag":"Shyamala_Gopalan","count":1756748},
+{"tag":"Maya_Harris","count":1560295},
+{"tag":"Douglas_Emhoff","count":1339624},
+{"tag":"Donald_J._Harris","count":912120},
+{"tag":"Deaths_in_2020","count":813847},
+{"tag":"Meena_Harris","count":728802},
+{"tag":"Gunjan_Saxena","count":627703},
+{"tag":"2020_Beirut_explosions","count":610824},
+{"tag":"Shakuntala_Devi","count":608992},
+{"tag":"Donald_Harris_(professor)","count":607622},
+{"tag":"Collin_Morikawa","count":570974},
+{"tag":"2020_World_Snooker_Championship","count":557119},
+{"tag":"Susan_Rice","count":530699},
+{"tag":"WAP_(song)","count":459075},
+{"tag":"Rahat_Indori","count":442212},
+{"tag":"Political_positions_of_Kamala_Harris","count":438603},
+{"tag":"Tony_West_(attorney)","count":414390},
+{"tag":"Beau_Biden","count":412489},
+{"tag":"List_of_most-disliked_YouTube_videos","count":408726},
+{"tag":"Rhea_Chakraborty","count":382272},
+{"tag":"COVID-19_pandemic","count":379839},
+{"tag":"Chrishell_Stause","count":376322},
+{"tag":"COVID-19_pandemic_by_country_and_territory","count":375696},
+{"tag":"Kamala_(wrestler)","count":374696},
+{"tag":"Sushant_Singh_Rajput","count":372955},
+{"tag":"Aidan_Gallagher","count":359099},
+{"tag":"The_Umbrella_Academy","count":358850},
+{"tag":"Justin_Hartley","count":356260},
+{"tag":"It\s_Okay_to_Not_Be_Okay","count":347894},
+{"tag":"Richard_Jewell","count":347510},
+{"tag":"Template:COVID-19_pandemic_data","count":334608},
+{"tag":"Alexander_Lukashenko","count":300515},
+{"tag":"Andrea_Pirlo","count":283582},
+{"tag":"2020_Stanley_Cup_playoffs","count":274598},
+{"tag":"Pranab_Mukherjee","count":274457},
+{"tag":"A_True_Story","count":273550},
+{"tag":"Ronnie_O\Sullivan","count":272409},
+{"tag":"Atmanirbhar_Bharat","count":270947},
+{"tag":"Jordan_Fisher","count":267300},
+{"tag":"Index_of_Greenland-related_articles","count":256094},
+{"tag":"P.V._Gopalan","count":252947},
+{"tag":"Shyamala_Gopalan_Harris","count":248902},
+{"tag":"Robert_Sheehan","count":247269},
+{"tag":"Derecho","count":239225},
+{"tag":"2020–21_UEFA_Champions_League","count":238298},
+{"tag":"Samantha_Lewthwaite","count":235520},
+{"tag":"Jill_Biden","count":230276},
+{"tag":"The_Devil_All_the_Time_(film)","count":228188},
+{"tag":"Geraldine_Ferraro","count":226642},
+{"tag":"Sabrina_Carpenter","count":225490},
+{"tag":"Spanish_flu","count":215368},
+{"tag":"Selling_Sunset","count":213559},
+{"tag":"Sadak_2","count":202666},
+{"tag":"2020_Belarusian_presidential_election","count":198160},
+{"tag":"Kostas_Tsimikas","count":196484},
+{"tag":"SummerSlam_(2020)","count":195807},
+{"tag":"UFC_Fight_Night:_Lewis_vs._Oleinik","count":193963},
+{"tag":"UFC_252","count":191649},
+{"tag":"Nicolas_Anelka","count":190074},
+{"tag":"List_of_The_Umbrella_Academy_characters","count":187097}
+],
+  34 : [
+{"tag":"Deaths_in_2020","count":801030},
+{"tag":"Betty_Broderick","count":790848},
+{"tag":"Beau_Biden","count":744871},
+{"tag":"Gunjan_Saxena","count":619791},
+{"tag":"Douglas_Emhoff","count":619440},
+{"tag":"Donald_J._Harris","count":616424},
+{"tag":"Project_Power","count":588014},
+{"tag":"Lovecraft_Country_(TV_series)","count":587730},
+{"tag":"Ronnie_O\Sullivan","count":580716},
+{"tag":"Robert_Trump","count":502916},
+{"tag":"Shyamala_Gopalan","count":498322},
+{"tag":"UFC_252","count":488770},
+{"tag":"Cuties","count":474096},
+{"tag":"Neilia_Hunter","count":455901},
+{"tag":"Maya_Harris","count":443108},
+{"tag":"Serge_Gnabry","count":409494},
+{"tag":"Nishikant_Kamat","count":404803},
+{"tag":"S._P._Balasubrahmanyam","count":404447},
+{"tag":"Hunter_Biden","count":396095},
+{"tag":"Joseph_James_DeAngelo","count":369596},
+{"tag":"Khuda_Haafiz","count":358092},
+{"tag":"Chi_Chi_DeVayne","count":349731},
+{"tag":"Louis_DeJoy","count":335718},
+{"tag":"COVID-19_pandemic_by_country_and_territory","count":333819},
+{"tag":"COVID-19_pandemic","count":333573},
+{"tag":"Alphonso_Davies","count":327194},
+{"tag":"Template:COVID-19_pandemic_data","count":318882},
+{"tag":"Meena_Harris","count":318499},
+{"tag":"2020_World_Snooker_Championship","count":299633},
+{"tag":"WAP_(song)","count":297210},
+{"tag":"Chrishell_Stause","count":291573},
+{"tag":"Susan_B._Anthony","count":287610},
+{"tag":"Shakuntala_Devi","count":286274},
+{"tag":"SummerSlam_(2020)","count":277744},
+{"tag":"Laura_Loomer","count":274994},
+{"tag":"Type-in_program","count":272260},
+{"tag":"2020–21_UEFA_Champions_League","count":269228},
+{"tag":"Justin_Hartley","count":268902},
+{"tag":"Whipping_Tom","count":266681},
+{"tag":"Family_of_Joe_Biden","count":263104},
+{"tag":"Dirty_John_(TV_series)","count":261463},
+{"tag":"Shooting_of_Breonna_Taylor","count":252870},
+{"tag":"Kerstin_Emhoff","count":249925},
+{"tag":"Index_of_Greenland-related_articles","count":249058},
+{"tag":"Microsoft_Flight_Simulator_(2020_video_game)","count":247692},
+{"tag":"Alexander_Lukashenko","count":247379},
+{"tag":"2020_Democratic_National_Convention","count":243822},
+{"tag":"Julius_Lothar_Meyer","count":241134},
+{"tag":"List_of_UEFA_Cup_and_Europa_League_finals","count":238296},
+{"tag":"The_Legend_of_Korra","count":230451},
+{"tag":"Unhinged_(2020_film)","count":230009},
+{"tag":"Suresh_Raina","count":227146},
+{"tag":"Steve_Bannon","count":226971},
+{"tag":"RB_Leipzig","count":222620},
+{"tag":"The_Umbrella_Academy","count":222265},
+{"tag":"Wilford_Brimley","count":218985},
+{"tag":"Aidan_Gallagher","count":211631},
+{"tag":"Murder_of_Joanna_Yeates","count":210797},
+{"tag":"Dream11","count":208398},
+{"tag":"Ben_Cross","count":207411}
+],
+  35 : [
+{"tag":"Kimberly_Guilfoyle","count":1296285}, {"tag":"Shooting_of_Jacob_Blake","count":1113039}, {"tag":"The_Batman_(film)","count":976556}, {"tag":"QAnon","count":942336}, {"tag":"Deaths_in_2020","count":780289}, {"tag":"SummerSlam_(2020)","count":760276}, {"tag":"Nikki_Haley","count":741366}, {"tag":"Lovecraft_Country_(TV_series)","count":542874}, {"tag":"Alexandre_Dumas","count":540472}, {"tag":"Kellyanne_Conway","count":532643}, {"tag":"Kingsley_Coman","count":472646}, {"tag":"Luka_Dončić","count":446719}, {"tag":"The_Suicide_Squad_(film)","count":445401}, {"tag":"Kenosha,_Wisconsin","count":436791}, {"tag":"Betty_Broderick","count":434782}, {"tag":"Joseph_James_DeAngelo","count":429231}, {"tag":"Gavin_Newsom","count":413031}, {"tag":"List_of_most-viewed_online_videos_in_the_first_24_hours","count":403388}, {"tag":"Justin_Townes_Earle","count":402554}, {"tag":"Milana_Vayntrub","count":391204}, {"tag":"Erin_O\Toole","count":376482}, {"tag":"Thiago_Silva","count":364814}, {"tag":"Niʻihau","count":356065}, {"tag":"2020–21_UEFA_Champions_League","count":353145}, {"tag":"Donna_Hylton","count":348652}, {"tag":"Alphonso_Davies","count":336412}, {"tag":"COVID-19_pandemic","count":332603}, {"tag":"Black_Adam","count":301671}, {"tag":"COVID-19_pandemic_by_country_and_territory","count":298992}, {"tag":"Zack_Snyder\s_Justice_League","count":295229}, {"tag":"Lara_Trump","count":293937}, {"tag":"Rape_and_murder_of_Nirmala_Panta","count":292144}, {"tag":"Jerry_Falwell_Jr.","count":284490}, {"tag":"2020_Atlantic_hurricane_season","count":279815}, {"tag":"Barbara_Hepworth","count":279158}, {"tag":"Index_of_Greenland-related_articles","count":277478}, {"tag":"Shooting_of_Breonna_Taylor","count":277453}, {"tag":"Template:COVID-19_pandemic_data","count":275309}, {"tag":"2020_Republican_National_Convention","count":269725}, {"tag":"Jack_Sherman","count":265231}, {"tag":"Payback_(2020)","count":258397}, {"tag":"2020–21_UEFA_Europa_League","count":250256}, {"tag":"Thiago_Alcântara","count":245378}, {"tag":"Paul_Dano","count":244247}, {"tag":"Tim_Scott","count":229174}, {"tag":"Matt_Reeves","count":224574}, {"tag":"Alexei_Navalny","count":224523}, {"tag":"Hans-Dieter_Flick","count":223678}, {"tag":"Unhinged_(2020_film)","count":222489}, {"tag":"James_Anderson_(cricketer)","count":213927}, {"tag":"WAP_(song)","count":213645}, {"tag":"Bill_&_Ted_Face_the_Music","count":210470}, {"tag":"Larry_King","count":207979}, {"tag":"Chrishell_Stause","count":206613}, {"tag":"File:Hitler_1928_crop.jpg","count":204654}, {"tag":"Shinzo_Abe","count":204044}, {"tag":"Nationwide_opinion_polling_for_the_2020_United_States_presidential_election","count":200705}, {"tag":"Big_Brother_22_(American_season)","count":193699}, {"tag":"BTS","count":192956}, {"tag":"Black_Lives_Matter","count":191959}
+],
+  36 : [
+{"tag":"Pranab_Mukherjee","count":926600},
+{"tag":"Deaths_in_2020","count":833161},
+{"tag":"William_Zabka","count":604496},
+{"tag":"Payback_(2020)","count":576238},
+{"tag":"Shooting_of_Jacob_Blake","count":544667},
+{"tag":"Clifford_Robinson_(basketball,_born_1966)","count":513107},
+{"tag":"Colorectal_cancer","count":496413},
+{"tag":"Da_5_Bloods","count":478335},
+{"tag":"Robert_F._Kennedy_Jr","count":470280},
+{"tag":"Masaba_Gupta","count":460324},
+{"tag":"Tom_Seaver","count":452906},
+{"tag":"Bill_&_Ted_Face_the_Music","count":429034},
+{"tag":"Mulan_(2020_film)","count":426493},
+{"tag":"Lovecraft_Country_(TV_series)","count":425502},
+{"tag":"Donny_van_de_Beek","count":421894},
+{"tag":"Jackie_Robinson","count":407783},
+{"tag":"Ma_Rainey\s_Black_Bottom_(film)","count":399051},
+{"tag":"Avengers_(2020_video_game)","count":348646},
+{"tag":"The_Karate_Kid","count":343311},
+{"tag":"Sadak_2","count":323801},
+{"tag":"COVID-19_pandemic","count":317889},
+{"tag":"John_Thompson_(basketball)","count":309700},
+{"tag":"Template:COVID-19_pandemic_data","count":295465},
+{"tag":"Black_Panther_(Marvel_Comics)","count":284659},
+{"tag":"COVID-19_pandemic_by_country_and_territory","count":283720},
+{"tag":"Jackie_Ormes","count":281360},
+{"tag":"Niecy_Nash","count":280206},
+{"tag":"Patriot_Prayer","count":278629},
+{"tag":"2020_MTV_Video_Music_Awards","count":274973},
+{"tag":"Neena_Gupta","count":272041},
+{"tag":"Ravangla","count":268202},
+{"tag":"Robert_Hansen","count":266384},
+{"tag":"Robert_F._Kennedy_Jr.","count":265289},
+{"tag":"Shinzo_Abe","count":258145},
+{"tag":"Novichok_agent","count":255434},
+{"tag":"Joe_Kennedy_III","count":254087},
+{"tag":"Erick_Morillo","count":251906},
+{"tag":"21_Bridges","count":250215},
+{"tag":"42_(film)","count":249176},
+{"tag":"Shooting_of_Breonna_Taylor","count":247989},
+{"tag":"List_of_The_Karate_Kid_characters","count":246463},
+{"tag":"David_Blaine","count":246186},
+{"tag":"Martin_Kove","count":236206},
+{"tag":"Raised_by_Wolves_(American_TV_series)","count":232712},
+{"tag":"Black_Lives_Matter","count":230660},
+{"tag":"Nancy_Pelosi","count":222883},
+{"tag":"Mary_Mouser","count":222468},
+{"tag":"Betty_Broderick","count":221920},
+{"tag":"Marshall_(film)","count":221463},
+{"tag":"BTS","count":221263},
+{"tag":"Tanner_Buchanan","count":216411},
+{"tag":"James_Brown","count":215837},
+{"tag":"Jamal_Murray","count":212958},
+{"tag":"2020_US_Open_(tennis)","count":211740},
+{"tag":"House_of_Music","count":211672},
+{"tag":"Bill_&_Ted","count":208846},
+{"tag":"Sundown_town","count":208115},
+{"tag":"2020–21_UEFA_Europa_League","count":201262},
+{"tag":"List_of_most-liked_tweets","count":197927},
+{"tag":"UFC_Fight_Night:_Smith_vs._Rakić","count":192968}
+],
+  37 : [
+{"tag":"Mulan_(2020_film)","count":1550651},
+{"tag":"Deaths_in_2020","count":773362},
+{"tag":"I\m_Thinking_of_Ending_Things_(film)","count":722315},
+{"tag":"Chadwick_Boseman","count":681854},
+{"tag":"Dune_(novel)","count":647704},
+{"tag":"Rhea_Chakraborty","count":567939},
+{"tag":"Raised_by_Wolves_(American_TV_series)","count":502165},
+{"tag":"The_1619_Project","count":494572},
+{"tag":"Liu_Yifei","count":491923},
+{"tag":"Afghan_Girl","count":477254},
+{"tag":"Robert_F._Kennedy_Jr","count":457146},
+{"tag":"William_Zabka","count":451701},
+{"tag":"Away_(TV_series)","count":403892},
+{"tag":"I\m_Thinking_of_Ending_Things","count":395237},
+{"tag":"John_List","count":365688},
+{"tag":"Lovecraft_Country_(TV_series)","count":364496},
+{"tag":"Hua_Mulan","count":363767},
+{"tag":"Victoria_Azarenka","count":358054},
+{"tag":"Bob_Woodward","count":352653},
+{"tag":"Labor_Day","count":346022},
+{"tag":"Donnie_Yen","count":337817},
+{"tag":"Critical_race_theory","count":332126},
+{"tag":"Cuties","count":320989},
+{"tag":"Template:COVID-19_pandemic_data","count":317300},
+{"tag":"COVID-19_pandemic","count":312373},
+{"tag":"COVID-19_pandemic_by_country_and_territory","count":298667},
+{"tag":"V_(film)","count":293217},
+{"tag":"Pat_Morita","count":285650},
+{"tag":"Avengers_(2020_video_game)","count":271612},
+{"tag":"The_Karate_Kid","count":253851},
+{"tag":"2020_US_Open_(tennis)","count":253015},
+{"tag":"2020_Formula_One_World_Championship","count":238967},
+{"tag":"Xavier_Ortiz","count":238254},
+{"tag":"All_Out_(2020)","count":234670},
+{"tag":"Dustin_Johnson","count":229760},
+{"tag":"Shooting_of_Jacob_Blake","count":225483},
+{"tag":"The_New_Mutants_(film)","count":223238},
+{"tag":"2020_US_Open_–_Men\s_Singles","count":222190},
+{"tag":"Lou_Brock","count":212835},
+{"tag":"Jaya_Prakash_Reddy","count":212579},
+{"tag":"Alive_(2020_film)","count":210945},
+{"tag":"Mulan_(1998_film)","count":209634},
+{"tag":"Robert_F._Kennedy_Jr.","count":208683},
+{"tag":"Charlie_Kaufman","count":207212},
+{"tag":"Security_categories_in_India","count":206572},
+{"tag":"Big_Brother_22_(American_season)","count":197845},
+{"tag":"Bigg_Boss_(Telugu_season_4)","count":197581},
+{"tag":"Shooting_of_Breonna_Taylor","count":197411},
+{"tag":"2020–21_UEFA_Nations_League","count":193622},
+{"tag":"Martin_Kove","count":185198},
+{"tag":"Jason_Scott_Lee","count":183949},
+{"tag":"The_Babysitter:_Killer_Queen","count":182523},
+{"tag":"Rachael_Leigh_Cook","count":181856},
+{"tag":"Pierre_Gasly","count":174356},
+{"tag":"Black_Lives_Matter","count":172241},
+{"tag":"Alistair_Overeem","count":169583},
+{"tag":"2020_US_Open_–_Women\s_Singles","count":168836},
+{"tag":"Tyler_Herro","count":167678},
+{"tag":"Rob_Garrison","count":165346},
+{"tag":"List_of_The_Karate_Kid_characters","count":164531}
+],
+  38 : [
+{"tag":"Dennis_Nilsen","count":2292237},
+{"tag":"Cuties","count":1129776},
+{"tag":"Deaths_in_2020","count":760786},
+{"tag":"Mulan_(2020_film)","count":752609},
+{"tag":"The_Devil_All_the_Time_(film)","count":718010},
+{"tag":"Shooting_of_Breonna_Taylor","count":532039},
+{"tag":"QAnon","count":490839},
+{"tag":"Among_Us","count":432232},
+{"tag":"Raised_by_Wolves_(American_TV_series)","count":418522},
+{"tag":"The_Babysitter:_Killer_Queen","count":350953},
+{"tag":"2020_Atlantic_hurricane_season","count":347383},
+{"tag":"Lovecraft_Country_(TV_series)","count":339453},
+{"tag":"COVID-19_pandemic","count":334528},
+{"tag":"Thiago_Alcântara","count":331710},
+{"tag":"Cordae","count":317520},
+{"tag":"Dune_(novel)","count":310673},
+{"tag":"Bob_Woodward","count":303818},
+{"tag":"Template:COVID-19_pandemic_data","count":297116},
+{"tag":"William_Zabka","count":295168},
+{"tag":"I\m_Thinking_of_Ending_Things_(film)","count":289919},
+{"tag":"Shooting_of_Antwon_Rose_Jr.","count":285393},
+{"tag":"COVID-19_pandemic_by_country_and_territory","count":283395},
+{"tag":"Chadwick_Boseman","count":283147},
+{"tag":"Felicitas_Mendez","count":274746},
+{"tag":"Victoria_Azarenka","count":263866},
+{"tag":"Li-Meng_Yan","count":263839},
+{"tag":"Alive_(2020_film)","count":260914},
+{"tag":"Des_(TV_series)","count":250601},
+{"tag":"Navid_Afkari","count":250519},
+{"tag":"Away_(TV_series)","count":242969},
+{"tag":"Diana_Rigg","count":240988},
+{"tag":"Yoshihide_Suga","count":236347},
+{"tag":"Big_Brother_22_(American_season)","count":234342},
+{"tag":"Ratched_(TV_series)","count":229159},
+{"tag":"Chicago_Seven","count":227663},
+{"tag":"Kangana_Ranaut","count":224842},
+{"tag":"Marcelo_Bielsa","count":223491},
+{"tag":"Katherine_Ryan","count":220859},
+{"tag":"The_Babysitter_(2017_film)","count":219166},
+{"tag":"Phosphine","count":218670},
+{"tag":"The_Social_Dilemma","count":218172},
+{"tag":"Antebellum_(film)","count":214513},
+{"tag":"2020–21_UEFA_Europa_League","count":214401},
+{"tag":"PlayStation_5","count":201033},
+{"tag":"Dancing_with_the_Stars_(American_season_29)","count":199250},
+{"tag":"Aldon_Smith","count":188507},
+{"tag":"Jamal_Murray","count":185925},
+{"tag":"Carole_Baskin","count":185852},
+{"tag":"The_Karate_Kid","count":183373},
+{"tag":"Space_Shuttle_Challenger_disaster","count":182795},
+{"tag":"Snowflake_Inc.","count":179626},
+{"tag":"Winged_Foot_Golf_Club","count":173691},
+{"tag":"Nikola_Jokić","count":172413},
+{"tag":"Jimmy_Butler","count":171901},
+{"tag":"2020–21_UEFA_Champions_League","count":170821},
+{"tag":"Black_Lives_Matter","count":170538},
+{"tag":"The_1619_Project","count":165037},
+{"tag":"Hilary_Swank","count":158128},
+{"tag":"Kang_the_Conqueror","count":157922},
+{"tag":"Diogo_Jota","count":157815}
+]
+};
+
+
+
+
+
+
+var data_bar_race = {
+  1: [
+{"topic":"Hugo_de_Jonge","access_volume":729},
+{"topic":"Tweede_Wereldoorlog","access_volume":6387},
+{"topic":"Jan_de_Lichte","access_volume":56017},
+{"topic":"presidenten_van_de_US","access_volume":5599},
+{"topic":"Eerste_Wereldoorlog","access_volume":9790},
+{"topic":"Donald_Trump","access_volume":7248},
+{"topic":"Nederland","access_volume":19501},
+{"topic":"Huwelijksverjaardag","access_volume":5956},
+{"topic":"The_Handmaid\s_Tale","access_volume":14381},
+{"topic":"België","access_volume":8341},
+{"topic":"Kobe_Bryant","access_volume":117},
+{"topic":"Billie_Eilish","access_volume":11277},
+{"topic":"Wie_is_de_Mol?","access_volume":9132},
+{"topic":"Marc_de_Hond","access_volume":562},
+{"topic":"YouTube","access_volume":6125},
+{"topic":"Griep","access_volume":894},
+{"topic":"Google_Inc.","access_volume":40529},
+{"topic":"Kernramp_van_Tsjernobyl","access_volume":7891},
+{"topic":"André_Hazes","access_volume":10249},
+{"topic":"James_Bond","access_volume":4926},
+{"topic":"Elizabeth_II_van_het_UK","access_volume":20936},
+{"topic":"Ragnar_Lodbrok","access_volume":11742},
+{"topic":"Mark_Rutte","access_volume":5749},
+{"topic":"Spaanse_griep","access_volume":432},
+{"topic":"La_casa_de_papel","access_volume":8027},
+{"topic":"landnummers_in_de_telefonie","access_volume":11462},
+{"topic":"Michael_Jordan","access_volume":454},
+{"topic":"Verenigde_Staten","access_volume":9370}
+
+  ],
+  2: [
+{"topic":"YouTube","access_volume":6893},
+{"topic":"La_casa_de_papel","access_volume":6854},
+{"topic":"Verenigde_Staten","access_volume":12221},
+{"topic":"Billie_Eilish","access_volume":9839},
+{"topic":"Wie_is_de_Mol?","access_volume":25144},
+{"topic":"landnummers_in_de_telefonie","access_volume":10481},
+{"topic":"Jan_de_Lichte","access_volume":88903},
+{"topic":"Virus_(biologie)","access_volume":1449},
+{"topic":"André_Hazes","access_volume":4347},
+{"topic":"James_Bond","access_volume":5478},
+{"topic":"Donald_Trump","access_volume":12339},
+{"topic":"Coronavirussen","access_volume":786},
+{"topic":"Ragnar_Lodbrok","access_volume":22305},
+{"topic":"Spaanse_griep","access_volume":436},
+{"topic":"Kernramp_van_Tsjernobyl","access_volume":8756},
+{"topic":"Marc_de_Hond","access_volume":150},
+{"topic":"The_Handmaid\s_Tale","access_volume":10939},
+{"topic":"presidenten_van_de_US","access_volume":6453},
+{"topic":"Google_Inc.","access_volume":40298},
+{"topic":"België","access_volume":10067},
+{"topic":"Elizabeth_II_van_het_UK","access_volume":26056},
+{"topic":"Tweede_Wereldoorlog","access_volume":9849},
+{"topic":"Eerste_Wereldoorlog","access_volume":19133},
+{"topic":"Huwelijksverjaardag","access_volume":6078},
+{"topic":"Mark_Rutte","access_volume":3758},
+{"topic":"Hugo_de_Jonge","access_volume":2788},
+{"topic":"Griep","access_volume":1248},
+{"topic":"Nederland","access_volume":21563},
+{"topic":"Michael_Jordan","access_volume":215}
+  ],
+  3: [
+{"topic":"YouTube","access_volume":8354},
+{"topic":"Ragnar_Lodbrok","access_volume":24964},
+{"topic":"Mark_Rutte","access_volume":4242},
+{"topic":"landnummers_in_de_telefonie","access_volume":12487},
+{"topic":"Virus_(biologie)","access_volume":1524},
+{"topic":"Mexicaanse_griep","access_volume":105},
+{"topic":"Coronavirussen","access_volume":5586},
+{"topic":"Tweede_Wereldoorlog","access_volume":9837},
+{"topic":"Wie_is_de_Mol?","access_volume":26410},
+{"topic":"Billie_Eilish","access_volume":18210},
+{"topic":"Spaanse_griep","access_volume":391},
+{"topic":"André_Hazes","access_volume":4208},
+{"topic":"Jan_de_Lichte","access_volume":55784},
+{"topic":"Verenigde_Staten","access_volume":10974},
+{"topic":"Eerste_Wereldoorlog","access_volume":19796},
+{"topic":"Michael_Jordan","access_volume":209},
+{"topic":"James_Bond","access_volume":7644},
+{"topic":"Elizabeth_II_van_het_UK","access_volume":23929},
+{"topic":"Griep","access_volume":1530},
+{"topic":"België","access_volume":9886},
+{"topic":"Google_Inc.","access_volume":40399},
+{"topic":"Huwelijksverjaardag","access_volume":6839},
+{"topic":"Nederland","access_volume":20896},
+{"topic":"Donald_Trump","access_volume":7233},
+{"topic":"Marc_de_Hond","access_volume":47622},
+{"topic":"The_Handmaid\s_Tale","access_volume":10304},
+{"topic":"Kernramp_van_Tsjernobyl","access_volume":6833},
+{"topic":"presidenten_van_de_US","access_volume":5278},
+{"topic":"La_casa_de_papel","access_volume":6161},
+{"topic":"Hugo_de_Jonge","access_volume":921}
+  ],
+  4: [
+{"topic":"Elizabeth_II_van_het_UK","access_volume":17765},
+{"topic":"Billie_Eilish","access_volume":11026},
+{"topic":"landnummers_in_de_telefonie","access_volume":9816},
+{"topic":"James_Bond","access_volume":5778},
+{"topic":"Pandemie","access_volume":2668},
+{"topic":"Eerste_Wereldoorlog","access_volume":17602},
+{"topic":"presidenten_van_de_US","access_volume":5614},
+{"topic":"Marc_de_Hond","access_volume":49819},
+{"topic":"Kernramp_van_Tsjernobyl","access_volume":5919},
+{"topic":"Michael_Jordan","access_volume":508},
+{"topic":"Spaanse_griep","access_volume":10884},
+{"topic":"België","access_volume":9858},
+{"topic":"Wie_is_de_Mol?","access_volume":17148},
+{"topic":"Virus_(biologie)","access_volume":5581},
+{"topic":"Verenigde_Staten","access_volume":10054},
+{"topic":"Nederland","access_volume":18633},
+{"topic":"Huwelijksverjaardag","access_volume":6221},
+{"topic":"Hugo_de_Jonge","access_volume":511},
+{"topic":"La_casa_de_papel","access_volume":5552},
+{"topic":"Ragnar_Lodbrok","access_volume":21438},
+{"topic":"YouTube","access_volume":7617},
+{"topic":"Coronavirus","access_volume":195356},
+{"topic":"Tweede_Wereldoorlog","access_volume":10213},
+{"topic":"André_Hazes","access_volume":6531},
+{"topic":"Donald_Trump","access_volume":6401},
+{"topic":"Jan_de_Lichte","access_volume":34054},
+{"topic":"Mark_Rutte","access_volume":3851},
+{"topic":"Coronavirussen","access_volume":50358},
+{"topic":"Mexicaanse_griep","access_volume":5798},
+{"topic":"Griep","access_volume":5034},
+{"topic":"Google_Inc.","access_volume":40367},
+{"topic":"The_Handmaid\s_Tale","access_volume":8682}
+
+  ],
+  5: [
+{"topic":"Marc_de_Hond","access_volume":28107},
+{"topic":"Griep","access_volume":15597},
+{"topic":"Hugo_de_Jonge","access_volume":300},
+{"topic":"Pandemie","access_volume":9784},
+{"topic":"Donald_Trump","access_volume":6004},
+{"topic":"Coronavirus","access_volume":164878},
+{"topic":"Kernramp_van_Tsjernobyl","access_volume":5231},
+{"topic":"La_casa_de_papel","access_volume":5390},
+{"topic":"Mark_Rutte","access_volume":16972},
+{"topic":"landnummers_in_de_telefonie","access_volume":12867},
+{"topic":"Huwelijksverjaardag","access_volume":5912},
+{"topic":"Jan_de_Lichte","access_volume":19642},
+{"topic":"Eerste_Wereldoorlog","access_volume":15765},
+{"topic":"Virus_(biologie)","access_volume":10984},
+{"topic":"Coronavirussen","access_volume":39819},
+{"topic":"Nederland","access_volume":18519},
+{"topic":"Google_Inc.","access_volume":39725},
+{"topic":"André_Hazes","access_volume":4537},
+{"topic":"Michael_Jordan","access_volume":15625},
+{"topic":"The_Handmaid\s_Tale","access_volume":7430},
+{"topic":"Kobe_Bryant","access_volume":221679},
+{"topic":"Mexicaanse_griep","access_volume":17722},
+{"topic":"Spaanse_griep","access_volume":27676},
+{"topic":"Wie_is_de_Mol?","access_volume":14071},
+{"topic":"Tweede_Wereldoorlog","access_volume":12157},
+{"topic":"Ragnar_Lodbrok","access_volume":18575},
+{"topic":"Verenigde_Staten","access_volume":9750},
+{"topic":"presidenten_van_de_US","access_volume":5522},
+{"topic":"Elizabeth_II_van_het_UK","access_volume":12889},
+{"topic":"Billie_Eilish","access_volume":26287},
+{"topic":"België","access_volume":9495},
+{"topic":"James_Bond","access_volume":4952},
+{"topic":"YouTube","access_volume":9054}
+
+  ],
+  6: [
+{"topic":"The_Handmaid\s_Tale","access_volume":7280},
+{"topic":"Nederland","access_volume":17342},
+{"topic":"Huwelijksverjaardag","access_volume":7676},
+{"topic":"Virus_(biologie)","access_volume":6354},
+{"topic":"YouTube","access_volume":8330},
+{"topic":"Donald_Trump","access_volume":10017},
+{"topic":"Coronavirussen","access_volume":52042},
+{"topic":"Mark_Rutte","access_volume":3356},
+{"topic":"Coronavirus","access_volume":4673},
+{"topic":"James_Bond","access_volume":4796},
+{"topic":"Griep","access_volume":11062},
+{"topic":"Pandemie","access_volume":5277},
+{"topic":"Jan_de_Lichte","access_volume":12156},
+{"topic":"Hugo_de_Jonge","access_volume":1592},
+{"topic":"Wie_is_de_Mol?","access_volume":13067},
+{"topic":"Ragnar_Lodbrok","access_volume":16443},
+{"topic":"Elizabeth_II_van_het_UK","access_volume":11640},
+{"topic":"Mexicaanse_griep","access_volume":7972},
+{"topic":"landnummers_in_de_telefonie","access_volume":17227},
+{"topic":"presidenten_van_de_US","access_volume":6843},
+{"topic":"Google_Inc.","access_volume":40391},
+{"topic":"Tweede_Wereldoorlog","access_volume":9951},
+{"topic":"België","access_volume":8987},
+{"topic":"La_casa_de_papel","access_volume":5345},
+{"topic":"Michael_Jordan","access_volume":2315},
+{"topic":"Kernramp_van_Tsjernobyl","access_volume":5173},
+{"topic":"Kobe_Bryant","access_volume":10544},
+{"topic":"Marc_de_Hond","access_volume":5077},
+{"topic":"André_Hazes","access_volume":3783},
+{"topic":"Billie_Eilish","access_volume":12090},
+{"topic":"Verenigde_Staten","access_volume":11124},
+{"topic":"Spaanse_griep","access_volume":14824},
+{"topic":"Eerste_Wereldoorlog","access_volume":14338}
+  ],
+  7: [
+{"topic":"België","access_volume":8689},
+{"topic":"Nederland","access_volume":17364},
+{"topic":"The_Handmaid\s_Tale","access_volume":6892},
+{"topic":"Coronavirus","access_volume":1402},
+{"topic":"Virus_(biologie)","access_volume":4303},
+{"topic":"Kobe_Bryant","access_volume":5151},
+{"topic":"landnummers_in_de_telefonie","access_volume":8655},
+{"topic":"Ragnar_Lodbrok","access_volume":15439},
+{"topic":"Jan_de_Lichte","access_volume":10177},
+{"topic":"Spaanse_griep","access_volume":8990},
+{"topic":"Billie_Eilish","access_volume":19264},
+{"topic":"Kernramp_van_Tsjernobyl","access_volume":4711},
+{"topic":"Elizabeth_II_van_het_UK","access_volume":10990},
+{"topic":"James_Bond","access_volume":7415},
+{"topic":"Wie_is_de_Mol?","access_volume":13415},
+{"topic":"Google_Inc.","access_volume":40399},
+{"topic":"YouTube","access_volume":9146},
+{"topic":"Verenigde_Staten","access_volume":10448},
+{"topic":"André_Hazes","access_volume":4843},
+{"topic":"Michael_Jordan","access_volume":2602},
+{"topic":"Donald_Trump","access_volume":7229},
+{"topic":"Coronavirussen","access_volume":24842},
+{"topic":"Tweede_Wereldoorlog","access_volume":9087},
+{"topic":"Griep","access_volume":7402},
+{"topic":"Marc_de_Hond","access_volume":657},
+{"topic":"Eerste_Wereldoorlog","access_volume":13056},
+{"topic":"presidenten_van_de_US","access_volume":7409},
+{"topic":"COVID-19","access_volume":3579},
+{"topic":"Mexicaanse_griep","access_volume":3855},
+{"topic":"La_casa_de_papel","access_volume":5466},
+{"topic":"Huwelijksverjaardag","access_volume":6948},
+{"topic":"Pandemie","access_volume":2002},
+{"topic":"Mark_Rutte","access_volume":3719},
+{"topic":"Hugo_de_Jonge","access_volume":1006}
+  ],
+  8: [
+{"topic":"Mark_Rutte","access_volume":3583},
+{"topic":"Elizabeth_II_van_het_UK","access_volume":9345},
+{"topic":"presidenten_van_de_US","access_volume":4794},
+{"topic":"Hugo_de_Jonge","access_volume":919},
+{"topic":"Virus_(biologie)","access_volume":3549},
+{"topic":"Marc_de_Hond","access_volume":4977},
+{"topic":"James_Bond","access_volume":10409},
+{"topic":"La_casa_de_papel","access_volume":5756},
+{"topic":"Coronavirussen","access_volume":18620},
+{"topic":"landnummers_in_de_telefonie","access_volume":8292},
+{"topic":"Kobe_Bryant","access_volume":5044},
+{"topic":"COVID-19","access_volume":3785},
+{"topic":"Nederland","access_volume":15776},
+{"topic":"Tweede_Wereldoorlog","access_volume":7938},
+{"topic":"Eerste_Wereldoorlog","access_volume":11408},
+{"topic":"YouTube","access_volume":7470},
+{"topic":"Ragnar_Lodbrok","access_volume":12963},
+{"topic":"Spaanse_griep","access_volume":7806},
+{"topic":"Coronavirus","access_volume":317},
+{"topic":"The_Handmaid\s_Tale","access_volume":7336},
+{"topic":"Wie_is_de_Mol?","access_volume":11567},
+{"topic":"Jan_de_Lichte","access_volume":8577},
+{"topic":"Google_Inc.","access_volume":40233},
+{"topic":"Kernramp_van_Tsjernobyl","access_volume":4619},
+{"topic":"Donald_Trump","access_volume":5312},
+{"topic":"Mexicaanse_griep","access_volume":2684},
+{"topic":"André_Hazes","access_volume":6465},
+{"topic":"Verenigde_Staten","access_volume":9000},
+{"topic":"België","access_volume":8560},
+{"topic":"Billie_Eilish","access_volume":19259},
+{"topic":"Pandemie","access_volume":2927},
+{"topic":"Griep","access_volume":5591},
+{"topic":"Huwelijksverjaardag","access_volume":6378},
+{"topic":"Michael_Jordan","access_volume":1363}
+
+  ],
+  9: [
+{"topic":"Coronavirussen","access_volume":89835},
+{"topic":"SARS-CoV-2","access_volume":10516},
+{"topic":"Donald_Trump","access_volume":5074},
+{"topic":"Billie_Eilish","access_volume":11030},
+{"topic":"Verenigde_Staten","access_volume":7757},
+{"topic":"Eerste_Wereldoorlog","access_volume":10063},
+{"topic":"Elizabeth_II_van_het_UK","access_volume":8233},
+{"topic":"Marc_de_Hond","access_volume":890},
+{"topic":"Mark_Rutte","access_volume":2920},
+{"topic":"Tweede_Wereldoorlog","access_volume":7058},
+{"topic":"Hugo_de_Jonge","access_volume":1004},
+{"topic":"Spaanse_griep","access_volume":54564},
+{"topic":"James_Bond","access_volume":9191},
+{"topic":"YouTube","access_volume":7869},
+{"topic":"COVID-19","access_volume":20634},
+{"topic":"Jan_de_Lichte","access_volume":7232},
+{"topic":"Michael_Jordan","access_volume":3986},
+{"topic":"Pandemie","access_volume":37733},
+{"topic":"Nederland","access_volume":15026},
+{"topic":"landnummers_in_de_telefonie","access_volume":8317},
+{"topic":"Mexicaanse_griep","access_volume":53660},
+{"topic":"Huwelijksverjaardag","access_volume":6575},
+{"topic":"Ragnar_Lodbrok","access_volume":11415},
+{"topic":"Virus_(biologie)","access_volume":16046},
+{"topic":"La_casa_de_papel","access_volume":5585},
+{"topic":"presidenten_van_de_US","access_volume":4507},
+{"topic":"Kobe_Bryant","access_volume":12224},
+{"topic":"Google_Inc.","access_volume":40289},
+{"topic":"Coronavirus","access_volume":4835},
+{"topic":"België","access_volume":7237},
+{"topic":"Kernramp_van_Tsjernobyl","access_volume":4465},
+{"topic":"André_Hazes","access_volume":4563},
+{"topic":"The_Handmaid\s_Tale","access_volume":5414},
+{"topic":"Griep","access_volume":45542},
+{"topic":"Wie_is_de_Mol?","access_volume":11303}
+
+  ],
+  10: [
+{"topic":"Wie_is_de_Mol?","access_volume":13629},
+{"topic":"Nederland","access_volume":18555},
+{"topic":"YouTube","access_volume":8346},
+{"topic":"Kernramp_van_Tsjernobyl","access_volume":5012},
+{"topic":"Eerste_Wereldoorlog","access_volume":11680},
+{"topic":"Griep","access_volume":37924},
+{"topic":"Elizabeth_II_van_het_UK","access_volume":7390},
+{"topic":"Donald_Trump","access_volume":9057},
+{"topic":"presidenten_van_de_US","access_volume":7171},
+{"topic":"Google_Inc.","access_volume":40354},
+{"topic":"Tweede_Wereldoorlog","access_volume":10053},
+{"topic":"James_Bond","access_volume":14392},
+{"topic":"Michael_Jordan","access_volume":987},
+{"topic":"Jan_de_Lichte","access_volume":5549},
+{"topic":"Coronavirussen","access_volume":68675},
+{"topic":"België","access_volume":9670},
+{"topic":"Kobe_Bryant","access_volume":3442},
+{"topic":"Pandemie","access_volume":14234},
+{"topic":"Coronavirus","access_volume":7924},
+{"topic":"COVID-19","access_volume":23149},
+{"topic":"Verenigde_Staten","access_volume":10500},
+{"topic":"The_Handmaid\s_Tale","access_volume":5150},
+{"topic":"Marc_de_Hond","access_volume":100},
+{"topic":"Billie_Eilish","access_volume":9040},
+{"topic":"André_Hazes","access_volume":7678},
+{"topic":"SARS-CoV-2","access_volume":23190},
+{"topic":"Spaanse_griep","access_volume":41992},
+{"topic":"Huwelijksverjaardag","access_volume":6476},
+{"topic":"Hugo_de_Jonge","access_volume":871},
+{"topic":"Virus_(biologie)","access_volume":17797},
+{"topic":"landnummers_in_de_telefonie","access_volume":10220},
+{"topic":"Mexicaanse_griep","access_volume":50905},
+{"topic":"La_casa_de_papel","access_volume":6125},
+{"topic":"Mark_Rutte","access_volume":4354},
+{"topic":"Ragnar_Lodbrok","access_volume":9324}
+  ],
+  11: [
+{"topic":"Donald_Trump","access_volume":7909},
+{"topic":"Kobe_Bryant","access_volume":2272},
+{"topic":"Coronavirus","access_volume":11494},
+{"topic":"Nederland","access_volume":20386},
+{"topic":"La_casa_de_papel","access_volume":5942},
+{"topic":"Ragnar_Lodbrok","access_volume":8266},
+{"topic":"België","access_volume":11770},
+{"topic":"Virus_(biologie)","access_volume":32992},
+{"topic":"Kernramp_van_Tsjernobyl","access_volume":7722},
+{"topic":"Wie_is_de_Mol?","access_volume":19254},
+{"topic":"Google_Inc.","access_volume":40247},
+{"topic":"Billie_Eilish","access_volume":10951},
+{"topic":"SARS-CoV-2","access_volume":41584},
+{"topic":"Eerste_Wereldoorlog","access_volume":11918},
+{"topic":"Spaanse_griep","access_volume":130057},
+{"topic":"landnummers_in_de_telefonie","access_volume":7277},
+{"topic":"James_Bond","access_volume":10167},
+{"topic":"Griep","access_volume":49834},
+{"topic":"Verenigde_Staten","access_volume":10446},
+{"topic":"André_Hazes","access_volume":4776},
+{"topic":"Michael_Jordan","access_volume":210},
+{"topic":"Coronavirussen","access_volume":110317},
+{"topic":"Mark_Rutte","access_volume":12826},
+{"topic":"Tweede_Wereldoorlog","access_volume":9840},
+{"topic":"Marc_de_Hond","access_volume":332},
+{"topic":"Pandemie","access_volume":185786},
+{"topic":"Jan_de_Lichte","access_volume":4324},
+{"topic":"Mexicaanse_griep","access_volume":110202},
+{"topic":"The_Handmaid\s_Tale","access_volume":5037},
+{"topic":"COVID-19","access_volume":64084},
+{"topic":"Hugo_de_Jonge","access_volume":1107},
+{"topic":"Elizabeth_II_van_het_UK","access_volume":8110},
+{"topic":"YouTube","access_volume":8326},
+{"topic":"presidenten_van_de_US","access_volume":5801},
+{"topic":"Huwelijksverjaardag","access_volume":5170}
+
+  ],
+  12: [
+{"topic":"Billie_Eilish","access_volume":7535},
+{"topic":"Coronavirussen","access_volume":103447},
+{"topic":"Michael_Jordan","access_volume":607},
+{"topic":"COVID-19","access_volume":110957},
+{"topic":"Virus_(biologie)","access_volume":51589},
+{"topic":"landnummers_in_de_telefonie","access_volume":6694},
+{"topic":"YouTube","access_volume":9450},
+{"topic":"Griep","access_volume":80752},
+{"topic":"Ragnar_Lodbrok","access_volume":8287},
+{"topic":"Tweede_Wereldoorlog","access_volume":9393},
+{"topic":"Kernramp_van_Tsjernobyl","access_volume":5445},
+{"topic":"Huwelijksverjaardag","access_volume":3633},
+{"topic":"Jan_de_Lichte","access_volume":3816},
+{"topic":"Wie_is_de_Mol?","access_volume":11636},
+{"topic":"Eerste_Wereldoorlog","access_volume":14152},
+{"topic":"Google_Inc.","access_volume":36065},
+{"topic":"Hugo_de_Jonge","access_volume":42489},
+{"topic":"James_Bond","access_volume":12988},
+{"topic":"Spaanse_griep","access_volume":192775},
+{"topic":"Marc_de_Hond","access_volume":1355},
+{"topic":"Mexicaanse_griep","access_volume":94064},
+{"topic":"La_casa_de_papel","access_volume":8169},
+{"topic":"SARS-CoV-2","access_volume":53958},
+{"topic":"Donald_Trump","access_volume":6325},
+{"topic":"Elizabeth_II_van_het_UK","access_volume":9196},
+{"topic":"André_Hazes","access_volume":8959},
+{"topic":"Pandemie","access_volume":78943},
+{"topic":"Verenigde_Staten","access_volume":10254},
+{"topic":"presidenten_van_de_US","access_volume":6027},
+{"topic":"Coronavirus","access_volume":11211},
+{"topic":"The_Handmaid\s_Tale","access_volume":5008},
+{"topic":"Kobe_Bryant","access_volume":1699},
+{"topic":"Nederland","access_volume":22557},
+{"topic":"België","access_volume":14176},
+{"topic":"Coronapandemie","access_volume":13888},
+{"topic":"Mark_Rutte","access_volume":37558}
+
+  ],
+  13: [
+{"topic":"Coronavirus","access_volume":6162},
+{"topic":"Jan_de_Lichte","access_volume":3353},
+{"topic":"België","access_volume":15346},
+{"topic":"Billie_Eilish","access_volume":8722},
+{"topic":"COVID-19","access_volume":93739},
+{"topic":"The_Handmaid\s_Tale","access_volume":5117},
+{"topic":"Virus_(biologie)","access_volume":41031},
+{"topic":"Hugo_de_Jonge","access_volume":15173},
+{"topic":"Coronacrisis_in_Nederland","access_volume":8940},
+{"topic":"Coronapandemie","access_volume":69896},
+{"topic":"Pandemie","access_volume":51720},
+{"topic":"presidenten_van_de_US","access_volume":6988},
+{"topic":"Nederland","access_volume":24802},
+{"topic":"Mexicaanse_griep","access_volume":48047},
+{"topic":"Donald_Trump","access_volume":7520},
+{"topic":"Mark_Rutte","access_volume":18851},
+{"topic":"Kobe_Bryant","access_volume":1560},
+{"topic":"La_casa_de_papel","access_volume":11802},
+{"topic":"Wie_is_de_Mol?","access_volume":4034},
+{"topic":"Kernramp_van_Tsjernobyl","access_volume":5430},
+{"topic":"Spaanse_griep","access_volume":109967},
+{"topic":"André_Hazes","access_volume":8544},
+{"topic":"Elizabeth_II_van_het_UK","access_volume":15545},
+{"topic":"Google_Inc.","access_volume":40412},
+{"topic":"Huwelijksverjaardag","access_volume":4346},
+{"topic":"Coronavirussen","access_volume":62972},
+{"topic":"YouTube","access_volume":9522},
+{"topic":"Eerste_Wereldoorlog","access_volume":14979},
+{"topic":"SARS-CoV-2","access_volume":32511},
+{"topic":"landnummers_in_de_telefonie","access_volume":6586},
+{"topic":"Griep","access_volume":54021},
+{"topic":"Marc_de_Hond","access_volume":149},
+{"topic":"Verenigde_Staten","access_volume":16057},
+{"topic":"Ragnar_Lodbrok","access_volume":8472},
+{"topic":"James_Bond","access_volume":42890},
+{"topic":"Tweede_Wereldoorlog","access_volume":11544},
+{"topic":"Michael_Jordan","access_volume":649}
+  ],
+  14: [
+{"topic":"Griep","access_volume":33146},
+{"topic":"Ragnar_Lodbrok","access_volume":8779},
+{"topic":"Huwelijksverjaardag","access_volume":5977},
+{"topic":"Coronavirussen","access_volume":37875},
+{"topic":"Tweede_Wereldoorlog","access_volume":14331},
+{"topic":"The_Handmaid\s_Tale","access_volume":8872},
+{"topic":"Coronapandemie","access_volume":57128},
+{"topic":"Mark_Rutte","access_volume":27682},
+{"topic":"Donald_Trump","access_volume":8503},
+{"topic":"Marc_de_Hond","access_volume":154},
+{"topic":"Billie_Eilish","access_volume":9409},
+{"topic":"James_Bond","access_volume":51290},
+{"topic":"Coronacrisis_in_Nederland","access_volume":27358},
+{"topic":"Google_Inc.","access_volume":40412},
+{"topic":"Nederland","access_volume":25571},
+{"topic":"Coronavirus","access_volume":4142},
+{"topic":"Pandemie","access_volume":38457},
+{"topic":"Verenigde_Staten","access_volume":22920},
+{"topic":"Kernramp_van_Tsjernobyl","access_volume":6120},
+{"topic":"SARS-CoV-2","access_volume":21227},
+{"topic":"La_casa_de_papel","access_volume":39869},
+{"topic":"Jan_de_Lichte","access_volume":3600},
+{"topic":"André_Hazes","access_volume":7147},
+{"topic":"Mexicaanse_griep","access_volume":28795},
+{"topic":"Spaanse_griep","access_volume":86311},
+{"topic":"YouTube","access_volume":10751},
+{"topic":"landnummers_in_de_telefonie","access_volume":6859},
+{"topic":"België","access_volume":16910},
+{"topic":"Hugo_de_Jonge","access_volume":29865},
+{"topic":"Kobe_Bryant","access_volume":1665},
+{"topic":"Michael_Jordan","access_volume":1119},
+{"topic":"presidenten_van_de_US","access_volume":7982},
+{"topic":"Virus_(biologie)","access_volume":28741},
+{"topic":"COVID-19","access_volume":72372},
+{"topic":"Wie_is_de_Mol?","access_volume":3329},
+{"topic":"Eerste_Wereldoorlog","access_volume":15817},
+{"topic":"Elizabeth_II_van_het_UK","access_volume":12586}
+  ],
+  15: [
+{"topic":"The_Handmaid\s_Tale","access_volume":6153},
+{"topic":"Virus_(biologie)","access_volume":18513},
+{"topic":"Ragnar_Lodbrok","access_volume":7150},
+{"topic":"Coronacrisis_in_Nederland","access_volume":23114},
+{"topic":"Eerste_Wereldoorlog","access_volume":12566},
+{"topic":"Coronavirus","access_volume":2487},
+{"topic":"Mark_Rutte","access_volume":19191},
+{"topic":"Kernramp_van_Tsjernobyl","access_volume":8092},
+{"topic":"Nederland","access_volume":22524},
+{"topic":"Spaanse_griep","access_volume":49652},
+{"topic":"Donald_Trump","access_volume":9895},
+{"topic":"SARS-CoV-2","access_volume":13494},
+{"topic":"Kobe_Bryant","access_volume":1836},
+{"topic":"Huwelijksverjaardag","access_volume":6344},
+{"topic":"La_casa_de_papel","access_volume":48759},
+{"topic":"Tweede_Wereldoorlog","access_volume":12059},
+{"topic":"Elizabeth_II_van_het_UK","access_volume":18254},
+{"topic":"Pandemie","access_volume":20859},
+{"topic":"Mexicaanse_griep","access_volume":18675},
+{"topic":"Jan_de_Lichte","access_volume":3404},
+{"topic":"België","access_volume":12648},
+{"topic":"Coronapandemie","access_volume":32314},
+{"topic":"Billie_Eilish","access_volume":6385},
+{"topic":"Verenigde_Staten","access_volume":19029},
+{"topic":"Wie_is_de_Mol?","access_volume":2886},
+{"topic":"Coronavirussen","access_volume":21428},
+{"topic":"presidenten_van_de_US","access_volume":9128},
+{"topic":"YouTube","access_volume":9281},
+{"topic":"COVID-19","access_volume":50876},
+{"topic":"landnummers_in_de_telefonie","access_volume":6181},
+{"topic":"Michael_Jordan","access_volume":866},
+{"topic":"André_Hazes","access_volume":15409},
+{"topic":"James_Bond","access_volume":12329},
+{"topic":"Google_Inc.","access_volume":40337},
+{"topic":"Hugo_de_Jonge","access_volume":20685},
+{"topic":"Griep","access_volume":16592}
+  ],
+  16: [
+{"topic":"Jan_de_Lichte","access_volume":3586},
+{"topic":"COVID-19","access_volume":40906},
+{"topic":"Marc_de_Hond","access_volume":602},
+{"topic":"Billie_Eilish","access_volume":6752},
+{"topic":"Mexicaanse_griep","access_volume":16212},
+{"topic":"Coronacrisis_in_Nederland","access_volume":26554},
+{"topic":"Tweede_Wereldoorlog","access_volume":14082},
+{"topic":"Spaanse_griep","access_volume":47872},
+{"topic":"presidenten_van_de_US","access_volume":10946},
+{"topic":"Huwelijksverjaardag","access_volume":7626},
+{"topic":"Eerste_Wereldoorlog","access_volume":13849},
+{"topic":"Mark_Rutte","access_volume":23106},
+{"topic":"La_casa_de_papel","access_volume":39023},
+{"topic":"SARS-CoV-2","access_volume":12293},
+{"topic":"Ragnar_Lodbrok","access_volume":8024},
+{"topic":"Kobe_Bryant","access_volume":2412},
+{"topic":"Pandemie","access_volume":20663},
+{"topic":"Griep","access_volume":12226},
+{"topic":"Hugo_de_Jonge","access_volume":16776},
+{"topic":"Wie_is_de_Mol?","access_volume":3631},
+{"topic":"Google_Inc.","access_volume":40375},
+{"topic":"België","access_volume":14470},
+{"topic":"Coronapandemie","access_volume":29364},
+{"topic":"Coronavirussen","access_volume":16390},
+{"topic":"landnummers_in_de_telefonie","access_volume":6490},
+{"topic":"Michael_Jordan","access_volume":7824},
+{"topic":"YouTube","access_volume":10221},
+{"topic":"Kernramp_van_Tsjernobyl","access_volume":79064},
+{"topic":"Donald_Trump","access_volume":12831},
+{"topic":"André_Hazes","access_volume":34454},
+{"topic":"Nederland","access_volume":23792},
+{"topic":"Elizabeth_II_van_het_UK","access_volume":13970},
+{"topic":"Verenigde_Staten","access_volume":18845},
+{"topic":"Coronavirus","access_volume":2631},
+{"topic":"The_Handmaid\s_Tale","access_volume":8042},
+{"topic":"James_Bond","access_volume":11043},
+{"topic":"Virus_(biologie)","access_volume":17091}
+  ],
+  17: [
+{"topic":"landnummers_in_de_telefonie","access_volume":4933},
+{"topic":"André_Hazes","access_volume":8785},
+{"topic":"Kernramp_van_Tsjernobyl","access_volume":44102},
+{"topic":"Spaanse_griep","access_volume":41938},
+{"topic":"Verenigde_Staten","access_volume":15264},
+{"topic":"Hugo_de_Jonge","access_volume":9908},
+{"topic":"YouTube","access_volume":10330},
+{"topic":"Kobe_Bryant","access_volume":3686},
+{"topic":"Eerste_Wereldoorlog","access_volume":14012},
+{"topic":"La_casa_de_papel","access_volume":27196},
+{"topic":"Elizabeth_II_van_het_UK","access_volume":14576},
+{"topic":"Mark_Rutte","access_volume":33503},
+{"topic":"Billie_Eilish","access_volume":7301},
+{"topic":"Mexicaanse_griep","access_volume":11757},
+{"topic":"Coronapandemie","access_volume":19759},
+{"topic":"Coronacrisis_in_Nederland","access_volume":26552},
+{"topic":"Virus_(biologie)","access_volume":13751},
+{"topic":"Marc_de_Hond","access_volume":3794},
+{"topic":"presidenten_van_de_US","access_volume":8383},
+{"topic":"Wie_is_de_Mol?","access_volume":3797},
+{"topic":"Huwelijksverjaardag","access_volume":9703},
+{"topic":"Tweede_Wereldoorlog","access_volume":14272},
+{"topic":"COVID-19","access_volume":32666},
+{"topic":"Coronavirus","access_volume":2741},
+{"topic":"Ragnar_Lodbrok","access_volume":5941},
+{"topic":"Pandemie","access_volume":16485},
+{"topic":"België","access_volume":14749},
+{"topic":"Google_Inc.","access_volume":40391},
+{"topic":"Griep","access_volume":8836},
+{"topic":"Michael_Jordan","access_volume":24632},
+{"topic":"Donald_Trump","access_volume":12354},
+{"topic":"Jan_de_Lichte","access_volume":3909},
+{"topic":"The_Handmaid\s_Tale","access_volume":6699},
+{"topic":"James_Bond","access_volume":8703},
+{"topic":"SARS-CoV-2","access_volume":9026},
+{"topic":"Coronavirussen","access_volume":12135},
+{"topic":"Nederland","access_volume":21424}
+
+  ],
+  18: [
+{"topic":"Griep","access_volume":6604},
+{"topic":"Michael_Jordan","access_volume":23416},
+{"topic":"Coronacrisis_in_Nederland","access_volume":21887},
+{"topic":"Huwelijksverjaardag","access_volume":10568},
+{"topic":"Tweede_Wereldoorlog","access_volume":12358},
+{"topic":"landnummers_in_de_telefonie","access_volume":5655},
+{"topic":"Coronavirussen","access_volume":9816},
+{"topic":"Wie_is_de_Mol?","access_volume":4165},
+{"topic":"YouTube","access_volume":9593},
+{"topic":"België","access_volume":13812},
+{"topic":"La_casa_de_papel","access_volume":25035},
+{"topic":"Mark_Rutte","access_volume":13972},
+{"topic":"Jan_de_Lichte","access_volume":3301},
+{"topic":"James_Bond","access_volume":8607},
+{"topic":"SARS-CoV-2","access_volume":7636},
+{"topic":"Nederland","access_volume":21177},
+{"topic":"Donald_Trump","access_volume":11176},
+{"topic":"Spaanse_griep","access_volume":32870},
+{"topic":"André_Hazes","access_volume":24739},
+{"topic":"Billie_Eilish","access_volume":6262},
+{"topic":"Marc_de_Hond","access_volume":157},
+{"topic":"presidenten_van_de_US","access_volume":10230},
+{"topic":"Hugo_de_Jonge","access_volume":5704},
+{"topic":"Eerste_Wereldoorlog","access_volume":11688},
+{"topic":"Virus_(biologie)","access_volume":10894},
+{"topic":"Google_Inc.","access_volume":21387},
+{"topic":"Mexicaanse_griep","access_volume":8939},
+{"topic":"Kobe_Bryant","access_volume":4101},
+{"topic":"Pandemie","access_volume":13409},
+{"topic":"COVID-19","access_volume":26209},
+{"topic":"Ragnar_Lodbrok","access_volume":7488},
+{"topic":"The_Handmaid\s_Tale","access_volume":8547},
+{"topic":"Coronavirus","access_volume":1778},
+{"topic":"Coronapandemie","access_volume":15000},
+{"topic":"Kernramp_van_Tsjernobyl","access_volume":29684},
+{"topic":"Elizabeth_II_van_het_UK","access_volume":11465},
+{"topic":"Verenigde_Staten","access_volume":15039}
+
+  ],
+  19: [
+{"topic":"België","access_volume":11936},
+{"topic":"Pandemie","access_volume":9763},
+{"topic":"Nederland","access_volume":20427},
+{"topic":"Coronavirussen","access_volume":8273},
+{"topic":"Huwelijksverjaardag","access_volume":11540},
+{"topic":"James_Bond","access_volume":7447},
+{"topic":"Jan_de_Lichte","access_volume":2844},
+{"topic":"Coronavirus","access_volume":1098},
+{"topic":"Mark_Rutte","access_volume":26397},
+{"topic":"Kernramp_van_Tsjernobyl","access_volume":12562},
+{"topic":"YouTube","access_volume":9436},
+{"topic":"Marc_de_Hond","access_volume":123},
+{"topic":"Tweede_Wereldoorlog","access_volume":27629},
+{"topic":"André_Hazes","access_volume":6566},
+{"topic":"Virus_(biologie)","access_volume":8926},
+{"topic":"Wie_is_de_Mol?","access_volume":2406},
+{"topic":"Kobe_Bryant","access_volume":5523},
+{"topic":"Mexicaanse_griep","access_volume":6415},
+{"topic":"Google_Inc.","access_volume":728},
+{"topic":"The_Handmaid\s_Tale","access_volume":7145},
+{"topic":"Hugo_de_Jonge","access_volume":18100},
+{"topic":"Verenigde_Staten","access_volume":13200},
+{"topic":"Michael_Jordan","access_volume":23868},
+{"topic":"Donald_Trump","access_volume":6942},
+{"topic":"Coronapandemie","access_volume":13374},
+{"topic":"Eerste_Wereldoorlog","access_volume":19384},
+{"topic":"SARS-CoV-2","access_volume":6056},
+{"topic":"Billie_Eilish","access_volume":5519},
+{"topic":"presidenten_van_de_US","access_volume":8028},
+{"topic":"landnummers_in_de_telefonie","access_volume":5193},
+{"topic":"Ragnar_Lodbrok","access_volume":7220},
+{"topic":"COVID-19","access_volume":20763},
+{"topic":"Spaanse_griep","access_volume":21975},
+{"topic":"Griep","access_volume":5642},
+{"topic":"La_casa_de_papel","access_volume":16126},
+{"topic":"Coronacrisis_in_Nederland","access_volume":19656},
+{"topic":"Elizabeth_II_van_het_UK","access_volume":10326}
+
+  ],
+  20: [
+{"topic":"Huwelijksverjaardag","access_volume":12630},
+{"topic":"Wie_is_de_Mol?","access_volume":1996},
+{"topic":"Coronacrisis_in_Nederland","access_volume":18181},
+{"topic":"Coronapandemie","access_volume":12764},
+{"topic":"Kernramp_van_Tsjernobyl","access_volume":10021},
+{"topic":"presidenten_van_de_US","access_volume":6574},
+{"topic":"landnummers_in_de_telefonie","access_volume":5518},
+{"topic":"Griep","access_volume":5410},
+{"topic":"Elizabeth_II_van_het_UK","access_volume":8716},
+{"topic":"SARS-CoV-2","access_volume":6041},
+{"topic":"Google_Inc.","access_volume":806},
+{"topic":"COVID-19","access_volume":20341},
+{"topic":"Ragnar_Lodbrok","access_volume":8162},
+{"topic":"Donald_Trump","access_volume":7919},
+{"topic":"Spaanse_griep","access_volume":29686},
+{"topic":"La_casa_de_papel","access_volume":13902},
+{"topic":"Virus_(biologie)","access_volume":9593},
+{"topic":"Mexicaanse_griep","access_volume":7888},
+{"topic":"Mark_Rutte","access_volume":12310},
+{"topic":"Verenigde_Staten","access_volume":13645},
+{"topic":"Eerste_Wereldoorlog","access_volume":14028},
+{"topic":"Jan_de_Lichte","access_volume":2976},
+{"topic":"James_Bond","access_volume":5594},
+{"topic":"Billie_Eilish","access_volume":6295},
+{"topic":"België","access_volume":11411},
+{"topic":"Pandemie","access_volume":8915},
+{"topic":"André_Hazes","access_volume":5134},
+{"topic":"Nederland","access_volume":20078},
+{"topic":"Coronavirus","access_volume":902},
+{"topic":"Kobe_Bryant","access_volume":6102},
+{"topic":"The_Handmaid\s_Tale","access_volume":8036},
+{"topic":"Coronavirussen","access_volume":8553},
+{"topic":"Michael_Jordan","access_volume":33137},
+{"topic":"Hugo_de_Jonge","access_volume":6758},
+{"topic":"YouTube","access_volume":9934},
+{"topic":"Tweede_Wereldoorlog","access_volume":13907}
+  ],
+  21: [
+{"topic":"Coronacrisis_in_Nederland","access_volume":13528},
+{"topic":"Elizabeth_II_van_het_UK","access_volume":7030},
+{"topic":"Marc_de_Hond","access_volume":349},
+{"topic":"André_Hazes","access_volume":5885},
+{"topic":"Tweede_Wereldoorlog","access_volume":8997},
+{"topic":"Donald_Trump","access_volume":7113},
+{"topic":"COVID-19","access_volume":14595},
+{"topic":"Mexicaanse_griep","access_volume":5267},
+{"topic":"Nederland","access_volume":16673},
+{"topic":"YouTube","access_volume":7480},
+{"topic":"Spaanse_griep","access_volume":15894},
+{"topic":"Eerste_Wereldoorlog","access_volume":10137},
+{"topic":"SARS-CoV-2","access_volume":4643},
+{"topic":"James_Bond","access_volume":3106},
+{"topic":"La_casa_de_papel","access_volume":11965},
+{"topic":"Kernramp_van_Tsjernobyl","access_volume":7978},
+{"topic":"Wie_is_de_Mol?","access_volume":1230},
+{"topic":"Pandemie","access_volume":6501},
+{"topic":"Coronavirussen","access_volume":6776},
+{"topic":"Huwelijksverjaardag","access_volume":12805},
+{"topic":"België","access_volume":9647},
+{"topic":"presidenten_van_de_US","access_volume":5994},
+{"topic":"Coronavirus","access_volume":357},
+{"topic":"Mark_Rutte","access_volume":14136},
+{"topic":"The_Handmaid\s_Tale","access_volume":7321},
+{"topic":"Google_Inc.","access_volume":141},
+{"topic":"Michael_Jordan","access_volume":45595},
+{"topic":"Billie_Eilish","access_volume":5301},
+{"topic":"Ragnar_Lodbrok","access_volume":7527},
+{"topic":"landnummers_in_de_telefonie","access_volume":5149},
+{"topic":"Coronapandemie","access_volume":10045},
+{"topic":"Hugo_de_Jonge","access_volume":15438},
+{"topic":"Virus_(biologie)","access_volume":6540},
+{"topic":"Jan_de_Lichte","access_volume":2419},
+{"topic":"Kobe_Bryant","access_volume":8981},
+{"topic":"Verenigde_Staten","access_volume":11042},
+{"topic":"Griep","access_volume":3763}
+  ],
+  22: [
+{"topic":"landnummers_in_de_telefonie","access_volume":5957},
+{"topic":"Coronapandemie","access_volume":8882},
+{"topic":"James_Bond","access_volume":2588},
+{"topic":"Ragnar_Lodbrok","access_volume":6856},
+{"topic":"Huwelijksverjaardag","access_volume":11970},
+{"topic":"Verenigde_Staten","access_volume":13102},
+{"topic":"België","access_volume":9929},
+{"topic":"COVID-19","access_volume":12619},
+{"topic":"Virus_(biologie)","access_volume":5972},
+{"topic":"Eerste_Wereldoorlog","access_volume":11210},
+{"topic":"Coronacrisis_in_Nederland","access_volume":12574},
+{"topic":"Donald_Trump","access_volume":7287},
+{"topic":"Nederland","access_volume":17414},
+{"topic":"Billie_Eilish","access_volume":6186},
+{"topic":"Coronavirussen","access_volume":5765},
+{"topic":"Tweede_Wereldoorlog","access_volume":10495},
+{"topic":"Mark_Rutte","access_volume":87232},
+{"topic":"Elizabeth_II_van_het_UK","access_volume":7203},
+{"topic":"Pandemie","access_volume":5981},
+{"topic":"Hugo_de_Jonge","access_volume":4661},
+{"topic":"Google_Inc.","access_volume":766},
+{"topic":"presidenten_van_de_US","access_volume":6470},
+{"topic":"Kobe_Bryant","access_volume":5988},
+{"topic":"SARS-CoV-2","access_volume":3776},
+{"topic":"Spaanse_griep","access_volume":12430},
+{"topic":"Wie_is_de_Mol?","access_volume":1570},
+{"topic":"Michael_Jordan","access_volume":24314},
+{"topic":"Griep","access_volume":3097},
+{"topic":"Mexicaanse_griep","access_volume":4256},
+{"topic":"YouTube","access_volume":6720},
+{"topic":"La_casa_de_papel","access_volume":9425},
+{"topic":"Jan_de_Lichte","access_volume":2099},
+{"topic":"The_Handmaid\s_Tale","access_volume":6809},
+{"topic":"André_Hazes","access_volume":4422},
+{"topic":"Coronavirus","access_volume":331},
+{"topic":"Kernramp_van_Tsjernobyl","access_volume":6758}
+
+  ],
+  23: [
+{"topic":"COVID-19","access_volume":10827},
+{"topic":"Nederland","access_volume":17001},
+{"topic":"The_Handmaid\s_Tale","access_volume":10644},
+{"topic":"YouTube","access_volume":7123},
+{"topic":"Coronapandemie","access_volume":8078},
+{"topic":"Michael_Jordan","access_volume":16197},
+{"topic":"Kobe_Bryant","access_volume":4268},
+{"topic":"Hugo_de_Jonge","access_volume":4276},
+{"topic":"Mexicaanse_griep","access_volume":3461},
+{"topic":"Marc_de_Hond","access_volume":75196},
+{"topic":"Ragnar_Lodbrok","access_volume":7506},
+{"topic":"Eerste_Wereldoorlog","access_volume":10744},
+{"topic":"landnummers_in_de_telefonie","access_volume":5966},
+{"topic":"André_Hazes","access_volume":5278},
+{"topic":"presidenten_van_de_US","access_volume":8740},
+{"topic":"Mark_Rutte","access_volume":15340},
+{"topic":"Billie_Eilish","access_volume":5394},
+{"topic":"Jan_de_Lichte","access_volume":1796},
+{"topic":"Coronacrisis_in_Nederland","access_volume":10547},
+{"topic":"James_Bond","access_volume":1922},
+{"topic":"Virus_(biologie)","access_volume":4575},
+{"topic":"Griep","access_volume":2643},
+{"topic":"Coronavirussen","access_volume":4521},
+{"topic":"Google_Inc.","access_volume":542},
+{"topic":"Verenigde_Staten","access_volume":16075},
+{"topic":"Wie_is_de_Mol?","access_volume":1080},
+{"topic":"Pandemie","access_volume":5227},
+{"topic":"Kernramp_van_Tsjernobyl","access_volume":6597},
+{"topic":"Tweede_Wereldoorlog","access_volume":8898},
+{"topic":"SARS-CoV-2","access_volume":2837},
+{"topic":"Donald_Trump","access_volume":14118},
+{"topic":"Spaanse_griep","access_volume":9501},
+{"topic":"La_casa_de_papel","access_volume":8183},
+{"topic":"Huwelijksverjaardag","access_volume":12436},
+{"topic":"België","access_volume":9758},
+{"topic":"Elizabeth_II_van_het_UK","access_volume":8202}
+  ],
+  24: [
+{"topic":"Griep","access_volume":2998},
+{"topic":"Virus_(biologie)","access_volume":4047},
+{"topic":"Google_Inc.","access_volume":225},
+{"topic":"Eerste_Wereldoorlog","access_volume":10733},
+{"topic":"La_casa_de_papel","access_volume":7929},
+{"topic":"Spaanse_griep","access_volume":9673},
+{"topic":"André_Hazes","access_volume":11860},
+{"topic":"SARS-CoV-2","access_volume":2413},
+{"topic":"Kernramp_van_Tsjernobyl","access_volume":6038},
+{"topic":"België","access_volume":9764},
+{"topic":"Coronavirussen","access_volume":3756},
+{"topic":"Wie_is_de_Mol?","access_volume":1076},
+{"topic":"Marc_de_Hond","access_volume":11736},
+{"topic":"Mexicaanse_griep","access_volume":3151},
+{"topic":"James_Bond","access_volume":1613},
+{"topic":"Mark_Rutte","access_volume":15515},
+{"topic":"Elizabeth_II_van_het_UK","access_volume":10215},
+{"topic":"Kobe_Bryant","access_volume":3772},
+{"topic":"Huwelijksverjaardag","access_volume":11091},
+{"topic":"Michael_Jordan","access_volume":11461},
+{"topic":"COVID-19","access_volume":9681},
+{"topic":"landnummers_in_de_telefonie","access_volume":5965},
+{"topic":"Coronacrisis_in_Nederland","access_volume":9809},
+{"topic":"Nederland","access_volume":17260},
+{"topic":"Ragnar_Lodbrok","access_volume":12765},
+{"topic":"YouTube","access_volume":8440},
+{"topic":"presidenten_van_de_US","access_volume":7005},
+{"topic":"Jan_de_Lichte","access_volume":1745},
+{"topic":"Verenigde_Staten","access_volume":13094},
+{"topic":"Pandemie","access_volume":5482},
+{"topic":"Tweede_Wereldoorlog","access_volume":8562},
+{"topic":"The_Handmaid\s_Tale","access_volume":23256},
+{"topic":"Hugo_de_Jonge","access_volume":11976},
+{"topic":"Donald_Trump","access_volume":9381},
+{"topic":"Coronapandemie","access_volume":7521},
+{"topic":"Billie_Eilish","access_volume":4288}
+  ],
+  25: [
+{"topic":"Billie_Eilish","access_volume":4195},
+{"topic":"Pandemie","access_volume":4686},
+{"topic":"SARS-CoV-2","access_volume":2371},
+{"topic":"The_Handmaid\s_Tale","access_volume":21097},
+{"topic":"België","access_volume":8889},
+{"topic":"Mark_Rutte","access_volume":9670},
+{"topic":"La_casa_de_papel","access_volume":6184},
+{"topic":"landnummers_in_de_telefonie","access_volume":4776},
+{"topic":"Nederland","access_volume":16374},
+{"topic":"Kobe_Bryant","access_volume":2747},
+{"topic":"Kernramp_van_Tsjernobyl","access_volume":4944},
+{"topic":"Griep","access_volume":2211},
+{"topic":"Eerste_Wereldoorlog","access_volume":9413},
+{"topic":"Ragnar_Lodbrok","access_volume":11332},
+{"topic":"Huwelijksverjaardag","access_volume":11011},
+{"topic":"Michael_Jordan","access_volume":8047},
+{"topic":"Marc_de_Hond","access_volume":45552},
+{"topic":"Mexicaanse_griep","access_volume":3017},
+{"topic":"Tweede_Wereldoorlog","access_volume":8285},
+{"topic":"Spaanse_griep","access_volume":7527},
+{"topic":"Verenigde_Staten","access_volume":10838},
+{"topic":"Coronacrisis_in_Nederland","access_volume":8809},
+{"topic":"Coronavirussen","access_volume":3719},
+{"topic":"Jan_de_Lichte","access_volume":1526},
+{"topic":"André_Hazes","access_volume":6004},
+{"topic":"COVID-19","access_volume":8840},
+{"topic":"Hugo_de_Jonge","access_volume":31207},
+{"topic":"Elizabeth_II_van_het_UK","access_volume":7050},
+{"topic":"Donald_Trump","access_volume":10026},
+{"topic":"James_Bond","access_volume":1200},
+{"topic":"Virus_(biologie)","access_volume":4043},
+{"topic":"Wie_is_de_Mol?","access_volume":908},
+{"topic":"YouTube","access_volume":9690},
+{"topic":"Coronapandemie","access_volume":6700},
+{"topic":"presidenten_van_de_US","access_volume":6116}
+  ],
+  26: [
+{"topic":"Hugo_de_Jonge","access_volume":19997},
+{"topic":"landnummers_in_de_telefonie","access_volume":4558},
+{"topic":"Mark_Rutte","access_volume":11494},
+{"topic":"Eerste_Wereldoorlog","access_volume":7205},
+{"topic":"SARS-CoV-2","access_volume":1858},
+{"topic":"Coronavirus","access_volume":94},
+{"topic":"Mexicaanse_griep","access_volume":2541},
+{"topic":"Tweede_Wereldoorlog","access_volume":7017},
+{"topic":"presidenten_van_de_US","access_volume":10914},
+{"topic":"Wie_is_de_Mol?","access_volume":674},
+{"topic":"Jan_de_Lichte","access_volume":1373},
+{"topic":"Virus_(biologie)","access_volume":2929},
+{"topic":"YouTube","access_volume":9040},
+{"topic":"Michael_Jordan","access_volume":5130},
+{"topic":"Ragnar_Lodbrok","access_volume":8094},
+{"topic":"The_Handmaid\s_Tale","access_volume":18311},
+{"topic":"Coronacrisis_in_Nederland","access_volume":7930},
+{"topic":"Kernramp_van_Tsjernobyl","access_volume":3691},
+{"topic":"La_casa_de_papel","access_volume":4665},
+{"topic":"André_Hazes","access_volume":28740},
+{"topic":"Kobe_Bryant","access_volume":1775},
+{"topic":"COVID-19","access_volume":7177},
+{"topic":"Huwelijksverjaardag","access_volume":11101},
+{"topic":"Pandemie","access_volume":3871},
+{"topic":"Griep","access_volume":2092},
+{"topic":"Google_Inc.","access_volume":618},
+{"topic":"Verenigde_Staten","access_volume":10138},
+{"topic":"Spaanse_griep","access_volume":5788},
+{"topic":"Coronavirussen","access_volume":2553},
+{"topic":"James_Bond","access_volume":717},
+{"topic":"Coronapandemie","access_volume":5017},
+{"topic":"Donald_Trump","access_volume":8240},
+{"topic":"Billie_Eilish","access_volume":3532},
+{"topic":"België","access_volume":7466},
+{"topic":"Nederland","access_volume":15224},
+{"topic":"Marc_de_Hond","access_volume":8086},
+{"topic":"Elizabeth_II_van_het_UK","access_volume":4866}
+  ],
+  27: [
+{"topic":"Tweede_Wereldoorlog","access_volume":6011},
+{"topic":"Elizabeth_II_van_het_UK","access_volume":6000},
+{"topic":"Donald_Trump","access_volume":7252},
+{"topic":"Verenigde_Staten","access_volume":10948},
+{"topic":"Huwelijksverjaardag","access_volume":11325},
+{"topic":"Michael_Jordan","access_volume":5451},
+{"topic":"André_Hazes","access_volume":24337},
+{"topic":"Nederland","access_volume":16189},
+{"topic":"La_casa_de_papel","access_volume":5377},
+{"topic":"Kernramp_van_Tsjernobyl","access_volume":4721},
+{"topic":"Jan_de_Lichte","access_volume":1516},
+{"topic":"YouTube","access_volume":10313},
+{"topic":"SARS-CoV-2","access_volume":3674},
+{"topic":"Hugo_de_Jonge","access_volume":7544},
+{"topic":"The_Handmaid\s_Tale","access_volume":19050},
+{"topic":"COVID-19","access_volume":6764},
+{"topic":"Kobe_Bryant","access_volume":1477},
+{"topic":"landnummers_in_de_telefonie","access_volume":4489},
+{"topic":"Marc_de_Hond","access_volume":2933},
+{"topic":"Ragnar_Lodbrok","access_volume":8723},
+{"topic":"Google_Inc.","access_volume":609},
+{"topic":"Billie_Eilish","access_volume":3904},
+{"topic":"Coronapandemie","access_volume":4845},
+{"topic":"Griep","access_volume":2384},
+{"topic":"Coronavirussen","access_volume":2590},
+{"topic":"presidenten_van_de_US","access_volume":6954},
+{"topic":"James_Bond","access_volume":1200},
+{"topic":"Mexicaanse_griep","access_volume":4324},
+{"topic":"Coronacrisis_in_Nederland","access_volume":7651},
+{"topic":"Eerste_Wereldoorlog","access_volume":7278},
+{"topic":"Spaanse_griep","access_volume":6711},
+{"topic":"België","access_volume":7847},
+{"topic":"Wie_is_de_Mol?","access_volume":827},
+{"topic":"Pandemie","access_volume":4132},
+{"topic":"Mark_Rutte","access_volume":7090},
+{"topic":"Virus_(biologie)","access_volume":2470}
+
+  ],
+  28: [
+{"topic":"Pandemie","access_volume":2699},
+{"topic":"La_casa_de_papel","access_volume":5120},
+{"topic":"Michael_Jordan","access_volume":4644},
+{"topic":"André_Hazes","access_volume":7120},
+{"topic":"België","access_volume":7688},
+{"topic":"Wie_is_de_Mol?","access_volume":1160},
+{"topic":"SARS-CoV-2","access_volume":1556},
+{"topic":"James_Bond","access_volume":1345},
+{"topic":"Billie_Eilish","access_volume":3088},
+{"topic":"Marc_de_Hond","access_volume":1502},
+{"topic":"Coronavirussen","access_volume":2110},
+{"topic":"Ragnar_Lodbrok","access_volume":7476},
+{"topic":"Kobe_Bryant","access_volume":1486},
+{"topic":"Virus_(biologie)","access_volume":2344},
+{"topic":"landnummers_in_de_telefonie","access_volume":4819},
+{"topic":"The_Handmaid\s_Tale","access_volume":19050},
+{"topic":"YouTube","access_volume":9525},
+{"topic":"Coronapandemie","access_volume":4121},
+{"topic":"COVID-19","access_volume":6339},
+{"topic":"Mexicaanse_griep","access_volume":2088},
+{"topic":"Kernramp_van_Tsjernobyl","access_volume":4162},
+{"topic":"Jan_de_Lichte","access_volume":1747},
+{"topic":"Spaanse_griep","access_volume":7090},
+{"topic":"Tweede_Wereldoorlog","access_volume":4529},
+{"topic":"Eerste_Wereldoorlog","access_volume":6361},
+{"topic":"Huwelijksverjaardag","access_volume":10830},
+{"topic":"Hugo_de_Jonge","access_volume":10025},
+{"topic":"Nederland","access_volume":14280},
+{"topic":"Elizabeth_II_van_het_UK","access_volume":6165},
+{"topic":"Griep","access_volume":1783},
+{"topic":"Donald_Trump","access_volume":8089},
+{"topic":"Mark_Rutte","access_volume":6979},
+{"topic":"Coronacrisis_in_Nederland","access_volume":6163},
+{"topic":"Verenigde_Staten","access_volume":8965},
+{"topic":"presidenten_van_de_US","access_volume":6922}
+  ],
+  29: [
+{"topic":"Virus_(biologie)","access_volume":2132},
+{"topic":"Donald_Trump","access_volume":5799},
+{"topic":"Spaanse_griep","access_volume":9491},
+{"topic":"Kobe_Bryant","access_volume":1421},
+{"topic":"landnummers_in_de_telefonie","access_volume":4859},
+{"topic":"Tweede_Wereldoorlog","access_volume":3720},
+{"topic":"Ragnar_Lodbrok","access_volume":6524},
+{"topic":"Elizabeth_II_van_het_UK","access_volume":7922},
+{"topic":"Marc_de_Hond","access_volume":1294},
+{"topic":"James_Bond","access_volume":590},
+{"topic":"SARS-CoV-2","access_volume":1823},
+{"topic":"Hugo_de_Jonge","access_volume":29875},
+{"topic":"Coronacrisis_in_Nederland","access_volume":5221},
+{"topic":"Michael_Jordan","access_volume":3854},
+{"topic":"Nederland","access_volume":13474},
+{"topic":"presidenten_van_de_US","access_volume":5270},
+{"topic":"Kernramp_van_Tsjernobyl","access_volume":4192},
+{"topic":"Verenigde_Staten","access_volume":7797},
+{"topic":"La_casa_de_papel","access_volume":5478},
+{"topic":"Mexicaanse_griep","access_volume":2519},
+{"topic":"Jan_de_Lichte","access_volume":1506},
+{"topic":"André_Hazes","access_volume":4439},
+{"topic":"Huwelijksverjaardag","access_volume":9418},
+{"topic":"COVID-19","access_volume":6809},
+{"topic":"Griep","access_volume":2619},
+{"topic":"Wie_is_de_Mol?","access_volume":1208},
+{"topic":"YouTube","access_volume":8592},
+{"topic":"Coronavirussen","access_volume":1853},
+{"topic":"Mark_Rutte","access_volume":15365},
+{"topic":"Google_Inc.","access_volume":625},
+{"topic":"Coronapandemie","access_volume":4037},
+{"topic":"Pandemie","access_volume":4874},
+{"topic":"The_Handmaid\s_Tale","access_volume":14649},
+{"topic":"Billie_Eilish","access_volume":4128},
+{"topic":"België","access_volume":7911},
+{"topic":"Eerste_Wereldoorlog","access_volume":5307}
+
+  ],
+  30: [
+{"topic":"Nederland","access_volume":14749},
+{"topic":"COVID-19","access_volume":8746},
+{"topic":"Hugo_de_Jonge","access_volume":3487},
+{"topic":"Donald_Trump","access_volume":5533},
+{"topic":"Virus_(biologie)","access_volume":2748},
+{"topic":"Elizabeth_II_van_het_UK","access_volume":10719},
+{"topic":"Tweede_Wereldoorlog","access_volume":4278},
+{"topic":"André_Hazes","access_volume":4668},
+{"topic":"Kernramp_van_Tsjernobyl","access_volume":2154},
+{"topic":"Eerste_Wereldoorlog","access_volume":5887},
+{"topic":"Griep","access_volume":3064},
+{"topic":"Coronapandemie","access_volume":4784},
+{"topic":"Wie_is_de_Mol?","access_volume":1488},
+{"topic":"Ragnar_Lodbrok","access_volume":6438},
+{"topic":"Pandemie","access_volume":9174},
+{"topic":"YouTube","access_volume":8505},
+{"topic":"James_Bond","access_volume":954},
+{"topic":"The_Handmaid\s_Tale","access_volume":14485},
+{"topic":"Coronacrisis_in_Nederland","access_volume":5461},
+{"topic":"Michael_Jordan","access_volume":3475},
+{"topic":"Mark_Rutte","access_volume":8618},
+{"topic":"Spaanse_griep","access_volume":11198},
+{"topic":"Mexicaanse_griep","access_volume":2910},
+{"topic":"Marc_de_Hond","access_volume":864},
+{"topic":"La_casa_de_papel","access_volume":4729},
+{"topic":"landnummers_in_de_telefonie","access_volume":4353},
+{"topic":"Coronavirussen","access_volume":3005},
+{"topic":"presidenten_van_de_US","access_volume":5803},
+{"topic":"SARS-CoV-2","access_volume":2363},
+{"topic":"Jan_de_Lichte","access_volume":1229},
+{"topic":"Billie_Eilish","access_volume":5144},
+{"topic":"Huwelijksverjaardag","access_volume":7896},
+{"topic":"Kobe_Bryant","access_volume":1183},
+{"topic":"Verenigde_Staten","access_volume":8140},
+{"topic":"België","access_volume":9591}
+  ],
+  31: [
+{"topic":"Mark_Rutte","access_volume":4070},
+{"topic":"James_Bond","access_volume":1091},
+{"topic":"Mexicaanse_griep","access_volume":3054},
+{"topic":"Marc_de_Hond","access_volume":962},
+{"topic":"Nederland","access_volume":13886},
+{"topic":"COVID-19","access_volume":7632},
+{"topic":"Spaanse_griep","access_volume":11830},
+{"topic":"Donald_Trump","access_volume":5502},
+{"topic":"Coronapandemie","access_volume":4734},
+{"topic":"Jan_de_Lichte","access_volume":1346},
+{"topic":"Tweede_Wereldoorlog","access_volume":3984},
+{"topic":"landnummers_in_de_telefonie","access_volume":4318},
+{"topic":"Coronacrisis_in_Nederland","access_volume":4813},
+{"topic":"Griep","access_volume":3692},
+{"topic":"Pandemie","access_volume":3745},
+{"topic":"Hugo_de_Jonge","access_volume":1514},
+{"topic":"YouTube","access_volume":10050},
+{"topic":"Ragnar_Lodbrok","access_volume":6325},
+{"topic":"André_Hazes","access_volume":4693},
+{"topic":"Billie_Eilish","access_volume":5525},
+{"topic":"The_Handmaid\s_Tale","access_volume":11614},
+{"topic":"Elizabeth_II_van_het_UK","access_volume":10830},
+{"topic":"SARS-CoV-2","access_volume":1989},
+{"topic":"Coronavirussen","access_volume":3654},
+{"topic":"presidenten_van_de_US","access_volume":5174},
+{"topic":"Wie_is_de_Mol?","access_volume":4264},
+{"topic":"Eerste_Wereldoorlog","access_volume":6183},
+{"topic":"Huwelijksverjaardag","access_volume":7378},
+{"topic":"België","access_volume":8011},
+{"topic":"Virus_(biologie)","access_volume":2861},
+{"topic":"Kobe_Bryant","access_volume":1530},
+{"topic":"Verenigde_Staten","access_volume":7555},
+{"topic":"Michael_Jordan","access_volume":3199},
+{"topic":"Kernramp_van_Tsjernobyl","access_volume":2260},
+{"topic":"La_casa_de_papel","access_volume":5314}
+  ],
+  32: [
+{"topic":"Wie_is_de_Mol?","access_volume":1332},
+{"topic":"André_Hazes","access_volume":4492},
+{"topic":"COVID-19","access_volume":6174},
+{"topic":"Donald_Trump","access_volume":5320},
+{"topic":"Michael_Jordan","access_volume":10220},
+{"topic":"Kernramp_van_Tsjernobyl","access_volume":3362},
+{"topic":"Jan_de_Lichte","access_volume":1206},
+{"topic":"Mark_Rutte","access_volume":6010},
+{"topic":"Nederland","access_volume":15229},
+{"topic":"Mexicaanse_griep","access_volume":2634},
+{"topic":"Tweede_Wereldoorlog","access_volume":4385},
+{"topic":"België","access_volume":7615},
+{"topic":"Coronacrisis_in_Nederland","access_volume":4665},
+{"topic":"Marc_de_Hond","access_volume":626},
+{"topic":"Coronavirussen","access_volume":3435},
+{"topic":"Elizabeth_II_van_het_UK","access_volume":9559},
+{"topic":"Billie_Eilish","access_volume":4932},
+{"topic":"SARS-CoV-2","access_volume":2063},
+{"topic":"Verenigde_Staten","access_volume":7342},
+{"topic":"La_casa_de_papel","access_volume":4608},
+{"topic":"Kobe_Bryant","access_volume":1354},
+{"topic":"Griep","access_volume":3041},
+{"topic":"YouTube","access_volume":10267},
+{"topic":"Eerste_Wereldoorlog","access_volume":5742},
+{"topic":"James_Bond","access_volume":973},
+{"topic":"Pandemie","access_volume":2978},
+{"topic":"Spaanse_griep","access_volume":10634},
+{"topic":"presidenten_van_de_US","access_volume":5864},
+{"topic":"landnummers_in_de_telefonie","access_volume":4695},
+{"topic":"The_Handmaid\s_Tale","access_volume":8375},
+{"topic":"Hugo_de_Jonge","access_volume":3809},
+{"topic":"Google_Inc.","access_volume":727},
+{"topic":"Ragnar_Lodbrok","access_volume":4853},
+{"topic":"Huwelijksverjaardag","access_volume":8448},
+{"topic":"Coronapandemie","access_volume":3738},
+{"topic":"Virus_(biologie)","access_volume":2322}
+  ],
+  33: [
+{"topic":"Pandemie","access_volume":2706},
+{"topic":"Billie_Eilish","access_volume":3891},
+{"topic":"James_Bond","access_volume":1067},
+{"topic":"Spaanse_griep","access_volume":8698},
+{"topic":"Kernramp_van_Tsjernobyl","access_volume":4081},
+{"topic":"Eerste_Wereldoorlog","access_volume":6010},
+{"topic":"André_Hazes","access_volume":4443},
+{"topic":"België","access_volume":7926},
+{"topic":"Kobe_Bryant","access_volume":1097},
+{"topic":"Mark_Rutte","access_volume":12445},
+{"topic":"Coronapandemie","access_volume":3434},
+{"topic":"Elizabeth_II_van_het_UK","access_volume":6766},
+{"topic":"Tweede_Wereldoorlog","access_volume":4841},
+{"topic":"Virus_(biologie)","access_volume":7264},
+{"topic":"Jan_de_Lichte","access_volume":1300},
+{"topic":"YouTube","access_volume":10125},
+{"topic":"COVID-19","access_volume":6214},
+{"topic":"Mexicaanse_griep","access_volume":2363},
+{"topic":"Coronacrisis_in_Nederland","access_volume":3835},
+{"topic":"Griep","access_volume":2568},
+{"topic":"Michael_Jordan","access_volume":7706},
+{"topic":"Ragnar_Lodbrok","access_volume":4804},
+{"topic":"landnummers_in_de_telefonie","access_volume":5361},
+{"topic":"La_casa_de_papel","access_volume":4364},
+{"topic":"Huwelijksverjaardag","access_volume":8620},
+{"topic":"Verenigde_Staten","access_volume":7073},
+{"topic":"Coronavirussen","access_volume":3133},
+{"topic":"Nederland","access_volume":14597},
+{"topic":"Marc_de_Hond","access_volume":1073},
+{"topic":"Donald_Trump","access_volume":7136},
+{"topic":"Hugo_de_Jonge","access_volume":5334},
+{"topic":"presidenten_van_de_US","access_volume":6035},
+{"topic":"The_Handmaid\s_Tale","access_volume":9242},
+{"topic":"Wie_is_de_Mol?","access_volume":1369},
+{"topic":"SARS-CoV-2","access_volume":1817}
+  ],
+  34: [
+{"topic":"Huwelijksverjaardag","access_volume":10064},
+{"topic":"presidenten_van_de_US","access_volume":7672},
+{"topic":"Mexicaanse_griep","access_volume":2900},
+{"topic":"Tweede_Wereldoorlog","access_volume":4292},
+{"topic":"SARS-CoV-2","access_volume":1949},
+{"topic":"Coronavirussen","access_volume":2997},
+{"topic":"Michael_Jordan","access_volume":2836},
+{"topic":"YouTube","access_volume":11710},
+{"topic":"Mark_Rutte","access_volume":12032},
+{"topic":"België","access_volume":7563},
+{"topic":"Billie_Eilish","access_volume":4180},
+{"topic":"Wie_is_de_Mol?","access_volume":1858},
+{"topic":"Verenigde_Staten","access_volume":7750},
+{"topic":"Spaanse_griep","access_volume":9660},
+{"topic":"Coronacrisis_in_Nederland","access_volume":4587},
+{"topic":"Pandemie","access_volume":3289},
+{"topic":"Elizabeth_II_van_het_UK","access_volume":7575},
+{"topic":"Hugo_de_Jonge","access_volume":8654},
+{"topic":"Jan_de_Lichte","access_volume":2430},
+{"topic":"Griep","access_volume":3083},
+{"topic":"Ragnar_Lodbrok","access_volume":4575},
+{"topic":"James_Bond","access_volume":1079},
+{"topic":"Google_Inc.","access_volume":1442},
+{"topic":"Coronapandemie","access_volume":3654},
+{"topic":"Kobe_Bryant","access_volume":1119},
+{"topic":"Virus_(biologie)","access_volume":4507},
+{"topic":"André_Hazes","access_volume":5507},
+{"topic":"The_Handmaid\s_Tale","access_volume":9064},
+{"topic":"Nederland","access_volume":14471},
+{"topic":"COVID-19","access_volume":5982},
+{"topic":"Marc_de_Hond","access_volume":734},
+{"topic":"Kernramp_van_Tsjernobyl","access_volume":2935},
+{"topic":"landnummers_in_de_telefonie","access_volume":5986},
+{"topic":"Donald_Trump","access_volume":13415},
+{"topic":"Eerste_Wereldoorlog","access_volume":5832},
+{"topic":"La_casa_de_papel","access_volume":4465}
+
+  ],
+  35: [
+{"topic":"Wie_is_de_Mol?","access_volume":2838},
+{"topic":"Coronavirussen","access_volume":2611},
+{"topic":"Pandemie","access_volume":3077},
+{"topic":"Griep","access_volume":2668},
+{"topic":"SARS-CoV-2","access_volume":1889},
+{"topic":"Nederland","access_volume":14673},
+{"topic":"presidenten_van_de_US","access_volume":7042},
+{"topic":"Coronapandemie","access_volume":3528},
+{"topic":"Eerste_Wereldoorlog","access_volume":6657},
+{"topic":"Huwelijksverjaardag","access_volume":11594},
+{"topic":"Michael_Jordan","access_volume":2767},
+{"topic":"COVID-19","access_volume":5729},
+{"topic":"Donald_Trump","access_volume":12851},
+{"topic":"Virus_(biologie)","access_volume":3418},
+{"topic":"Kernramp_van_Tsjernobyl","access_volume":4251},
+{"topic":"Marc_de_Hond","access_volume":420},
+{"topic":"La_casa_de_papel","access_volume":4642},
+{"topic":"Mark_Rutte","access_volume":8977},
+{"topic":"Kobe_Bryant","access_volume":4543},
+{"topic":"The_Handmaid\s_Tale","access_volume":9492},
+{"topic":"België","access_volume":7345},
+{"topic":"Hugo_de_Jonge","access_volume":4208},
+{"topic":"landnummers_in_de_telefonie","access_volume":5441},
+{"topic":"Verenigde_Staten","access_volume":8668},
+{"topic":"Tweede_Wereldoorlog","access_volume":4366},
+{"topic":"YouTube","access_volume":11463},
+{"topic":"Mexicaanse_griep","access_volume":2603},
+{"topic":"Ragnar_Lodbrok","access_volume":4478},
+{"topic":"Coronacrisis_in_Nederland","access_volume":4035},
+{"topic":"Jan_de_Lichte","access_volume":1922},
+{"topic":"Billie_Eilish","access_volume":4057},
+{"topic":"James_Bond","access_volume":1902},
+{"topic":"Spaanse_griep","access_volume":8852},
+{"topic":"Elizabeth_II_van_het_UK","access_volume":10038},
+{"topic":"André_Hazes","access_volume":4894}
+  ],
+  36: [
+{"topic":"Kobe_Bryant","access_volume":1303},
+{"topic":"YouTube","access_volume":10819},
+{"topic":"Mexicaanse_griep","access_volume":2109},
+{"topic":"Wie_is_de_Mol?","access_volume":19548},
+{"topic":"Tweede_Wereldoorlog","access_volume":4829},
+{"topic":"Kernramp_van_Tsjernobyl","access_volume":2930},
+{"topic":"Mark_Rutte","access_volume":7365},
+{"topic":"COVID-19","access_volume":5352},
+{"topic":"Griep","access_volume":2122},
+{"topic":"Hugo_de_Jonge","access_volume":5745},
+{"topic":"Coronacrisis_in_Nederland","access_volume":3981},
+{"topic":"Billie_Eilish","access_volume":3421},
+{"topic":"België","access_volume":7619},
+{"topic":"Coronavirussen","access_volume":2210},
+{"topic":"Marc_de_Hond","access_volume":455},
+{"topic":"Elizabeth_II_van_het_UK","access_volume":6838},
+{"topic":"landnummers_in_de_telefonie","access_volume":5596},
+{"topic":"La_casa_de_papel","access_volume":3346},
+{"topic":"Huwelijksverjaardag","access_volume":13115},
+{"topic":"SARS-CoV-2","access_volume":1576},
+{"topic":"presidenten_van_de_US","access_volume":5102},
+{"topic":"Nederland","access_volume":14869},
+{"topic":"James_Bond","access_volume":1915},
+{"topic":"Jan_de_Lichte","access_volume":2123},
+{"topic":"André_Hazes","access_volume":5221},
+{"topic":"Donald_Trump","access_volume":6983},
+{"topic":"Pandemie","access_volume":2830},
+{"topic":"Virus_(biologie)","access_volume":3436},
+{"topic":"Ragnar_Lodbrok","access_volume":4341},
+{"topic":"Spaanse_griep","access_volume":6102},
+{"topic":"Eerste_Wereldoorlog","access_volume":6825},
+{"topic":"Google_Inc.","access_volume":636},
+{"topic":"Michael_Jordan","access_volume":2346},
+{"topic":"Verenigde_Staten","access_volume":7686},
+{"topic":"Coronapandemie","access_volume":3230},
+{"topic":"The_Handmaid\s_Tale","access_volume":5353}
+
+  ],
+  37: [
+{"topic":"Coronacrisis_in_Nederland","access_volume":4373},
+{"topic":"James_Bond","access_volume":2200},
+{"topic":"Spaanse_griep","access_volume":5809},
+{"topic":"YouTube","access_volume":11508},
+{"topic":"Pandemie","access_volume":3119},
+{"topic":"Jan_de_Lichte","access_volume":1935},
+{"topic":"Tweede_Wereldoorlog","access_volume":5275},
+{"topic":"Donald_Trump","access_volume":6159},
+{"topic":"Mexicaanse_griep","access_volume":2080},
+{"topic":"Hugo_de_Jonge","access_volume":3278},
+{"topic":"COVID-19","access_volume":6855},
+{"topic":"Elizabeth_II_van_het_UK","access_volume":5608},
+{"topic":"La_casa_de_papel","access_volume":3002},
+{"topic":"Marc_de_Hond","access_volume":247},
+{"topic":"Eerste_Wereldoorlog","access_volume":8355},
+{"topic":"The_Handmaid\s_Tale","access_volume":3780},
+{"topic":"Wie_is_de_Mol?","access_volume":22230},
+{"topic":"Griep","access_volume":2869},
+{"topic":"Ragnar_Lodbrok","access_volume":4272},
+{"topic":"Huwelijksverjaardag","access_volume":14310},
+{"topic":"André_Hazes","access_volume":5929},
+{"topic":"Michael_Jordan","access_volume":2163},
+{"topic":"SARS-CoV-2","access_volume":1952},
+{"topic":"Mark_Rutte","access_volume":6307},
+{"topic":"presidenten_van_de_US","access_volume":5070},
+{"topic":"Kobe_Bryant","access_volume":1071},
+{"topic":"Kernramp_van_Tsjernobyl","access_volume":3067},
+{"topic":"Verenigde_Staten","access_volume":7851},
+{"topic":"Billie_Eilish","access_volume":3539},
+{"topic":"Coronavirussen","access_volume":2910},
+{"topic":"landnummers_in_de_telefonie","access_volume":5474},
+{"topic":"Coronapandemie","access_volume":3766},
+{"topic":"België","access_volume":8690},
+{"topic":"Virus_(biologie)","access_volume":2770},
+{"topic":"Nederland","access_volume":15879}
+  ],
+  38: [
+{"topic":"Mark_Rutte","access_volume":12883},
+{"topic":"Ragnar_Lodbrok","access_volume":3468},
+{"topic":"Pandemie","access_volume":3314},
+{"topic":"YouTube","access_volume":13047},
+{"topic":"Billie_Eilish","access_volume":3433},
+{"topic":"landnummers_in_de_telefonie","access_volume":5538},
+{"topic":"Wie_is_de_Mol?","access_volume":11061},
+{"topic":"Verenigde_Staten","access_volume":7928},
+{"topic":"Michael_Jordan","access_volume":2093},
+{"topic":"Coronavirussen","access_volume":3516},
+{"topic":"COVID-19","access_volume":6841},
+{"topic":"James_Bond","access_volume":1022},
+{"topic":"Kernramp_van_Tsjernobyl","access_volume":3111},
+{"topic":"Google_Inc.","access_volume":792},
+{"topic":"Elizabeth_II_van_het_UK","access_volume":6291},
+{"topic":"Mexicaanse_griep","access_volume":2400},
+{"topic":"Nederland","access_volume":16435},
+{"topic":"Eerste_Wereldoorlog","access_volume":8019},
+{"topic":"Spaanse_griep","access_volume":7677},
+{"topic":"SARS-CoV-2","access_volume":2035},
+{"topic":"Jan_de_Lichte","access_volume":11024},
+{"topic":"Coronacrisis_in_Nederland","access_volume":4761},
+{"topic":"Coronapandemie","access_volume":3993},
+{"topic":"Kobe_Bryant","access_volume":1487},
+{"topic":"Donald_Trump","access_volume":6870},
+{"topic":"presidenten_van_de_US","access_volume":10528},
+{"topic":"André_Hazes","access_volume":4875},
+{"topic":"Virus_(biologie)","access_volume":2916},
+{"topic":"Huwelijksverjaardag","access_volume":12918},
+{"topic":"Tweede_Wereldoorlog","access_volume":5189},
+{"topic":"België","access_volume":8373},
+{"topic":"La_casa_de_papel","access_volume":2640},
+{"topic":"Griep","access_volume":3462},
+{"topic":"Hugo_de_Jonge","access_volume":8546},
+{"topic":"The_Handmaid\s_Tale","access_volume":2498}
+
+  ]
+};
